@@ -3,18 +3,18 @@ import MetaDecorator from '../MetaDecorator/MetaDecorator';
 import CoachesCarousel from '../molecules/CoachesCarousel';
 import CoachesAccordion from '../molecules/CoachesAccordion';
 import CoachesArticle from '../molecules/CoachesArticle';
+import CoachesHeroImg from '../molecules/CoachesHeroImg';
 const Coaches = () => {
     return (
         <div>
             <MetaDecorator
-            description='Here is Coaches Page'
-            title='My Coaches Page'
+                description='Here is Coaches Page'
+                title='My Coaches Page'
             />
-
-          <p>Hola! Coaches here</p>
-          <CoachesArticle />
-          <CoachesCarousel />
-          <CoachesAccordion />
+            <CoachesHeroImg />
+            <CoachesArticle />
+            <CoachesCarousel />
+            <CoachesAccordion />
         </div>
     )
 }

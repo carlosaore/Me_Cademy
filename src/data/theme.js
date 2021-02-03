@@ -10,7 +10,9 @@ const theme = {
     largeviewport : {
         width : "80%",
         padding : "50px",
-        margin : "5%"
+        margin : "5%",
+        bigmargin : "10%",
+        megamargin : "15%"
     }
 };
 
