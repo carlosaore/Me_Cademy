@@ -90,7 +90,6 @@ const Ul = styled.ul`
 
 const Logo = styled.img`
     width: 130px;
-    height: 40px;
 `;
 
 const LogoDiv =styled.div`
@@ -151,7 +150,7 @@ const RightNav = () => {
 
   return (
     <>
-    <LogoDiv><Link to='/' onClick={()=>handleClickOff()}><Logo src="./images/Logo.PNG" /></Link></LogoDiv>
+    <LogoDiv><Link to='/' onClick={()=>handleClickOff()}><Logo src="./images/mecademy logo placeholder.png" /></Link></LogoDiv>
     <Ul open={open}  isHover={context.hover}>
       <li className='reg_btn'>Registration<i class="fas fa-arrow-right"></i></li>
       <li><Link to='/About' onClick={()=>handleClick()}>About</Link></li>
