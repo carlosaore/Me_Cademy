@@ -5,7 +5,7 @@ import './App.css';
 import Home from './components/pages/Home/Home';
 import About from './components/pages/About/About';
 import Registration from './components/pages/Registration/Registration';
-import Coaches from './components/pages/Coaches/Coaches';
+import Coaches from './components/pages/Coaches';
 import Program from './components/pages/Program/Program';
 import GlobalStyle from './globalStyles';
 import Footer from '../src/components/Organism/Footer';
