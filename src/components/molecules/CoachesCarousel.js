@@ -2,7 +2,7 @@ import { Component } from 'react';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { CoachDiv, CarouselDiv, TextDiv, Img } from '../Atoms/coachesAtoms';
+import { CarouselDiv, TextDiv, Img } from '../atoms/coachesAtoms';
 import { textData } from '../../data/textData';
 
 class CoachesCarousel extends Component {
@@ -48,21 +48,21 @@ class CoachesCarousel extends Component {
             ]
         };
         return (
-          <CarouselDiv>
-            <Slider {...settings}>
-                {textData.coachesData.map((coach, index) => (
-                <CoachDiv key={index}>
-                    <Img src={coach.image} alt=""/>
-                    <TextDiv>
-                        <h2>{coach.name}</h2>
-                        <p><strong>{coach.title}</strong></p>
-                        <p>{coach.text}</p>
-                    </TextDiv>   
-                </CoachDiv>
-                ))}
-                
-            </Slider>
-          </CarouselDiv>
+                <CarouselDiv>
+                    <Slider {...settings}>
+                        {textData.coachesData.map((coach, index) => (
+                        <div key={index}>
+                            <Img src={coach.image} alt=""/>
+                            <TextDiv>
+                                <h2>{coach.name}</h2>
+                                <p><strong>{coach.title}</strong></p>
+                                <p>{coach.text}</p>
+                            </TextDiv>   
+                        </div>
+                        ))}
+                        
+                    </Slider>
+                </CarouselDiv>
         );
     }
 }
