@@ -11,13 +11,13 @@ const CarouselDiv = styled.div`
     margin-bottom : ${props => props.theme.largeviewport.margin};
     width : 100%;
 `
-export const TextDiv = styled.div`
+const TextDiv = styled.div`
     width : 80%;
     margin : 0 auto 30px auto;
     text-align : center;
 `
 
-export const Img = styled.img`
+const Img = styled.img`
     margin-bottom : 5%;
     width : 100%;
 `
