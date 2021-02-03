@@ -15,7 +15,7 @@ const Ul = styled.ul`
   li {
     padding: 18px 10px;
     letter-spacing: 0.84px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Big Shoulders Stencil Text', cursive;
     height: 100%;
     transition: 0.3s ease-in;
 
@@ -116,7 +116,7 @@ const RegBtn = styled.button`
     background-color: ${(props) => props.open  &&  '#4B9FA5'} ; 
     border: none;
     border-radius: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Big Shoulders Stencil Text', cursive;
     font-size: 16px;
     color:  ${(props)=> props.isHover ? 'white' : 'black'};
     color: ${(props) => props.open  &&  'white'} ; 

@@ -11,17 +11,16 @@ const CarouselDiv = styled.div`
     margin-bottom : ${props => props.theme.largeviewport.margin};
     width : 100%;
 `
-const TextDiv = styled.div`
+export const TextDiv = styled.div`
     width : 80%;
     margin : 0 auto 30px auto;
     text-align : center;
 `
 
-const Img = styled.img`
+export const Img = styled.img`
     margin-bottom : 5%;
-    width : 100%
+    width : 100%;
 `
-
 const HeroImg = styled.img`
     margin-top: -55px;
     margin-bottom : ${props => props.theme.largeviewport.margin};
