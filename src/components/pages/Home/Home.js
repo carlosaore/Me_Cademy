@@ -1,6 +1,9 @@
 import React from 'react';
 import MetaDecorator from '../../MetaDecorator/MetaDecorator';
 import styled from 'styled-components';
+import HomeImg from './HomeImg';
+import Popup from '../../Organism/Popup_form';
+
 
 const TopDiv = styled.div`
   position:relative;
@@ -29,7 +32,9 @@ const Home = () => {
              </TopDiv>
               
             <MainDiv>
+            <Popup/>
             <p>Hola! Home here</p>
+            <HomeImg/>
             </MainDiv>
             
         </div>
