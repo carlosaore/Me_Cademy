@@ -1,18 +1,15 @@
 import React from 'react';
 import Navbar from './components/Nav/Navbar';
 import {Route, Switch} from 'react-router-dom';
-import './App.css';
 import Home from './components/pages/Home/Home';
 import About from './components/pages/About/About';
 import Registration from './components/pages/Registration/Registration';
 import Coaches from './components/pages/Coaches';
 import Program from './components/pages/Program/Program';
-import GlobalStyle from './globalStyles';
 
 function App() {
   return ( /// name="" showname=true 
-    <div className="App">
-      <GlobalStyle />
+    <div>
       <Navbar />
       <Switch>
       <Route exact path='/'
@@ -21,7 +18,7 @@ function App() {
       <Route path='/About'
         render={props=> <About {...props}/>}
         />
-       <Route path='/Registration'
+      <Route path='/Registration'
         render={props=> <Registration {...props}/>}
         />.
         
