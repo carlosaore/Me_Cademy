@@ -2,15 +2,17 @@ import React from 'react';
 import Navbar from './components/Nav/Navbar';
 import {Route, Switch} from 'react-router-dom';
 import './App.css';
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import Registration from './components/Registration/Registration';
-import Coaches from './components/Coaches/Coaches';
-import Program from './components/Program/Program';
+import Home from './components/pages/Home/Home';
+import About from './components/pages/About/About';
+import Registration from './components/pages/Registration/Registration';
+import Coaches from './components/pages/Coaches/Coaches';
+import Program from './components/pages/Program/Program';
+import GlobalStyle from './globalStyles';
 
 function App() {
   return ( /// name="" showname=true 
     <div className="App">
+      <GlobalStyle />
       <Navbar />
       <Switch>
       <Route exact path='/'
