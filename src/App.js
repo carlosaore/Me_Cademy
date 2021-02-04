@@ -5,7 +5,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Registration from './components/pages/Registration/Registration';
 import Coaches from './components/pages/Coaches';
-import Program from './components/pages/Program/Program';
+import Program from './components/pages/Program';
 import Footer from '../src/components/Organism/Footer';
 
 function App() {
