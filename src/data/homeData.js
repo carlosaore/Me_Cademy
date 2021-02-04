@@ -100,5 +100,11 @@ export default [
         title: "Coordinator World Assembly",
         description: "Die Vielfalt des Programms aus persönlichem Mentoring, Trainings und Netzwerk-Events mit spannenden und erfolgreichen Menschen, dem Austausch mit dem wunderbaren MentorMe-Team und den anderen Mentees, die sich in einer ähnlichen Lebenslage befanden, hat mich auf unterschiedliche Art und Weise bereichert. Auch als Mentee-Alumni profitiere ich!",
         urls: "/images/SarahvanBentum.png"
+    },
+    {
+        H1: "MeCademy"
+    },
+    {
+        H3: "Erfolgreich bewerben!"
     }
 ];

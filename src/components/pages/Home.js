@@ -1,8 +1,8 @@
 import React from 'react';
 import MetaDecorator from '../MetaDecorator/MetaDecorator';
 import styled from 'styled-components';
-import Popup from '../Organism/Popup_form';
 import HomeSlider from '../molecules/HomeSlider';
+import HomeReg from '../molecules/HomeReg';
 
 
 const TopDiv = styled.div`
@@ -18,7 +18,19 @@ const TopDiv = styled.div`
 `;
 
 const MainDiv = styled.div`
-    position:relative;
+    position: relative;
+
+    .home__form {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 50px 0 50px 0;
+
+    @media screen and (max-width: 751px){
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    }}
 `;
 
 const Home = () => {
@@ -30,9 +42,12 @@ const Home = () => {
              />
              <TopDiv>
              </TopDiv>
-            <HomeSlider/>
+            
             <MainDiv>
-            <Popup/>
+            <div className='home__form'>
+            <HomeSlider/>
+            <HomeReg/>
+            </div>
             </MainDiv>
             
         </div>
