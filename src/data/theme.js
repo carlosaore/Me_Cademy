@@ -3,9 +3,10 @@ import { ThemeProvider } from 'styled-components';
 
 const theme = {
     colors : {
-        grey : "#F0F0F0",
-        darkgrey : "grey",
-        light : "white"
+        grey : "#f5f5f5",
+        darkgrey : "#5f737d",
+        light : "white",
+        bodyColor : "#5f737e"
     },
     largeviewport : {
         width : "80%",
