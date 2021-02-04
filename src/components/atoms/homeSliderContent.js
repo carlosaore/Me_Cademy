@@ -26,7 +26,7 @@ const StyledSliderContentForm = styled.div `
     margin: 20px auto 10px;
     border-radius: 50%;
     background-color: white;
-    border: 2px solid rgba(0, 0, 0, 0.26);
+    border: 2px solid whitesmoke;
     object-fit: cover;
 }
 .slide-name {
@@ -51,7 +51,6 @@ const StyledSliderContentForm = styled.div `
     text-align: center;
     line-height: 1;
     margin: 10px 30px 0 30px;
-    font-family: Open Sans,Arial,sans-serif;
 }
 `
 
