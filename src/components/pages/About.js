@@ -1,6 +1,7 @@
 import React from 'react'
 import MetaDecorator from '../MetaDecorator/MetaDecorator';
 import AboutAccordion from '../molecules/AboutAccordion';
+import AboutTeam from '../molecules/AboutTeam';
 
 const About = () => {
     return (
@@ -11,6 +12,7 @@ const About = () => {
              />
            
             <AboutAccordion />
+            <AboutTeam />
         </div>
     )
 }
