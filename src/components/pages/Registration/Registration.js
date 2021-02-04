@@ -3,6 +3,7 @@ import MetaDecorator from '../../MetaDecorator/MetaDecorator';
 import styled from 'styled-components';
 import Quote from '../../molecules/Quote';
 import * as typeformEmbed from '@typeform/embed';
+import TypeformRight from '../../Organism/reg_form';
 
 const TopDiv = styled.div`
   position:relative;
@@ -29,9 +30,19 @@ const RegDivOnPage = styled.div`
 const Registration = () => {
     return (
         <div>
-             <TopDiv>
+            <MetaDecorator
+             description='Registration'
+             title='Register Here'
+             />
+              <TopDiv>
              </TopDiv>
             <Quote />
+            <p>Hola! Register here</p>
+
+            <RegDivOnPage>
+            <TypeformRight  />
+            </RegDivOnPage>
+
         </div>
     )
 }

@@ -8,6 +8,10 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none !important;
     }
 
+    body {
+        font-family : sans-serif
+    }
+
     .fa-twitter:hover{
     color:#1DA1F2;
     }
@@ -23,6 +27,7 @@ const GlobalStyle = createGlobalStyle`
     .fa-facebook:hover{
     color: #3b5998;
     }
+
 `;
- 
+
 export default GlobalStyle;
