@@ -26,15 +26,11 @@ const StyledRegForm = styled.div `
 const HomeReg = () => {
     return (
         <StyledRegForm>
-        <section>
-            {homeData.map((head, index) => (
-            <div key={index}>
-                <h1>{head.H1}</h1>
-                <h3>{head.H3}</h3>
+            <div>
+                <h1>MeCademy</h1>
+                <h3>Erfolgreich bewerben!</h3>
+                <Popup/>
             </div>
-            ))}
-            <Popup/>
-        </section>
         </StyledRegForm>
     )
 }

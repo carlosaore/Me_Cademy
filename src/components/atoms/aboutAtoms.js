@@ -8,6 +8,12 @@ const StyledDiv = styled.div`
     margin-bottom : ${props => props.theme.largeviewport.margin}
 `
 
+const PHome = styled.p`
+    color : ${props => props.color};
+    font-size : ${props => props.fontSize}
+`
+
 export {
-    StyledDiv
+    StyledDiv,
+    PHome
 };
