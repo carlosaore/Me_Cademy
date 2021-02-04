@@ -3,6 +3,7 @@ import MetaDecorator from '../MetaDecorator/MetaDecorator';
 import styled from 'styled-components';
 import HomeSlider from '../molecules/HomeSlider';
 import HomeReg from '../molecules/HomeReg';
+import HomePartners from '../molecules/HomePartners';
 
 
 const TopDiv = styled.div`
@@ -19,6 +20,12 @@ const TopDiv = styled.div`
 
 const MainDiv = styled.div`
     position: relative;
+
+    .home__logo {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    }
 
     .home__form {
     display: flex;
@@ -44,10 +51,16 @@ const Home = () => {
              </TopDiv>
             
             <MainDiv>
+
             <div className='home__form'>
             <HomeSlider/>
             <HomeReg/>
             </div>
+
+            <div className='home__logo'>
+            <HomePartners/>
+            </div>
+
             </MainDiv>
             
         </div>

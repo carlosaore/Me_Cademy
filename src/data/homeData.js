@@ -106,5 +106,8 @@ export default [
     },
     {
         H3: "Erfolgreich bewerben!"
+    },
+    {
+        Partnerlogos: "images/twologos.jpeg"
     }
 ];
