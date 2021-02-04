@@ -1,4 +1,4 @@
-import { StyledDiv } from '../atoms/coachesAtoms';
+import { StyledDiv } from '../atoms/aboutAtoms';
 import { textData } from '../../data/textData';
 import {
     Accordion,
@@ -9,14 +9,14 @@ import {
 } from 'react-accessible-accordion';
 import './accordion.css';
 
-export default function CoachesAccordion() {
+export default function AboutAccordion() {
     return (
         <StyledDiv width={"80%"}>
             <Accordion
                 allowMultipleExpanded
                 allowZeroExpanded
             >
-                {textData.coachesAccordion.map((item, index) => (
+                {textData.aboutAccordion.map((item, index) => (
                     <AccordionItem key={index}>
                     <AccordionItemHeading>
                         <AccordionItemButton>

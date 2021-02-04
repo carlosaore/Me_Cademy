@@ -1,5 +1,6 @@
 import React from 'react'
-import MetaDecorator from '../../MetaDecorator/MetaDecorator';
+import MetaDecorator from '../MetaDecorator/MetaDecorator';
+import AboutAccordion from '../molecules/AboutAccordion';
 
 const About = () => {
     return (
@@ -9,7 +10,7 @@ const About = () => {
              title='My About Page'
              />
            
-            <p>Hola! About here</p>
+            <AboutAccordion />
         </div>
     )
 }
