@@ -1,8 +1,8 @@
 import React from 'react';
-import MetaDecorator from '../../MetaDecorator/MetaDecorator';
+import MetaDecorator from '../MetaDecorator/MetaDecorator';
 import styled from 'styled-components';
-import HomeImg from './HomeImg';
-import Popup from '../../Organism/Popup_form';
+import Popup from '../Organism/Popup_form';
+import HomeSlider from '../molecules/HomeSlider';
 
 
 const TopDiv = styled.div`
@@ -30,11 +30,9 @@ const Home = () => {
              />
              <TopDiv>
              </TopDiv>
-              
+            <HomeSlider/>
             <MainDiv>
             <Popup/>
-            <p>Hola! Home here</p>
-            <HomeImg/>
             </MainDiv>
             
         </div>

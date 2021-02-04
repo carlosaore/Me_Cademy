@@ -1,6 +1,6 @@
 import React from 'react'
 import MetaDecorator from '../MetaDecorator/MetaDecorator';
-import CoachesCarousel from '../Molecules/CoachesCarousel';
+import CoachesCarousel from '../molecules/CoachesCarousel';
 
 const Coaches = () => {
     return (
@@ -11,7 +11,7 @@ const Coaches = () => {
             />
 
           <p>Hola! Coaches here</p>
-          <CoachesCarousel />
+          <CoachesCarousel/>
         </div>
     )
 }

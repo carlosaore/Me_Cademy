@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Nav/Navbar';
 import {Route, Switch} from 'react-router-dom';
 import './App.css';
-import Home from './components/pages/Home/Home';
+import Home from './components/pages/Home';
 import About from './components/pages/About/About';
 import Registration from './components/pages/Registration/Registration';
 import Coaches from './components/pages/Coaches';
