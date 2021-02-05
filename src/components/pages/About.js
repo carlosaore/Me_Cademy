@@ -2,6 +2,7 @@ import React from 'react'
 import MetaDecorator from '../MetaDecorator/MetaDecorator';
 import AboutAccordion from '../molecules/AboutAccordion';
 import AboutArticles from '../molecules/AboutArticles';
+import AboutTeam from '../molecules/AboutTeam';
 
 const About = () => {
     return (
@@ -12,6 +13,7 @@ const About = () => {
              />
             <AboutArticles />
             <AboutAccordion />
+            <AboutTeam />
         </div>
     )
 }
