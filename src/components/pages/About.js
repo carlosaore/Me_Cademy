@@ -1,8 +1,8 @@
 import React from 'react'
 import MetaDecorator from '../MetaDecorator/MetaDecorator';
-import AboutAccordion from '../Molecules/AboutAccordion';
+import AboutAccordion from '../molecules/AboutAccordion';
 import AboutTeam from '../molecules/AboutTeam';
-import AboutArticles from '../Molecules/AboutArticles';
+import AboutArticles from '../molecules/AboutArticles';
 import styled from 'styled-components';
 
 
