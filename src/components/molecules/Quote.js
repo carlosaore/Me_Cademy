@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Div from "../atoms/quoteBoxAtoms/Div.js";
-import P from "../atoms/quoteBoxAtoms/P.js";
+import Div from "../Atoms/quoteBoxAtoms/Div";
+import P from "../Atoms/quoteBoxAtoms/P";
 
 
 

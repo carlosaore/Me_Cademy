@@ -1,4 +1,4 @@
-import { StyledDiv } from '../atoms/aboutAtoms';
+import { StyledDiv } from '../Atoms/aboutAtoms';
 import { textData } from '../../data/textData';
 import {
     Accordion,
