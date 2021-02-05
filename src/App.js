@@ -5,8 +5,9 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Registration from './components/pages/Registration/Registration';
 import Coaches from './components/pages/Coaches';
-import Program from './components/pages/Program/Program';
-import Footer from '../src/components/Organism/Footer';
+import Program from './components/pages/Program';
+import MentormeFooter from './components/molecules/MentormeFooter';
+
 
 function App() {
   return ( /// name="" showname=true 
@@ -30,7 +31,7 @@ function App() {
         render={props=> <Program {...props}/>}
         />
       </Switch>
-      <Footer/>
+      <MentormeFooter />
     </div>
   );
 }
