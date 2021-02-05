@@ -3,7 +3,7 @@ import MetaDecorator from '../MetaDecorator/MetaDecorator';
 import AboutAccordion from '../Molecules/AboutAccordion';
 import AboutArticles from '../Molecules/AboutArticles';
 import styled from 'styled-components';
-
+import Numb_steps from '../Organism/Numb_steps';
 
 
 const TopDiv = styled.div`
@@ -27,6 +27,7 @@ const About = () => {
              />
              <TopDiv>
              </TopDiv>
+             <Numb_steps/>
             <AboutArticles />
             <AboutAccordion />
         </div>

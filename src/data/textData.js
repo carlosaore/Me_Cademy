@@ -182,6 +182,17 @@ export const textData = {
             heading : "A bit more placeholder, easy to change",
             text : "I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words."
         }
+    ],
+
+    aboutNumeric: [
+           {
+               one: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor id eu nisl nunc mi ipsum faucibus vitae. Est lorem ipsum dolor sit. Volutpat odio facilisis mauris sit amet. Quis auctor elit sed vulputate mi sit amet mauris commodo. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Mattis pellentesque id nibh tortor id aliquet. Vitae tempus quam pellentesque nec nam. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin. Dolor purus non enim praesent elementum. ',
+               two: 'Vitae purus faucibus ornare suspendisse sed nisi lacus. Ridiculus mus mauris vitae ultricies leo integer malesuada. Sed odio morbi quis commodo odio aenean. Amet porttitor eget dolor morbi non arcu risus quis. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Morbi tristique senectus et netus et. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.',
+               three:'Sit amet aliquam id diam maecenas ultricies mi eget. Faucibus vitae aliquet nec ullamcorper sit amet risus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui. Vel turpis nunc eget lorem dolor sed viverra. Cursus metus aliquam eleifend mi in.',
+               four: 'Ut sem viverra aliquet eget sit amet tellus cras. Ut lectus arcu bibendum at varius. Vel pretium lectus quam id leo in vitae turpis. Molestie at elementum eu facilisis sed odio morbi. Non pulvinar neque laoreet suspendisse interdum. Eget gravida cum sociis natoque penatibus et magnis dis. Pulvinar neque laoreet suspendisse interdum.',
+               five: 'Nunc faucibus a pellentesque sit. Pretium nibh ipsum consequat nisl vel pretium lectus quam id. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Scelerisque fermentum dui faucibus in ornare quam.',
+               six: 'Aliquet porttitor lacus luctus accumsan. Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Adipiscing elit duis tristique sollicitudin nibh sit amet. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum.'
+           }
     ]
 
 }
