@@ -1,8 +1,8 @@
 import React from 'react'
 import MetaDecorator from '../MetaDecorator/MetaDecorator';
 import AboutAccordion from '../molecules/AboutAccordion';
-import AboutArticles from '../molecules/AboutArticles';
 import AboutTeam from '../molecules/AboutTeam';
+import AboutArticles from '../molecules/AboutArticles';
 
 const About = () => {
     return (
