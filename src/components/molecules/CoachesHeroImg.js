@@ -1,4 +1,4 @@
-import { HeroImg } from '../Atoms/coachesAtoms';
+import { HeroImg } from '../atoms/coachesAtoms';
 import { textData } from '../../data/textData';
 
 export default function CoachesHeroImg() {

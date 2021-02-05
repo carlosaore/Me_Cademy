@@ -1,9 +1,9 @@
 import React from 'react'
 import MetaDecorator from '../MetaDecorator/MetaDecorator';
-import CoachesCarousel from '../Molecules/CoachesCarousel';
-import CoachesAccordion from '../Molecules/CoachesAccordion';
-import CoachesArticle from '../Molecules/CoachesArticle';
-import CoachesHeroImg from '../Molecules/CoachesHeroImg';
+import CoachesCarousel from '../molecules/CoachesCarousel';
+import CoachesAccordion from '../molecules/CoachesAccordion';
+import CoachesArticle from '../molecules/CoachesArticle';
+import CoachesHeroImg from '../molecules/CoachesHeroImg';
 
 const Coaches = () => {
     return (

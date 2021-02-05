@@ -1,7 +1,7 @@
 import React from 'react';
 import MetaDecorator from '../MetaDecorator/MetaDecorator';
-import CoachesArticle from '../Molecules/CoachesArticle';
-import ProgrammHeroImg from '../Molecules/ProgrammHeroImg';
+import CoachesArticle from '../molecules/CoachesArticle';
+import ProgrammHeroImg from '../molecules/ProgrammHeroImg';
 
 
 const Program = () => {

@@ -5,7 +5,7 @@ import {
     FooterWidget,
     Li,
     SocialMediaIcon
-} from '../Atoms/mentormeFooterAtoms';
+} from '../atoms/mentormeFooterAtoms';
 import { Link } from 'react-router-dom';
 
 export default function MentormeFooter() {

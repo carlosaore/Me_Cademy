@@ -1,7 +1,7 @@
 import React from 'react'
 import MetaDecorator from '../../MetaDecorator/MetaDecorator';
 import styled from 'styled-components';
-import Quote from '../../Molecules/Quote';
+import Quote from '../../molecules/Quote';
 import * as typeformEmbed from '@typeform/embed';
 import TypeformRight from '../../Organism/reg_form';
 import Popup from '../../../components/Organism/Popup_form';
