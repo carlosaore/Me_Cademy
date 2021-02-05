@@ -1,4 +1,4 @@
-import { HomeHeroImage } from '../Atoms/homeAtoms';
+import { HomeHeroImage } from '../atoms/homeAtoms';
 
 export default function HomeHeroImg() {
     return (

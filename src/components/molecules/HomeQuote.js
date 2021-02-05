@@ -1,6 +1,6 @@
 import React from 'react';
-import Div from '../Atoms/quoteBoxAtoms/Div';
-import P from '../Atoms/quoteBoxAtoms/P';
+import Div from '../atoms/quoteBoxAtoms/Div';
+import P from '../atoms/quoteBoxAtoms/P';
 import styled from 'styled-components';
 
 const StyledHomeQuoteForm = styled.div `

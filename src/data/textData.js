@@ -168,7 +168,6 @@ export const textData = {
     ],
 
     programmHeroImg : "images/HeaderBild-MentoringTools-1.jpg",
-
     aboutArticles : [
         {
             heading : "This is placeholder text",

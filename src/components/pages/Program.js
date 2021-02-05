@@ -1,8 +1,8 @@
 import React from 'react';
 import MetaDecorator from '../MetaDecorator/MetaDecorator';
-import CoachesArticle from '../Molecules/CoachesArticle';
-import ProgrammHeroImg from '../Molecules/ProgrammHeroImg';
-
+import CoachesArticle from '../molecules/CoachesArticle';
+import ProgrammHeroImg from '../molecules/ProgrammHeroImg';
+import Quote from '../../components/molecules/Quote';
 
 const Program = () => {
     return (
@@ -12,6 +12,7 @@ const Program = () => {
              title='My Program Page'
              />
             <ProgrammHeroImg />
+            <Quote />
             <CoachesArticle />
             <CoachesArticle />
             <CoachesArticle />
