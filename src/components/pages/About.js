@@ -4,7 +4,7 @@ import AboutAccordion from '../molecules/AboutAccordion';
 import AboutTeam from '../molecules/AboutTeam';
 import AboutArticles from '../molecules/AboutArticles';
 import styled from 'styled-components';
-
+import Numb_steps from '../Organism/Numb_steps';
 
 
 const TopDiv = styled.div`
@@ -28,6 +28,7 @@ const About = () => {
              />
              <TopDiv>
              </TopDiv>
+             <Numb_steps/>
             <AboutArticles />
             <AboutAccordion />
             <AboutTeam />
