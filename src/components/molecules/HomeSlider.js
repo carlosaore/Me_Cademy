@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import homeData from '../../data/homeData';
-import Arrows from '../atoms/homeArrows';
-import Dots from '../atoms/homeDots';
-import SliderContent from '../atoms/homeSliderContent';
+import Arrows from '../Atoms/homeArrows';
+import Dots from '../Atoms/homeDots';
+import SliderContent from '../Atoms/homeSliderContent';
 import styled from 'styled-components';
 
 const StyledSliderForm = styled.div `
