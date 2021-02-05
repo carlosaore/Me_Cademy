@@ -2,7 +2,7 @@ import {
     TextBox,
     H1,
     P
-} from '../atoms/coachesAtoms';
+} from '../Atoms/coachesAtoms';
 import { textData } from '../../data/textData';
 
 export default function CoachesArticle() {
