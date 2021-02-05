@@ -3,14 +3,20 @@ import styled from 'styled-components';
 
 const StyledTeamCompForm = styled.div `
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 50px;
+
+.bottom-row {
+    display: flex;
+    justify-content: center;
+}
 
 .row1 {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    }
+
+.row2, .row3 {
+    display: flex;
     }
 
 img {
@@ -43,17 +49,12 @@ img {
     border-top: solid 20px transparent;
     }
 
-.row2 {
-    display: flex;
-    flex-direction: row;
-
-    }
-
 .img2, .img3 {
     width: 260px;
     height: 250px;
     object-fit: cover;
     }
+
 .text2, .text3 {
     position: relative;
     width: 260px;
@@ -79,14 +80,21 @@ img {
     border-top: solid 15px transparent;
     }
 
-@media screen and (max-width: 1000px){
-   
-    .row1, .row2 {
+@media screen and (max-width: 1039px){
+
+    .row1 {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
-        justify-content:center;
+    }
 
+    .row2, .row3 {
+        display: flex; 
+    }
+
+    .bottom-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .text2, .text3{
@@ -101,7 +109,7 @@ img {
         }
    }
 
-   @media screen and (max-width: 550px){
+   @media screen and (max-width: 539px){
         img {
         width: 100%;
         height: 400px;
@@ -116,8 +124,13 @@ img {
         } 
 
         .text:after, .text2:after, .text3:after {
-            display: none;
+        display: none;
         }
+
+        .row2, .row3 {
+        display: flex;
+        flex-direction: column; 
+    }
     }`
 
 const AboutTeam = () => {
@@ -134,7 +147,7 @@ const AboutTeam = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
                 </div>
-
+            <div className="bottom-row">
             <div className="row2">
                 <img 
                 className="img2"
@@ -145,6 +158,8 @@ const AboutTeam = () => {
                     <h3>Lorem ipsum dolor sit amet</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     </div>
+            </div>
+            <div className="row3">
                 <img 
                 className="img3"
                 src="/images/female-placeholder.png"
@@ -154,6 +169,7 @@ const AboutTeam = () => {
                     <h3>Lorem ipsum dolor sit amet</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     </div>
+            </div>
             </div>
         </StyledTeamCompForm>
     )

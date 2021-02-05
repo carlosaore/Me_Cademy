@@ -11,7 +11,7 @@ const StyledHomeQuoteForm = styled.div `
     margin: 0 20px 0 20px;
     }}
 
-    @media screen and (max-width: 550px){
+    @media screen and (max-width: 539px){
     P {
     font-size: 1.2em;
     margin: 0 20px 0 20px;
