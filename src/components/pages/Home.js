@@ -1,11 +1,11 @@
 import React from 'react';
 import MetaDecorator from '../MetaDecorator/MetaDecorator';
 import styled from 'styled-components';
-import HomeSlider from '../Molecules/HomeSlider';
-import HomeReg from '../Molecules/HomeReg';
-import HomePartners from '../Molecules/HomePartners';
-import HomeHeroImg from '../Molecules/HomeHeroImg';
-import HomeQuote from '../Molecules/HomeQuote';
+import HomeSlider from '../molecules/HomeSlider';
+import HomeReg from '../molecules/HomeReg';
+import HomePartners from '../molecules/HomePartners';
+import HomeHeroImg from '../molecules/HomeHeroImg';
+import HomeQuote from '../molecules/HomeQuote';
 
 
 const TopDiv = styled.div`
