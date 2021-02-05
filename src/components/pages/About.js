@@ -1,7 +1,8 @@
 import React from 'react'
 import MetaDecorator from '../MetaDecorator/MetaDecorator';
-import AboutAccordion from '../molecules/AboutAccordion';
-import AboutArticles from '../molecules/AboutArticles';
+import AboutAccordion from '../Molecules/AboutAccordion';
+import AboutTeam from '../molecules/AboutTeam';
+import AboutArticles from '../Molecules/AboutArticles';
 import styled from 'styled-components';
 
 
@@ -29,6 +30,7 @@ const About = () => {
              </TopDiv>
             <AboutArticles />
             <AboutAccordion />
+            <AboutTeam />
         </div>
     )
 }
