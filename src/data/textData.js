@@ -167,7 +167,7 @@ export const textData = {
         }
     ],
 
-    programmHeroImg : "images/HeaderBild-MentoringTools-1.jpg"
+    programmHeroImg : "images/HeaderBild-MentoringTools-1.jpg",
 
     aboutArticles : [
         {
