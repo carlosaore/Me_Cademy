@@ -1,5 +1,5 @@
 import React from 'react';
-import Popup from '../Organism/Popup_form';
+import Popup from '../organism/Popup_form';
 import homeData from '../../data/homeData';
 import styled from 'styled-components';
 

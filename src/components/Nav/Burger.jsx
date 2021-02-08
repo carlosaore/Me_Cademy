@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
 import RightNav from './RightNav';
-import { MyContext } from '../Context/MyContext';
+import { MyContext } from '../context/MyContext';
 
 const StyledBurger = styled.div`
   cursor: pointer;

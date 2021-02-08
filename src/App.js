@@ -1,13 +1,13 @@
 import React from 'react';
-import Navbar from './components/Nav/Navbar';
+import Navbar from './components/nav/Navbar';
 import {Route, Switch} from 'react-router-dom';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import Registration from './components/pages/Registration/Registration';
+import Registration from './components/pages/Registration';
 import Coaches from './components/pages/Coaches';
 import Program from './components/pages/Program';
-import MentormeFooter from './components/Molecules/MentormeFooter';
-import Footer from './components/Organism/Footer';
+import MentormeFooter from './components/molecules/MentormeFooter';
+import Footer from './components/organism/Footer';
 
 
 

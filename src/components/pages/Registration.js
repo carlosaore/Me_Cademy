@@ -1,23 +1,13 @@
 import React from 'react'
-import MetaDecorator from '../../MetaDecorator/MetaDecorator';
+import MetaDecorator from '../metadecorator/MetaDecorator';
 import styled from 'styled-components';
-import Quote from '../../molecules/Quote';
+import Quote from '../molecules/Quote';
 import * as typeformEmbed from '@typeform/embed';
-import TypeformRight from '../../Organism/reg_form';
-import Popup from '../../../components/Organism/Popup_form';
+import TypeformRight from '../organism/reg_form';
+import Popup from '../organism/Popup_form';
 
-const TopDiv = styled.div`
-  position:relative;
-  height: 440px;
-  width:100%;
-  background-image: url("/images/placeholder.png");
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size: cover;
-  margin-top: -55px;
-  z-index: -1;
-`;
 
+//TopDivR
 const ButtonBox = styled.div`
   height: 400px;
   width: 80%;
@@ -30,6 +20,7 @@ const ButtonBox = styled.div`
   border: 1px solid black;
 `;
 
+//CenterButtonR
 const CenterButton = styled.div`
   height: 200px;
   width: 80%;

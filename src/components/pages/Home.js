@@ -1,5 +1,5 @@
 import React from 'react';
-import MetaDecorator from '../MetaDecorator/MetaDecorator';
+import MetaDecorator from '../metadecorator/MetaDecorator';
 import styled from 'styled-components';
 import HomeSlider from '../molecules/HomeSlider';
 import HomeReg from '../molecules/HomeReg';

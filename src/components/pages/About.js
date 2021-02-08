@@ -1,10 +1,10 @@
 import React from 'react'
-import MetaDecorator from '../MetaDecorator/MetaDecorator';
+import MetaDecorator from '../metadecorator/MetaDecorator';
 import AboutAccordion from '../molecules/AboutAccordion';
 import AboutTeam from '../molecules/AboutTeam';
 import AboutArticles from '../molecules/AboutArticles';
 import styled from 'styled-components';
-import Numb_steps from '../Organism/Numb_steps';
+import Numb_steps from '../organism/Numb_steps';
 
 
 const TopDiv = styled.div`
