@@ -3,8 +3,8 @@ import MetaDecorator from '../../MetaDecorator/MetaDecorator';
 import styled from 'styled-components';
 import Quote from '../../molecules/Quote';
 import * as typeformEmbed from '@typeform/embed';
-import TypeformRight from '../../Organism/reg_form';
-import Popup from '../../../components/Organism/Popup_form';
+import TypeformRight from '../../organism/reg_form';
+import Popup from '../../organism/Popup_form';
 
 const TopDiv = styled.div`
   position:relative;
