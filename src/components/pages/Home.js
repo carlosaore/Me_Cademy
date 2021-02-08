@@ -6,41 +6,10 @@ import HomeReg from '../molecules/HomeReg';
 import HomePartners from '../molecules/HomePartners';
 import HomeHeroImg from '../molecules/HomeHeroImg';
 import HomeQuote from '../molecules/HomeQuote';
+import HeroImg from '../atoms/HeroImg';
+import MainDiv from '../atoms/MainDivHome';
 
 
-const TopDiv = styled.div`
-  position:relative;
-  height: 440px;
-  width:100%;
-  background-image: url("/images/placeholder.png");
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size: cover;
-  margin-top: -55px;
-  z-index: -1;
-`;
-
-const MainDiv = styled.div`
-    position: relative;
-
-    .home__logo {
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    }
-
-    .home__form {
-    display: flex;
-    justify-content:space-evenly;
-    margin: 50px 0 50px 0;
-
-    @media screen and (max-width: 751px){
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    }}
-`;
 
 const Home = () => {
     return (
@@ -49,9 +18,8 @@ const Home = () => {
              description='Here is Home Page'
              title='My Home Page'
              />
-             <TopDiv>
-             </TopDiv>
-            
+             <HeroImg />
+
             <MainDiv>
             <HomeQuote />
             <div className='home__form'>

@@ -5,6 +5,7 @@ import Dots from '../atoms/homeDots';
 import SliderContent from '../atoms/homeSliderContent';
 import styled from 'styled-components';
 
+
 const StyledSliderForm = styled.div `
     
 .slider-container {
