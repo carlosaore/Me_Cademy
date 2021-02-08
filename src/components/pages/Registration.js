@@ -5,6 +5,7 @@ import Quote from '../molecules/Quote';
 import * as typeformEmbed from '@typeform/embed';
 import TypeformRight from '../organism/reg_form';
 import Popup from '../organism/Popup_form';
+import TopDiv from '../atoms/TopDivR'
 
 
 //TopDivR
