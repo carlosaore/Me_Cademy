@@ -15,7 +15,7 @@ const MainDiv = styled.div`
 
 const NestedDiv = styled.div`
 display: flex;
-height: 650px;
+height: 600px;
 margin-top:0px;
 width: 400px;
 flex-wrap: wrap;

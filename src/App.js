@@ -31,8 +31,8 @@ function App() {
         render={props=> <Program {...props}/>}
         />
       </Switch>
-      <MentormeFooter/>
-      {/* <Footer /> */}
+      
+       <Footer />
     </div>
   );
 }
