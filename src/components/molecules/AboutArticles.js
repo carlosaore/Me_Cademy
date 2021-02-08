@@ -1,8 +1,6 @@
-import {
-    TextBox,
-    H1,
-    P
-} from '../atoms/coachesAtoms';
+import TextBox from '../atoms/TextBox';
+import H1 from '../atoms/H1';
+import P from '../atoms/P';
 import { textData } from '../../data/textData';
 
 export default function AboutArticles() {
