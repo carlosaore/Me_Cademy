@@ -19,7 +19,7 @@ const Home = () => {
              description='Here is Home Page'
              title='My Home Page'
              />
-            <HomeHeroImg />
+            <HomeHeroImage />
 
             <MainDiv>
             <HomeQuote />
@@ -27,7 +27,7 @@ const Home = () => {
             <HomeSlider/>
             <HomeReg/>
             </div>
-            <HomeHeroImg2 />
+            <HomeHeroImage2 />
             <div className='home__logo'>
             <HomePartners/>
             </div>
