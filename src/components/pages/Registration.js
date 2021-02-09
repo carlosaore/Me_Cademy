@@ -9,7 +9,7 @@ import HeroImg from '../atoms/HeroImg';
 import StyledHomeQuoteForm from '../atoms/StyledHomeQuoteForm';
 import TypeformEmbedInfotext from '../molecules/TypeformEmbedInfotext';
 import PicBoxAboveTypeform from '../atoms/PicBoxAboveTypeform';
-
+import { textData } from '../../data/textData';
 
 
 const Registration = () => {
@@ -19,7 +19,7 @@ const Registration = () => {
              description='Registration'
              title='Register Here'
              />
-            <HeroImg />
+            <HeroImg url={textData.registrationHeroImg}/>
             <StyledHomeQuoteForm />
             <Quote />
             <PicBoxAboveTypeform />

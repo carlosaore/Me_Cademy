@@ -8,7 +8,7 @@ import HomeHeroImg from '../molecules/HomeHeroImg';
 import HomeQuote from '../molecules/HomeQuote';
 import HeroImg from '../atoms/HeroImg';
 import MainDiv from '../atoms/MainDivHome';
-
+import { textData } from '../../data/textData';
 
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
              description='Here is Home Page'
              title='My Home Page'
              />
-             <HeroImg />
+            <HeroImg url={textData.homeHeroImage}/>
 
             <MainDiv>
             <HomeQuote />
@@ -26,7 +26,7 @@ const Home = () => {
             <HomeSlider/>
             <HomeReg/>
             </div>
-            <HomeHeroImg/>
+            <HeroImg url={textData.homeHeroImage2}/>
             <div className='home__logo'>
             <HomePartners/>
             </div>

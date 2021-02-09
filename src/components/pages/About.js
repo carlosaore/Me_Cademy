@@ -6,7 +6,7 @@ import AboutArticles from '../molecules/AboutArticles';
 import styled from 'styled-components';
 import Numb_steps from '../organism/Numb_steps';
 import HeroImg from '../atoms/HeroImg';
-
+import { textData } from '../../data/textData';
 
 
 const About = () => {
@@ -16,8 +16,8 @@ const About = () => {
              description='Here is About Page'
              title='My About Page'
              />
-             <HeroImg />
-             <Numb_steps/>
+            <HeroImg url={textData.registrationHeroImg}/>
+            <Numb_steps/>
             <AboutArticles />
             <AboutAccordion />
             <AboutTeam />

@@ -147,7 +147,8 @@ export const textData = {
             text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }
     ],
-    coachesHeroImg : "images/frau-vor-fuchsia-sofa.jpg",
+   
+    
     aboutAccordion : [
         {
             heading : "Look at that text! Would anyone use that?",
@@ -167,7 +168,7 @@ export const textData = {
         }
     ],
 
-    programmHeroImg : "images/HeaderBild-MentoringTools-1.jpg",
+    
     aboutArticles : [
         {
             heading : "This is placeholder text",
@@ -192,6 +193,13 @@ export const textData = {
                five: 'Nunc faucibus a pellentesque sit. Pretium nibh ipsum consequat nisl vel pretium lectus quam id. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Scelerisque fermentum dui faucibus in ornare quam.',
                six: 'Aliquet porttitor lacus luctus accumsan. Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Adipiscing elit duis tristique sollicitudin nibh sit amet. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum.'
            }
-    ]
+    ],
+
+    homeHeroImage : "",
+    homeHeroImage2 : "",
+    aboutHeroImage: "",
+    programmHeroImg : "images/HeaderBild-MentoringTools-1.jpg",
+    coachesHeroImg : "images/frau-vor-fuchsia-sofa.jpg",
+    registrationHeroImg : "",
 
 }
