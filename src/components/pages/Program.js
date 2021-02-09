@@ -2,7 +2,7 @@ import React from 'react';
 import MetaDecorator from '../MetaDecorator/MetaDecorator';
 import CoachesArticle from '../molecules/CoachesArticle';
 import ProgrammHeroImg from '../molecules/ProgrammHeroImg';
-import Quote from '../../components/molecules/Quote';
+import Quote from '../molecules/Quote';
 
 const Program = () => {
     return (
