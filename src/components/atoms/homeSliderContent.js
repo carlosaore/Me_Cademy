@@ -49,7 +49,7 @@ const StyledSliderContentForm = styled.div `
 
 .slide-text {
     text-align: center;
-    line-height: 1;
+    line-height: 0.95;
     margin: 10px 30px 0 30px;
 }
 `
