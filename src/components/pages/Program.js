@@ -1,8 +1,8 @@
 import React from 'react';
-import MetaDecorator from '../MetaDecorator/MetaDecorator';
+import MetaDecorator from '../metadecorator/MetaDecorator';
 import CoachesArticle from '../molecules/CoachesArticle';
+import Quote from '../../components/molecules/Quote';
 import ProgrammHeroImg from '../molecules/ProgrammHeroImg';
-import Quote from '../molecules/Quote';
 
 const Program = () => {
     return (

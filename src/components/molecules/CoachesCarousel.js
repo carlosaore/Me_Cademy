@@ -2,7 +2,9 @@ import { Component } from 'react';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { CarouselDiv, TextDiv, Img } from '../atoms/coachesAtoms';
+import CarouselDiv from '../atoms/CarouselDiv';
+import TextDiv from '../atoms/TextDiv';
+import Img from '../atoms/Img';
 import { textData } from '../../data/textData';
 
 class CoachesCarousel extends Component {

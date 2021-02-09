@@ -1,23 +1,11 @@
 import React from 'react'
-import MetaDecorator from '../MetaDecorator/MetaDecorator';
+import MetaDecorator from '../metadecorator/MetaDecorator';
 import AboutAccordion from '../molecules/AboutAccordion';
 import AboutTeam from '../molecules/AboutTeam';
 import AboutArticles from '../molecules/AboutArticles';
-import styled from 'styled-components';
 import Numb_steps from '../organism/Numb_steps';
-
-
-const TopDiv = styled.div`
-  position:relative;
-  height: 440px;
-  width:100%;
-  background-image: url("/images/placeholder.png");
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size: cover;
-  margin-top: -55px;
-  z-index: -1;
-`;
+import { textData } from '../../data/textData';
+import AboutHeroImg from '../molecules/AboutHeroImg';
 
 const About = () => {
     return (
@@ -26,9 +14,8 @@ const About = () => {
              description='Here is About Page'
              title='My About Page'
              />
-             <TopDiv>
-             </TopDiv>
-             <Numb_steps/>
+            <AboutHeroImg url={textData.aboutHeroImg}/>
+            <Numb_steps/>
             <AboutArticles />
             <AboutAccordion />
             <AboutTeam />

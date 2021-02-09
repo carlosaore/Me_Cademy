@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { MyContext } from '../Context/MyContext';
+import { MyContext } from '../context/MyContext';
 
 const Ul = styled.ul`
   margin: auto;

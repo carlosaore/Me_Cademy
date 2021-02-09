@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
-import { MyContext } from '../Context/MyContext';
+import { MyContext } from '../context/MyContext';
 
 const Nav = styled.nav`
   position: relative;

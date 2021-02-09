@@ -1,5 +1,5 @@
 import React from 'react'
-import MetaDecorator from '../MetaDecorator/MetaDecorator';
+import MetaDecorator from '../metadecorator/MetaDecorator';
 import CoachesCarousel from '../molecules/CoachesCarousel';
 import CoachesAccordion from '../molecules/CoachesAccordion';
 import CoachesArticle from '../molecules/CoachesArticle';

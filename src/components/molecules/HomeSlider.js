@@ -5,8 +5,8 @@ import Dots from '../atoms/homeDots';
 import SliderContent from '../atoms/homeSliderContent';
 import styled from 'styled-components';
 
+//Refactor class to styled component
 const StyledSliderForm = styled.div `
-    
 .slider-container {
     height: 430px;
     width: 300px;
