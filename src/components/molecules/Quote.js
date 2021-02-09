@@ -1,26 +1,23 @@
-import styled from "styled-components";
-import Div from "../atoms/quoteBoxAtoms/Div";
-import P from "../atoms/quoteBoxAtoms/P";
+import Div from "../atoms/Div";
+import P from "../atoms/P";
+import QuoteFormWrapper from '../atoms/QuoteFormWrapper';
 
-
-
-const Quote = (props) => (
-    <Div
-    height="100px"
-    marginTop="30px"
-    border="5px solid black"
-    display="flex"
-    >
-        
-        <div>
-        <P 
-        color="white" 
-        fontSize="30px"
-        >"Find your next job!"</P>
-        </div>
-          
-
-    </Div>
+const Quote = () => (
+    <QuoteFormWrapper>
+        <Div
+            height="100px"
+            marginTop="30px"
+            border="5px solid black"
+            display="flex"
+        >
+            <P 
+                color="white" 
+                fontSize="30px"
+            >
+                "Find your next job!"
+            </P>
+        </Div>
+    </QuoteFormWrapper>
 )
 
 

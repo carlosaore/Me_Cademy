@@ -1,8 +1,8 @@
 import HeroImg from '../atoms/HeroImg';
 import { textData } from '../../data/textData';
 
-export default function ProgrammHeroImg() {
+export default function AboutHeroImg() {
     return (
-        <HeroImg url={textData.programmHeroImg}/>
+        <HeroImg url={textData.aboutHeroImg}/>
     )
-}
+};

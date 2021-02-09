@@ -1,8 +1,9 @@
-import { HomeHeroImage } from '../atoms/homeAtoms';
+import HeroImage from '../atoms/HeroImg';
+import { textData } from '../../data/textData';
 
 export default function HomeHeroImg() {
     return (
-        <HomeHeroImage />
+        <HeroImage url={textData.homeHeroImage}/>
     )
 }
 
