@@ -23,16 +23,16 @@ export default function MentormeFooter() {
                     </FooterWidgets>
                     <FooterWidgets>
                         <a href="https://facebook.com/MentorMeBerlin">
-                            <SocialMediaIcon src="https://mentorme-ngo.org/wp-content/uploads/2020/12/facebook-logo.png" alt="facebook"/>
+                            <SocialMediaIcon src="/icons/facebook-logo.png" alt="facebook"/>
                         </a>
                         <a href="https://instagram.com/mentorme_berlin">
-                            <SocialMediaIcon src="https://mentorme-ngo.org/wp-content/uploads/2020/12/instagram-logo.png" alt="instagram" />
+                            <SocialMediaIcon src="/icons/instagram-logo.png" alt="instagram" />
                         </a>
                         <a href="https://twitter.com/MentorMe_Berlin">
-                            <SocialMediaIcon src="https://mentorme-ngo.org/wp-content/uploads/2020/12/twitter-logo.png" alt="twitter"/>
+                            <SocialMediaIcon src="icons/twitter-logo.png" alt="twitter"/>
                         </a>
                         <a href="https://www.linkedin.com/company/mentorme/">
-                            <SocialMediaIcon src="https://mentorme-ngo.org/wp-content/uploads/2020/12/linkedin-logo-1.png" alt="linkedin" />
+                            <SocialMediaIcon src="icons/linkedin-logo-1.png" alt="linkedin" />
                         </a>
                     </FooterWidgets>
                 </FooterWidget>
