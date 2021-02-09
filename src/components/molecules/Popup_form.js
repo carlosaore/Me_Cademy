@@ -1,21 +1,9 @@
 import React from 'react';
 import { ReactTypeformEmbed } from 'react-typeform-embed';
-import styled from 'styled-components';
+import TypeformButton from '../atoms/TypeformButton';
 
-const Button = styled.button`
-  cursor: pointer;
-  position: relative;
-  color: white;
-  font-size: 1.5em;
-  margin: 1em;
-  padding: 0.5em 2em;
-  background-color: #e95160;
-  border: 2px solid palevioletred;
-  border-radius: 3px;
-`;
 
 class Popup extends React.Component {
- 
 
   openForm() {
     this.typeformEmbed.typeform.open();
@@ -36,9 +24,9 @@ class Popup extends React.Component {
             this.typeformEmbed = tf;
           }}
         />
-        <Button className="btn" onClick={()=>this.openForm()} style={{ cursor: 'pointer' }}>
+        <TypeformButton className="btn" onClick={()=>this.openForm()} style={{ cursor: 'pointer' }}>
           Anmeldung
-        </Button>
+        </TypeformButton>
       </div>
     );
   }

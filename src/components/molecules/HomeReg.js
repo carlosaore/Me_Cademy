@@ -1,10 +1,6 @@
 import React from 'react';
-import Popup from '../organism/Popup_form';
-import homeData from '../../data/homeData';
-import styled from 'styled-components';
+import Popup from './Popup_form';
 import StyledRegForm from '../atoms/StyledRegForm';
-
-
 
 const HomeReg = () => {
     return (
