@@ -7,7 +7,6 @@ import Registration from './components/pages/Registration';
 import Coaches from './components/pages/Coaches';
 import Program from './components/pages/Program';
 import MentormeFooter from './components/molecules/MentormeFooter';
-import Footer from './components/organism/Footer';
 
 
 
@@ -33,8 +32,8 @@ function App() {
         render={props=> <Program {...props}/>}
         />
       </Switch>
-      <MentormeFooter/>
-      {/* <Footer /> */}
+      
+       <MentormeFooter />
     </div>
   );
 }
