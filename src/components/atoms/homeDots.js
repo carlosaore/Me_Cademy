@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import homeData from '../../data/homeData';
+import { textData } from '../../data/textData';
+
 
 const StyledDotsForm = styled.div `
 
@@ -32,7 +33,7 @@ function Dots(props) {
     return (
         <StyledDotsForm>
         <div className="all-dots">
-            {homeData.map((slide, index) => (
+            {textData.testimonialData.map((slide, index) => (
                 <span key={index}
                     className={`${
                     props.activeIndex === index ? "dot active-dot" : "dot"

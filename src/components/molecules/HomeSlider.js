@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import homeData from '../../data/homeData';
 import Arrows from '../atoms/homeArrows';
 import Dots from '../atoms/homeDots';
 import SliderContent from '../atoms/homeSliderContent';
 import styled from 'styled-components';
+import { textData } from '../../data/textData';
+
 
 //Refactor class to styled component
 const StyledSliderForm = styled.div `
@@ -16,7 +17,7 @@ const StyledSliderForm = styled.div `
 }
 `
 
-const len = homeData.length - 1;
+const len = textData.testimonialData.length - 1;
 
 function HomeSlider() {
 
