@@ -1,6 +1,7 @@
 import React from 'react';
-import homeData from '../../data/homeData';
 import styled from 'styled-components';
+import { textData } from '../../data/textData';
+
 
 
 const StyledSliderContentForm = styled.div `
@@ -49,7 +50,7 @@ const StyledSliderContentForm = styled.div `
 
 .slide-text {
     text-align: center;
-    line-height: 1;
+    line-height: 0.95;
     margin: 10px 30px 0 30px;
 }
 `
@@ -58,7 +59,7 @@ function SliderContent(props) {
     return (
         <StyledSliderContentForm>
         <section>
-            {homeData.map((slide, index) => (
+            {textData.testimonialData.map((slide, index) => (
                 <div key={index}
                     className={index === props.activeIndex ? "slides active" : "inactive"}>
                     <img className="slide-image" src={slide.urls} alt="" />

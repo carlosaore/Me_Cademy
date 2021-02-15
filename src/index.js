@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
 import GlobalStyle from './globalStyles';
 import Theme from './data/theme'
-import {MyContextProvider} from '../src/components/context/MyContext';
+import {MyContextProvider} from './components/context/MyContext';
 
 ReactDOM.render(
   <React.StrictMode>

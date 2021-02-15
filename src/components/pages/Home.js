@@ -1,14 +1,10 @@
 import React from 'react';
 import MetaDecorator from '../metadecorator/MetaDecorator';
-import styled from 'styled-components';
 import HomeSlider from '../molecules/HomeSlider';
 import HomeReg from '../molecules/HomeReg';
 import HomePartners from '../molecules/HomePartners';
-import HomeHeroImg from '../molecules/HomeHeroImg';
 import HomeQuote from '../molecules/HomeQuote';
-import HeroImg from '../atoms/HeroImg';
 import MainDiv from '../atoms/MainDivHome';
-import { textData } from '../../data/textData';
 import HomeHeroImage from '../molecules/HomeHeroImg';
 import HomeHeroImage2 from '../molecules/HomeHeroImage2';
 
