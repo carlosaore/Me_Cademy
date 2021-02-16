@@ -13,7 +13,7 @@ const H2 = styled.h2`
             margin-bottom : ${props => props.theme.largeViewport.margin}
         }
 
-    @media (min-width : ${props => props.theme.mediumViewport.size}) {
+    @media (max-width : ${props => props.theme.mediumViewport.size}) {
         margin-bottom : ${props => props.theme.mediumViewport.margin}
     }
 

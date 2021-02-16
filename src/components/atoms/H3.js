@@ -22,7 +22,7 @@ const H3 = styled.h3`
 
     }
 
-    @media (min-width : ${props => props.theme.mediumViewport.size}) {
+    @media (max-width : ${props => props.theme.mediumViewport.size}) {
         margin-bottom : ${props => props.theme.mediumViewport.margin}
     }
 

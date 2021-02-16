@@ -10,7 +10,7 @@ const BoxAroundTypeform = styled.div`
                 margin-bottom : ${props => props.theme.largeViewport.margin}
         }
 
-        @media (min-width : ${props => props.theme.mediumViewport.size}) {
+        @media (max-width : ${props => props.theme.mediumViewport.size}) {
                 margin-bottom : ${props => props.theme.mediumViewport.margin}
         }
 
@@ -53,7 +53,7 @@ const FlexSection = styled.section`
         flex-basis : 47%
     }
 
-    @media (min-width : ${props => props.theme.mediumViewport.size}) {
+    @media (max-width : ${props => props.theme.mediumViewport.size}) {
         :last-child {
             margin-bottom : ${props => props.theme.mediumViewport.margin}
         }
