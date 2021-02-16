@@ -44,9 +44,13 @@ const FooterWidgets = styled.div`
 const Li = styled.li`
     text-decoration : none;
     list-style : none;
+    display : inline;
+    float : left;
+    padding-left : 20px;
 
     a {
-        color : ${props => props.theme.colors.light}  
+        color : ${props => props.theme.colors.light};
+        text-decoration : none;
     }
 `
 

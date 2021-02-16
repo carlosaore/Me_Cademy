@@ -38,7 +38,7 @@ const FlexDiv = styled.div`
         justify-content : space-between 
     }
 
-    @media (min-width : ${props => props.theme.mediumViewport.size}) {
+    @media (max-width : ${props => props.theme.mediumViewport.size}) {
         flex-direction : column-reverse
     }
 
