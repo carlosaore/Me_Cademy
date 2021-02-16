@@ -11,7 +11,7 @@ const P = styled.p`
         margin-bottom : ${props => props.theme.largeViewport.margin}
     }
 
-    @media (max-width : ${props => props.theme.mediumViewport.size}) {
+    @media (min-width : ${props => props.theme.mediumViewport.minSize}) and (max-width : ${props => props.theme.mediumViewport.maxSize}) {
         margin-bottom : ${props => props.theme.mediumViewport.margin}
     }
 

@@ -16,7 +16,7 @@ const PicBox = styled.div`
         height : 490px
     }
 
-    @media (max-width : ${props => props.theme.mediumViewport.size}) {
+    @media (min-width : ${props => props.theme.mediumViewport.minSize}) and (max-width : ${props => props.theme.mediumViewport.maxSize}) {
         margin-bottom : ${props => props.theme.mediumViewport.margin};
         height : 490px
     }

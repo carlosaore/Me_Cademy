@@ -20,7 +20,8 @@ const theme = {
         
     },
     mediumViewport : {
-        size : "768px", // min max it if needed with large and small value in media queries
+        minSize : "768px",
+        maxSize : "999px",
         padding : "30px",
         margin : "30px",
     },

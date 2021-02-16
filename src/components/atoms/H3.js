@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
 
 const H3 = styled.h3`
+    margin-top : 0px;
     text-align : center;
     font-size : 1.3em;
     font-weight : 500;
@@ -22,7 +23,7 @@ const H3 = styled.h3`
 
     }
 
-    @media (max-width : ${props => props.theme.mediumViewport.size}) {
+    @media (min-width : ${props => props.theme.mediumViewport.minSize}) and (max-width : ${props => props.theme.mediumViewport.maxSize}) {
         margin-bottom : ${props => props.theme.mediumViewport.margin}
     }
 

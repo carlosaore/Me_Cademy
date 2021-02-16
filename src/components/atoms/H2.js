@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
 
 const H2 = styled.h2`
+    padding-bottom : 0px;
     text-align : center;
     font-size : 1.4em;
     color : ${props => props.light
@@ -13,7 +14,7 @@ const H2 = styled.h2`
             margin-bottom : ${props => props.theme.largeViewport.margin}
         }
 
-    @media (max-width : ${props => props.theme.mediumViewport.size}) {
+    @media (min-width : ${props => props.theme.mediumViewport.minSize}) and (max-width : ${props => props.theme.mediumViewport.maxSize}) {
         margin-bottom : ${props => props.theme.mediumViewport.margin}
     }
 

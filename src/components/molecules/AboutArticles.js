@@ -17,7 +17,7 @@ export default function AboutArticles() {
             </TextBox>
             <TextBox>
                 <H2>{textData.aboutArticles[2].heading}</H2>
-                <P>{textData.aboutArticles[2].text}</P>
+                <P last>{textData.aboutArticles[2].text}</P>
                 {/* pass "last" prop it in the last text tag
                 (easier that :last-child) if you don't want 
                 margin in the last text tag*/}

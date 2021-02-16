@@ -10,7 +10,7 @@ const BoxAroundTypeform = styled.div`
                 margin-bottom : ${props => props.theme.largeViewport.margin}
         }
 
-        @media (max-width : ${props => props.theme.mediumViewport.size}) {
+        @media (min-width : ${props => props.theme.mediumViewport.minSize}) and (max-width : ${props => props.theme.mediumViewport.maxSize}) {
                 margin-bottom : ${props => props.theme.mediumViewport.margin}
         }
 
@@ -38,7 +38,7 @@ const FlexDiv = styled.div`
         justify-content : space-between 
     }
 
-    @media (max-width : ${props => props.theme.mediumViewport.size}) {
+    @media (min-width : ${props => props.theme.mediumViewport.minSize}) and (max-width : ${props => props.theme.mediumViewport.maxSize}) {
         flex-direction : column-reverse
     }
 
@@ -53,7 +53,7 @@ const FlexSection = styled.section`
         flex-basis : 47%
     }
 
-    @media (max-width : ${props => props.theme.mediumViewport.size}) {
+    @media (min-width : ${props => props.theme.mediumViewport.minSize}) and (max-width : ${props => props.theme.mediumViewport.maxSize}) {
         :last-child {
             margin-bottom : ${props => props.theme.mediumViewport.margin}
         }
@@ -67,7 +67,7 @@ const FlexSection = styled.section`
 const TypeformEmbedInfotext = () => {
     return (
         <BoxAroundTypeform>
-            <H2 last>
+            <H2>
                 {textData.h2TextAboveRegistration}
             </H2>
             <FlexDiv>
