@@ -12,8 +12,8 @@ const About = () => {
     return (
         <div>
             <MetaDecorator
-             description='Here is About Page'
-             title='My About Page'
+             description='About'
+             title='About • MeCademy'
              />
             <AboutHeroImg url={textData.aboutHeroImg}/>
             <MainContentWrapper>
