@@ -1,4 +1,3 @@
-import StyledDiv from '../atoms/StyledDiv';
 import { textData } from '../../data/textData';
 import {
     Accordion,
@@ -8,10 +7,11 @@ import {
     AccordionItemPanel,
 } from 'react-accessible-accordion';
 import './accordion.css';
+import ComponentWrapper from '../atoms/ComponentWrapper';
 
 export default function AboutAccordion() {
     return (
-        <StyledDiv width={"80%"}>
+        <ComponentWrapper>
             <Accordion
                 allowMultipleExpanded
                 allowZeroExpanded
@@ -31,7 +31,7 @@ export default function AboutAccordion() {
                 </AccordionItem>
                 ))}
             </Accordion>
-        </StyledDiv>
+        </ComponentWrapper>
     )
 }
 

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const HeroImg = styled.img`
     margin-top: -55px;
-    margin-bottom : ${props => props.theme.largeviewport.margin};
+    margin-bottom : ${props => props.theme.largeViewport.margin};
     height : 100px;
     width : 100%;
     position : relative;

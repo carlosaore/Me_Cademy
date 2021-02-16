@@ -1,24 +1,25 @@
 import TextBox from '../atoms/TextBox';
-import H1 from '../atoms/H1';
+import H2 from '../atoms/H2';
 import P from '../atoms/P';
 import { textData } from '../../data/textData';
+import ComponentWrapper from '../atoms/ComponentWrapper';
 
 export default function AboutArticles() {
     return (
-        <>
+        <ComponentWrapper>
             <TextBox>
-                <H1>{textData.aboutArticles[0].heading}</H1>
+                <H2>{textData.aboutArticles[0].heading}</H2>
                 <P>{textData.aboutArticles[0].text}</P>
             </TextBox>
             <TextBox>
-                <H1>{textData.aboutArticles[1].heading}</H1>
+                <H2>{textData.aboutArticles[1].heading}</H2>
                 <P>{textData.aboutArticles[1].text}</P>
             </TextBox>
             <TextBox>
-                <H1>{textData.aboutArticles[2].heading}</H1>
-                <P>{textData.aboutArticles[2].text}</P>
+                <H2>{textData.aboutArticles[2].heading}</H2>
+                <P last>{textData.aboutArticles[2].text}</P> {/* put it in the last text tag (easier that :last-child) */}
             </TextBox>
-        </>
+        </ComponentWrapper>
     )
 }
 
