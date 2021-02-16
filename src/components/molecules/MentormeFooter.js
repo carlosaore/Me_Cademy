@@ -18,7 +18,7 @@ export default function MentormeFooter() {
                                 <Li><Link to='/About'>About</Link></Li>
                                 <Li><Link to='/Registration'>Registration</Link></Li>
                                 <Li><Link to='/Coaches'>Coaches</Link></Li>
-                                <Li><Link to='/Program'>Program</Link></Li>
+                                <Li><Link to='/Program'>Programm</Link></Li>
                             </ul>
                     </FooterWidgets>
                     <FooterWidgets>

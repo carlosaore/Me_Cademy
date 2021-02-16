@@ -21,7 +21,13 @@ const P = styled.p`
 
     ${props => props.last &&
         css`
-            margin-bottom : 0px !important
+            margin-bottom : 0px !important;
+        `
+    }
+
+    ${props => props.small &&
+        css`
+            font-size : 70%;
         `
     }
 `

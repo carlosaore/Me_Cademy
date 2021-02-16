@@ -12,8 +12,8 @@ const Home = () => {
     return (
         <div>
              <MetaDecorator
-             description='Here is Home Page'
-             title='My Home Page'
+             description='Home'
+             title='MeCademy'
              />
             <HomeHeroImage />
 

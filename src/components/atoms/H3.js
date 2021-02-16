@@ -33,12 +33,15 @@ const H3 = styled.h3`
 
     ${props => props.last &&
         css`
-            margin-bottom : 0px !!important
+            margin-bottom : 0px !important;
         `
     }
 
-
-
+    ${props => props.small &&
+        css`
+            font-size : 100%;
+        `
+    }
 `
 
 export default H3;

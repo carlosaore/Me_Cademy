@@ -7,11 +7,12 @@ import {
     AccordionItemButton,
     AccordionItemPanel,
 } from 'react-accessible-accordion';
+import P from '../atoms/P';
 import './accordion.css';
 
 export default function CoachesAccordion() {
     return (
-        <StyledDiv width={"80%"}>
+        <StyledDiv>
             <Accordion
                 allowMultipleExpanded
                 allowZeroExpanded
@@ -24,9 +25,9 @@ export default function CoachesAccordion() {
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                        <p>
+                        <P last>
                             {item.panel}
-                        </p>
+                        </P>
                     </AccordionItemPanel>
                 </AccordionItem>
                 ))}
