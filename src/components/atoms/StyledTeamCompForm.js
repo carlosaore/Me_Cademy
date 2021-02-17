@@ -18,15 +18,14 @@ margin-bottom: 50px;
     display: flex;
     }
 
-img {
-    width: 520px;
+.img {
+    position: relative;
     height: 400px;
     object-fit: cover;
     }
 
 .text {
     position: relative;
-    width: 520px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -50,14 +49,12 @@ img {
     }
 
 .img2, .img3 {
-    width: 260px;
     height: 250px;
     object-fit: cover;
     }
 
 .text2, .text3 {
     position: relative;
-    width: 260px;
     height: 250px;
     background-color: ${props => props.theme.colors.meCademyLightTeal};
     font-size: 12px;
@@ -65,7 +62,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 30px 0 30px;
+    padding: 0 12px 0 12px;
     color : ${props => props.theme.colors.meCademyTextGrey}
     }      
 
@@ -80,8 +77,13 @@ img {
     border-bottom: solid 15px transparent;
     border-top: solid 15px transparent;
     }
+@media screen and (max-width: 1290px){
+    .text2, .text3 {
+        font-size: 11px;
+    }
+    }
 
-@media screen and (max-width: 1039px){
+@media screen and (max-width: 1250px){
 
     .row1 {
         display: flex;
@@ -98,11 +100,11 @@ img {
         align-items: center;
     }
 
-    .text2, .text3{
-        padding: 0 30px 0 30px;
+    .text2, .text3 {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        font-size: 12px;
     }
 
     .text:after {
@@ -110,18 +112,14 @@ img {
         }
    }
 
-   @media screen and (max-width: 539px){
-        img {
+   @media screen and (max-width: 651px){
+        .img {
         width: 100%;
-        height: 400px;
-        padding: 0 5px 0 5px;
         }
 
         .text {
-        width: auto;
-        height: 400px;
+        width: 100%;
         padding: 0 30px 0 30px;
-        margin: 0 5px 0 5px;
         } 
 
         .text:after, .text2:after, .text3:after {
@@ -131,6 +129,10 @@ img {
         .row2, .row3 {
         display: flex;
         flex-direction: column; 
+    }
+
+    .text2, .text3 {
+        font-size: 14px;
     }
     }`
 
