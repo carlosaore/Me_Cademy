@@ -1,9 +1,9 @@
 import React from 'react';
 import MetaDecorator from '../metadecorator/MetaDecorator';
-import CoachesArticle from '../molecules/CoachesArticle';
-import Quote from '../../components/molecules/Quote';
 import ProgrammHeroImg from '../molecules/ProgrammHeroImg';
 import MainContentWrapper from '../atoms/MainContentWrapper';
+import ProgrammArticles from '../molecules/ProgrammArticles';
+import ProgrammAccordion from '../molecules/ProgrammAccordion';
 
 const Program = () => {
     return (
@@ -14,10 +14,8 @@ const Program = () => {
             />
             <ProgrammHeroImg />
             <MainContentWrapper>
-                <Quote />
-                <CoachesArticle />
-                <CoachesArticle />
-                <CoachesArticle />
+                <ProgrammArticles />
+                <ProgrammAccordion />
             </MainContentWrapper>
         </div>
     )

@@ -143,8 +143,8 @@ export const textData = {
     ],
     coachesArticles : [
         {
-            heading : "Lorem ipsum dolor sit amet",
-            text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            heading : "none",
+            text : "In den nächsten acht Wochen erhältst du von uns eine Vielzahl an Wissen, Methoden und Trainingslektionen zum großen Thema Bewerbung. Durch den Methodenmix aus Selbststudium, moderierten Gruppenarbeiten und dem Einzelcoaching, erhältst du die Möglichkeit das Programm auf deine individuellen Bedürfnisse abgestimmt zu nutzen und dich selbst in den Fokus zu rücken. Besonders durch das Einzelcoaching und die moderierten Gruppen erhältst du den Raum, um dich auszutauschen, Fragen zu klären und deine ganz eigenen Themen zu platzieren."
         }
     ],
    
@@ -195,13 +195,22 @@ export const textData = {
            }
     ],
 
-    homeHeroImage : "",
-    homeHeroImage2 : "",
-    aboutHeroImage: "",
+    homeHeroImg : "images/Team-MentorMe-Website.jpg",
+    HomeQuote : "Mit der MeCademy bieten wir arbeitslosen Akademikerinnen Zugang zu einem Bewerbungsprogramm, bestehend aus Einzelcoaching, moderierte Gruppen und Bewerbungs-Know-How, welches Ihnen hilft sich auf dem Arbeitsmarkt erfolgreich zu positionieren",
+    
+    aboutHeroImg: "images/mentorinnen-erfahrung-website-header.jpg",
+    
     programmHeroImg : "images/HeaderBild-MentoringTools-1.jpg",
+    
     coachesHeroImg : "images/frau-vor-fuchsia-sofa.jpg",
-    registrationHeroImg : "",
-
+    
+    registrationHeroImg : "/images/picBoxAboveTypeform.png",
+    registrationQuote : "Sichere dir jetzt deinen Platz bei der MeCademy!",
+    picBoxAboveTypeform : "/images/picBoxAboveTypeform.png",
+    h3TextAboveRegistration : "Mit der „MeCademy“ finden ALG-beziehende Akademikerinnen in nur 2 Monaten gezielt in den Beruf zurück. Die Maßnahme wird von der Agentur für Arbeit bezahlt!",
+    pTextAboveRegistration : "Du bist Akademikerin und beziehst ALG? Du suchst einen Beruf, der dich erfüllt, deine Ziele ebnet und deine Potenziale ausschöpft? Melde dich jetzt unverbindlich für die ,,MeCademy – Erfolgreich bewerben als Akademikerin“ an! Wir schicken dir alle Infos per Mail zu: Dein Gewinn durch die 8-wöchige MeCademy, Starttermine, Inhalte und wie die Agentur für Arbeit deine Teilnahmekosten übernimmt. Die Maßnahme hilft dir, deinen Traumberuf und einen Top-Arbeitgeber zu finden, die Bewerbungsphase zum Erfolg zu bringen und dich als Expertin zu positionieren. Erreiche mit unserer Beratung und in Gesprächen mit erfahrenen Coaches, welchen Beruf du willst und wie du ihn bekommst!",
+    h3SalmonTextAboveRegistration : "Melde dich hier an! Wir mailen dir die Infos.",
+    
     testimonialData: [
         {
             name: "Nadine Schultz",
@@ -263,53 +272,6 @@ export const textData = {
             description: "Ich habe viel Unterstützung in meiner weiteren Karriereplanung bekommen und jeden Rat von meiner erfahrenen Mentorin gerne aufgenommen. Zudem habe ich als Untersützerin bei sechs MentorMe-Events bzw. Trainings von dem 35% Discount auf den Menteebeitrag profitiert und  konnte so weniger zahlen.",
             urls: "/images/Cayaprill.png"
         },
-        {
-            name: "Dara Kossok-Spieß",
-            title: "Referentin Digitalisierung",
-            description: "Was ich bei MentorMe bekommen habe, in den drei (!) Jahren, in denen ich Mentee war: erfahrene Top-Management Mentor*innen von Unternehmen wie Apple und Weber Shandwick, Begleitung bei Fragen rund um den ersten Job, Kennenlernen neuer Bereiche, Vernetzung mit anderen Mentees und: den Kontakt zu meinem jetzigen Arbeitgeber!",
-            urls: "/images/DaraKossokskewer.png"
-        },
-        {
-            name: "Lucy Demers",
-            title: "Student",
-            description: "Von MentorMe nehme ich ein riesiges Netzwerk toller, unterstützender Menschen (Mentor*innen und Mentees) und Kontakte in unterschiedlichste Branchen und Bereiche, viele neue Perspektiven auf Arbeit & Job sowie wertvolle Ideen für meine persönliche berufliche Zukunft mit. Ich bin froh, dass ich mich entschlossen habe, Mentee bei MentorMe zu werden.",
-            urls: "/images/LucyDemers.png"
-        },
-        {
-            name: "Marie Huber",
-            title: "Projektleiterin Wissenschaft",
-            description: "Ich war im 2. Programmjahr Mentee bei MentorMe und mir hat das Konzept, die Idee und die Umsetzung so gut gefallen, dass ich nun selbst als Mentorin junge Frauen unterstütze, wie sie von der Wissenschaft in die Praxis kommen. Und, ich unterstütze Mentees, die Mütter sind, in ihren Fragen rund um Vereinbareit 'Kind & Karriere'. Denn ja, es ist möglich!",
-            urls: "/images/MarieHuber.png"
-        },
-        {
-            name: "Esther-Maria Rohde",
-            title: "Studentische Hilfskraft",
-            description: "Ich habe durch MentorMe Menschen kennengelernt, die mir zeigten, dass der eigene Weg der richtige ist und man alles schafft, wenn man daran arbeitet. Workshops haben mich sicherer gemacht, die Networkingevents waren hervorragend organisiert. Meine Mentorin Kate gab mir Denkanstöße und hat mir Ängste genommen.",
-            urls: "/images/Esther-MariaRohde.png"
-        },
-        {
-            name: "Dr. Anna-Maria Beck",
-            title: "Coach",
-            description: "Ich habe ich einen ganz tollen Mentor erhalten! Er ist Co-Gründer eines Unternehmens in einem Bereich, der meinem ähnelt und konnte mich deshalb perfekt auf meinem eigenen Weg in die Selbstständigkeit und in das Gründertum als Coach begleiten, motivieren, bestärken und beraten. Nun leite ich selbst die Gruppe der Doktorandinnen bei MentorMe!",
-            urls: "/images/DrAnna-MariaBeck.png"
-        },
-        {
-            name: "Juliane Drews",
-            title: "Economic Coordinator",
-            description: "Auch wenn ich nicht zu allen MentorMe-Event und Trainings kommen konnte, so hat mich doch das Mentoring und die Vielzahl & Vielfalt der Networkingevents und der Trainings überzeugt. Ich kann dieses Programm allen Frauen empfehlen, denen es an guten Sparringpartner*innen fehlt und die von den tollen Kontakten zu Arbeitgebern und Berufserfahrenen profitieren wollen!",
-            urls: "/images/JulianeDrews.png"
-        },
-        {
-            name: "Sarah van Bentum",
-            title: "Coordinator World Assembly",
-            description: "Die Vielfalt des Programms aus persönlichem Mentoring, Trainings und Netzwerk-Events mit spannenden und erfolgreichen Menschen, dem Austausch mit dem wunderbaren MentorMe-Team und den anderen Mentees, die sich in einer ähnlichen Lebenslage befanden, hat mich auf unterschiedliche Art und Weise bereichert. Auch als Mentee-Alumni profitiere ich!",
-            urls: "/images/SarahvanBentum.png"
-        },
+        
     ],
-
-    picBoxAboveTypeform : "/images/picBoxAboveTypeform.png",
-    registrationQuote : "Sichere dir jetzt deinen Platz bei der MeCademy!",
-    h2TextAboveRegistration : "Mit der „MeCademy“ finden ALG-beziehende Akademikerinnen in nur 2 Monaten gezielt in den Beruf zurück. Die Maßnahme wird von der Agentur für Arbeit bezahlt!",
-    pTextAboveRegistration : "Du bist Akademikerin und beziehst ALG? Du suchst einen Beruf, der dich erfüllt, deine Ziele ebnet und deine Potenziale ausschöpft? Melde dich jetzt unverbindlich für die ,,MeCademy – Erfolgreich bewerben als Akademikerin“ an! Wir schicken dir alle Infos per Mail zu: Dein Gewinn durch die 8-wöchige MeCademy, Starttermine, Inhalte und wie die Agentur für Arbeit deine Teilnahmekosten übernimmt. Die Maßnahme hilft dir, deinen Traumberuf und einen Top-Arbeitgeber zu finden, die Bewerbungsphase zum Erfolg zu bringen und dich als Expertin zu positionieren. Erreiche mit unserer Beratung und in Gesprächen mit erfahrenen Coaches, welchen Beruf du willst und wie du ihn bekommst!",
-    h3TextAboveRegistration : "Melde dich hier an! Wir mailen dir die Infos."
 }

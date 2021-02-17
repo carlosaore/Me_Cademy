@@ -17,20 +17,39 @@ export default function CoachesAccordion() {
                 allowMultipleExpanded
                 allowZeroExpanded
             >
-                {textData.coachesAccordion.map((item, index) => (
-                    <AccordionItem key={index}>
+                <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            {item.heading}
+                            KANN ich meinen individuellen Coach auswählen und ggf. wechseln? 
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                        <P last>
-                            {item.panel}
+                        <P>
+                            Bei deinem individuellen 8-wöchigen Einzelcoaching stellen wir den Coach, basierend auf dem personal „Fit“ und der Verfügbarkeit unserer Coaches. Wir setzen bewusst auf nur erfahrene.
+                        </P>
+                        <P>
+                            Coaches! Gibt es hier trotzdem persönliche Differenzen, werden wir dir einen anderen Coach zuweisen.
+                        </P>
+                        <P>
+                            Hast du einen eigenen Coach, den du nutzen möchtest? Dann kann dein Coach Kontakt mit uns aufnehmen und wir nehmen ihn/sie gerne in unseren Pool auf.
                         </P>
                     </AccordionItemPanel>
                 </AccordionItem>
-                ))}
+                <AccordionItem>
+                    <AccordionItemHeading>
+                        <AccordionItemButton>
+                            WELCHE Voraussetzungen müssen MeCademy-Coaches haben? 
+                        </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+                        <P>
+                            All unsere Coaches haben eine Ausbildung zum Coach hinter sich. Die meisten sind zudem seit Jahren als Coaches tätig. So müssen sie, bevor sie in unseren Coaches-Pool aufgenommen werden, ihre Qualifikationen und Zertifikate bei uns einreichen.
+                        </P>
+                        <P>
+                            Hast du einen eigenen Coach, den du nutzen möchtest? Dann kann dein Coach Kontakt mit uns aufnehmen und wir nehmen ihn/sie gerne in unseren Pool auf.
+                        </P>
+                    </AccordionItemPanel>
+                </AccordionItem>
             </Accordion>
         </StyledDiv>
     )

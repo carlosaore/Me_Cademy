@@ -8,7 +8,9 @@ const H2 = styled.h2`
                 ? props.theme.colors.light
                     : props.salmon
                         ? props.theme.colors.meCademySalmon
-                        : props.theme.colors.meCademyTextGrey};
+                        : props.teal
+                            ? props.theme.colors.meCademyTeal
+                            : props.theme.colors.meCademyTextGrey};
 
     @media (min-width : ${props => props.theme.largeViewport.size}) {
             margin-bottom : ${props => props.theme.largeViewport.margin}
@@ -27,6 +29,7 @@ const H2 = styled.h2`
             margin-bottom : 0px !important
         `
     }
+
 `
 
 export default H2;

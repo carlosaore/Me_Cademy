@@ -1,9 +1,9 @@
 import React from 'react'
 import MetaDecorator from '../metadecorator/MetaDecorator';
 import TypeformEmbedInfotext from '../molecules/TypeformEmbedInfotext';
-import PicBoxAboveTypeform from '../atoms/PicBoxAboveTypeform';
 import RegHeroImg from '../molecules/RegistrationHeroImg'
 import MainContentWrapper from '../atoms/MainContentWrapper';
+import RegistrationQuote from '../molecules/RegistrationQuote';
 
 const Registration = () => {
     return (
@@ -12,9 +12,9 @@ const Registration = () => {
                 description='Anmeldung'
                 title='Anmeldung • MeCademy'
             />
-            <RegHeroImg />  {/* This may have to go, doesn't look right*/}
-            <PicBoxAboveTypeform />
+            <RegHeroImg />
             <MainContentWrapper>
+                <RegistrationQuote />
                 <TypeformEmbedInfotext />
             </MainContentWrapper>
         </div>
