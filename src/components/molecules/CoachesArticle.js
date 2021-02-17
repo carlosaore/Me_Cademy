@@ -1,12 +1,12 @@
 import TextBox from '../atoms/TextBox';
-import H1 from '../atoms/H1';
+import H2 from '../atoms/H2';
 import P from '../atoms/P';
 import { textData } from '../../data/textData';
 
 export default function CoachesArticle() {
     return (
         <TextBox>
-            <H1>{textData.coachesArticles[0].heading}</H1>
+            <H2>{textData.coachesArticles[0].heading}</H2>
             <P>{textData.coachesArticles[0].text}</P>
         </TextBox>
     )

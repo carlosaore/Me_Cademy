@@ -33,7 +33,8 @@ img {
     text-align: center;
     justify-content: center;
     padding: 0 30px 0 30px;
-    background-color: #f5f5f5;
+    background-color: ${props => props.theme.colors.meCademyLightGrey};
+    color: ${props => props.theme.colors.meCademyTextGrey}
     }   
 
 .text:after {
@@ -58,13 +59,14 @@ img {
     position: relative;
     width: 260px;
     height: 250px;
-    background-color: #cbf1f1;
+    background-color: ${props => props.theme.colors.meCademyLightTeal};
     font-size: 12px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 30px 0 30px;
+    color : ${props => props.theme.colors.meCademyTextGrey}
     }      
 
 .text2:after, .text3:after {
@@ -74,7 +76,7 @@ img {
     content: '';
     width: 0;
     height: 0;
-    border-right: solid 15px #cbf1f1;
+    border-right: solid 15px ${props => props.theme.colors.meCademyLightTeal};
     border-bottom: solid 15px transparent;
     border-top: solid 15px transparent;
     }

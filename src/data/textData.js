@@ -304,8 +304,12 @@ export const textData = {
             title: "Coordinator World Assembly",
             description: "Die Vielfalt des Programms aus persönlichem Mentoring, Trainings und Netzwerk-Events mit spannenden und erfolgreichen Menschen, dem Austausch mit dem wunderbaren MentorMe-Team und den anderen Mentees, die sich in einer ähnlichen Lebenslage befanden, hat mich auf unterschiedliche Art und Weise bereichert. Auch als Mentee-Alumni profitiere ich!",
             urls: "/images/SarahvanBentum.png"
-        }
-
+        },
     ],
 
+    picBoxAboveTypeform : "/images/picBoxAboveTypeform.png",
+    registrationQuote : "Sichere dir jetzt deinen Platz bei der MeCademy!",
+    h2TextAboveRegistration : "Mit der „MeCademy“ finden ALG-beziehende Akademikerinnen in nur 2 Monaten gezielt in den Beruf zurück. Die Maßnahme wird von der Agentur für Arbeit bezahlt!",
+    pTextAboveRegistration : "Du bist Akademikerin und beziehst ALG? Du suchst einen Beruf, der dich erfüllt, deine Ziele ebnet und deine Potenziale ausschöpft? Melde dich jetzt unverbindlich für die ,,MeCademy – Erfolgreich bewerben als Akademikerin“ an! Wir schicken dir alle Infos per Mail zu: Dein Gewinn durch die 8-wöchige MeCademy, Starttermine, Inhalte und wie die Agentur für Arbeit deine Teilnahmekosten übernimmt. Die Maßnahme hilft dir, deinen Traumberuf und einen Top-Arbeitgeber zu finden, die Bewerbungsphase zum Erfolg zu bringen und dich als Expertin zu positionieren. Erreiche mit unserer Beratung und in Gesprächen mit erfahrenen Coaches, welchen Beruf du willst und wie du ihn bekommst!",
+    h3TextAboveRegistration : "Melde dich hier an! Wir mailen dir die Infos."
 }

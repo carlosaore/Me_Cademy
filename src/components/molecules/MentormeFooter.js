@@ -18,7 +18,7 @@ export default function MentormeFooter() {
                                 <Li><Link to='/About'>About</Link></Li>
                                 <Li><Link to='/Registration'>Registration</Link></Li>
                                 <Li><Link to='/Coaches'>Coaches</Link></Li>
-                                <Li><Link to='/Program'>Program</Link></Li>
+                                <Li><Link to='/Program'>Programm</Link></Li>
                             </ul>
                     </FooterWidgets>
                     <FooterWidgets>
@@ -32,7 +32,7 @@ export default function MentormeFooter() {
                             <SocialMediaIcon src="icons/twitter-logo.png" alt="twitter"/>
                         </a>
                         <a href="https://www.linkedin.com/company/mentorme/">
-                            <SocialMediaIcon src="icons/linkedin-logo-1.png" alt="linkedin" />
+                            <SocialMediaIcon src="icons/linkedin-logo.png" alt="linkedin" />
                         </a>
                     </FooterWidgets>
                 </FooterWidget>

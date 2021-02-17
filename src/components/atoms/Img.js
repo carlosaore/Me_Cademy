@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-const Img = styled.img`
-    margin-bottom : 5%;
+const CarouselImg = styled.img`
     width : 100%;
+    margin-bottom : 5%;
 `
 
-export default Img;
+export default CarouselImg;

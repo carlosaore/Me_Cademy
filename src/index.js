@@ -12,6 +12,7 @@ ReactDOM.render(
     <MyContextProvider>
       <BrowserRouter>
         <Theme >
+          <title>MeCademy</title>
           <GlobalStyle />
           <App />
         </Theme>

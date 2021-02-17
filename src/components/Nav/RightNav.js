@@ -150,13 +150,13 @@ const RightNav = () => {
 
   return (
     <>
-    <LogoDiv><Link to='/' onClick={()=>handleClickOff()}><Logo src="./images/mecademy logo placeholder.png" /></Link></LogoDiv>
+    <LogoDiv><Link to='/' onClick={()=>handleClickOff()}><Logo src="./images/mecademy Logo Kopie navbar reexported.png" /></Link></LogoDiv>
     <Ul open={open}  isHover={context.hover}>
       <li className='reg_btn'>Registration<i class="fas fa-arrow-right"></i></li>
       <li><Link to='/About' onClick={()=>handleClick()}>About</Link></li>
       <li><Link to='/Registration' onClick={()=>handleClick()}>Registration</Link></li>
       <li><Link to='/Coaches' onClick={()=>handleClick()}>Coaches</Link></li>
-      <li><Link to='/Program' onClick={()=>handleClick()}>Program</Link></li>
+      <li><Link to='/Program' onClick={()=>handleClick()}>Programm</Link></li>
      
     </Ul>
     <RegBtn open={open} isHover={context.hover}>Registration</RegBtn>

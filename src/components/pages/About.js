@@ -3,22 +3,25 @@ import MetaDecorator from '../metadecorator/MetaDecorator';
 import AboutAccordion from '../molecules/AboutAccordion';
 import AboutTeam from '../molecules/AboutTeam';
 import AboutArticles from '../molecules/AboutArticles';
-import Numb_steps from '../organism/Numb_steps';
+import NumbSteps from '../organism/NumbSteps';
 import { textData } from '../../data/textData';
 import AboutHeroImg from '../molecules/AboutHeroImg';
+import MainContentWrapper from "../atoms/MainContentWrapper";
 
 const About = () => {
     return (
         <div>
             <MetaDecorator
-             description='Here is About Page'
-             title='My About Page'
+             description='About'
+             title='About • MeCademy'
              />
             <AboutHeroImg url={textData.aboutHeroImg}/>
-            <Numb_steps/>
-            <AboutArticles />
-            <AboutAccordion />
-            <AboutTeam />
+            <MainContentWrapper>
+                <NumbSteps/>
+                <AboutArticles />
+                <AboutAccordion />
+                <AboutTeam />
+            </MainContentWrapper>
         </div>
     )
 }

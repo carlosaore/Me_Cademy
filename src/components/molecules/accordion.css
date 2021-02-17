@@ -1,6 +1,7 @@
 .accordion {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 2px;
+    margin-bottom: 30px;
 }
 
 .accordion__item + .accordion__item {
@@ -8,8 +9,8 @@
 }
 
 .accordion__button {
-    background-color: #f4f4f4;
-    color: #444;
+    background-color: #f7f7f7;
+    color: #5f737e;
     cursor: pointer;
     padding: 18px;
     text-align: left;

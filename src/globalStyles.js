@@ -11,6 +11,40 @@ const GlobalStyle = createGlobalStyle`
         font-family : muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
     }
 
+    p,
+    span,
+    a,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Muli;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 1.3em;
+    }
+
+    h2 {
+        padding-bottom: 30px;
+    }
+
+    h3 {
+        margin-top: 20px;
+    }
+
+    a:hover {
+        cursor: pointer !important;
+    }
+
+
     .fa-twitter:hover{
     color:#1DA1F2;
     }
