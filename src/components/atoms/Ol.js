@@ -31,6 +31,13 @@ const Ol = styled.ol`
             font-size : 70%;
         `
     }
+
+    a {
+        text-decoration : none;
+        font-weight : bold;
+        color : ${props => props.theme.colors.meCademySalmon}
+    }
+
 `
 
 export default Ol;
