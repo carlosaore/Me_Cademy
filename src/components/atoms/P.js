@@ -49,6 +49,23 @@ const P = styled.p`
         `
     }
 
+    ${props => props.lastCenter &&
+        css`
+            text-align-last : center;
+        `
+    }
+
+    ${props => props.alignCenter &&
+        css`
+            text-align : center;
+        `
+    }
+
+    ${props => props.bold &&
+        css`
+            font-weight : bold;
+        `
+    }
 
 `
 
