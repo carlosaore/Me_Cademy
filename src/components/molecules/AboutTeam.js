@@ -30,8 +30,8 @@ const AboutTeam = () => {
                     <div className="text2">
                         <h1>Stefanie Wey</h1>
                         <h3>Head of MeCademy</h3>
-                        <P last justify lastCenter>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        <P last justify lastCenter hyphensAuto>
+                            Stefanie ist diplomierte Personalmanagerin und Pflegewirtin. Sie hat in den vergangenen Jahren im Personalbereich und zuletzt als Akademieleitung gearbeitet. Darüber hinaus ist sie als Business Coach und Consultant tätig und seit 2019 Mentorin bei MentorMe. Nun leitet sie die MeCademy, die Frauen auf ihrem Karriereweg mit einem digitalen Bildungsangebot unterstützt.
                         </P>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ const AboutTeam = () => {
                     <div className="text3">
                         <h1>Karin Heinzl</h1>
                         <h3>Geschäftsführung</h3>
-                        <P last justify lastCenter>
+                        <P last justify lastCenter hyphensAuto>
                             Karin hat Kommunikation und Politik sowie Political Management studiert. Nach Erfahrung in der Erwachsenenbildung, Politik sowie Entwickungszusammenarbeit rund um Women Empowerment, hat Karin 2015 MentorMe gegründet. Seit Herbst 2018 ist Karin Vorstandsmitglied der Deutschen Gesellschaft für Mentoring.
                         </P>
                     </div>

@@ -50,7 +50,9 @@ const StyledSliderContentForm = styled.div `
 
 .slide-text {
     text-align: center;
-    line-height: 0.95;
+    line-height: 1;
+    font-size : 0.9em;
+    font-size : 0.9em;
     margin: 10px 30px 0 30px;
 }
 `
