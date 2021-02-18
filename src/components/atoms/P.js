@@ -49,6 +49,11 @@ const P = styled.p`
         `
     }
 
+    ${props => props.hyphensAuto &&
+        css`
+            hyphens: auto;
+        `
+    }
 
 `
 

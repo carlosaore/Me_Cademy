@@ -42,6 +42,12 @@ const H2 = styled.h2`
         `
     }
 
+    ${props => props.hyphensAuto &&
+        css`
+            hyphens: auto;
+        `
+    }
+
 `
 
 export default H2;

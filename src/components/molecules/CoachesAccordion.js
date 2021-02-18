@@ -24,10 +24,7 @@ export default function CoachesAccordion() {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <P>
-                            Bei deinem individuellen 8-wöchigen Einzelcoaching stellen wir den Coach, basierend auf dem personal „Fit“ und der Verfügbarkeit unserer Coaches. Wir setzen bewusst auf nur erfahrene.
-                        </P>
-                        <P>
-                            Coaches! Gibt es hier trotzdem persönliche Differenzen, werden wir dir einen anderen Coach zuweisen.
+                            Bei deinem individuellen 8-wöchigen Einzelcoaching stellen wir den Coach, basierend auf dem personal „Fit“ und der Verfügbarkeit unserer Coaches. Wir setzen bewusst auf nur erfahrene Coaches! Gibt es hier trotzdem persönliche Differenzen, werden wir dir einen anderen Coach zuweisen.
                         </P>
                         <P>
                             Hast du einen eigenen Coach, den du nutzen möchtest? Dann kann dein Coach Kontakt mit uns aufnehmen und wir nehmen ihn/sie gerne in unseren Pool auf.

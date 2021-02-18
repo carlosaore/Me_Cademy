@@ -48,7 +48,7 @@ class CoachesCarousel extends Component {
                             <TextDiv>
                                 <H3 small salmon last>{coach.name}</H3>
                                 <P small last justify lastCenter><strong>{coach.title}</strong></P>
-                                <P small last justify lastCenter>{coach.text}</P>
+                                <P small last justify lastCenter hyphensAuto>{coach.text}</P>
                             </TextDiv>   
                         </div>
                         ))}

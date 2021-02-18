@@ -5,6 +5,7 @@ import {
     AccordionItemButton,
     AccordionItemPanel,
 } from 'react-accessible-accordion';
+import { Link } from 'react-router-dom';
 import P from '../atoms/P';
 import Ul from '../atoms/Ul';
 import Ol from '../atoms/Ol';
@@ -55,10 +56,10 @@ export default function AboutAccordion() {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                         <Ol last>
-                            <li>Interessierte haben sich <b>hier</b> für die MeCademy angemeldet.</li>
+                            <li>Interessierte haben sich <Link to='/Registration'>hier</Link> für die MeCademy angemeldet.</li>
                             <li>Interessierte beantragen bei ihren Betreuern einen AVGS.</li>
                             <li>Interessierte erhalten von ihren Betreuern einen AVGS.</li>
-                            <li>Interessierte lösen den AVGS bei MentorMe <b>hier</b> ein.</li>
+                            <li>Interessierte lösen den AVGS bei MentorMe <a href="mailto:mecademy@mentorme-ngo.org">hier</a> ein.</li>
                         </Ol>
                     </AccordionItemPanel>
                 </AccordionItem>

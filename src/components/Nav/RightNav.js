@@ -22,6 +22,7 @@ const Ul = styled.ul`
   a{
     color: ${props => props.theme.colors.meCademyTextGrey};
     text-decoration : none;
+
   }
 
   @media (max-width: 1000px) {
