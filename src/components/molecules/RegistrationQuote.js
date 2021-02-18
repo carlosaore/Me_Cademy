@@ -6,7 +6,7 @@ import { textData } from '../../data/textData';
 const RegistrationQuote = () => {
     return (
         <QuoteFormWrapper>
-            <H2 last>
+            <H2 last justify lastCenter>
                 {textData.registrationQuote}
             </H2>
         </QuoteFormWrapper>

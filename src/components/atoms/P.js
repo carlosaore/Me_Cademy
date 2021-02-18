@@ -30,6 +30,26 @@ const P = styled.p`
             font-size : 70%;
         `
     }
+
+    ${props => props.left &&
+        css`
+            margin-left : ${props => props.left}em;
+        `
+    }
+
+    ${props => props.justify &&
+        css`
+            text-align : justify;
+        `
+    }
+
+    ${props => props.lastCenter &&
+        css`
+            text-align-last : center;
+        `
+    }
+
+
 `
 
 export default P;

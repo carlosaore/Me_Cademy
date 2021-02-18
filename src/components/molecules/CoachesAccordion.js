@@ -1,5 +1,4 @@
 import StyledDiv from '../atoms/StyledDiv';
-import { textData } from '../../data/textData';
 import {
     Accordion,
     AccordionItem,
@@ -20,7 +19,7 @@ export default function CoachesAccordion() {
                 <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            KANN ich meinen individuellen Coach auswählen und ggf. wechseln? 
+                            <P last left="2">KANN ich meinen individuellen Coach auswählen und ggf. wechseln?</P>
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -38,7 +37,7 @@ export default function CoachesAccordion() {
                 <AccordionItem>
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            WELCHE Voraussetzungen müssen MeCademy-Coaches haben? 
+                            <P last left="2">WELCHE Voraussetzungen müssen MeCademy-Coaches haben?</P>
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>

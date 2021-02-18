@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const HeroImg = styled.img`
-    margin-top: -55px;
+    margin-top: 80px;
     margin-bottom : 60px;
     background-position : 50%;
     position : relative;

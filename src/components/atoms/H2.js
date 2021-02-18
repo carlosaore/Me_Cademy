@@ -26,7 +26,19 @@ const H2 = styled.h2`
 
     ${props => props.last &&
         css`
-            margin-bottom : 0px !important
+            margin-bottom : 0px !important;
+        `
+    }
+
+    ${props => props.justify &&
+        css`
+            text-align : justify;
+        `
+    }
+
+    ${props => props.lastCenter &&
+        css`
+            text-align-last : center;
         `
     }
 

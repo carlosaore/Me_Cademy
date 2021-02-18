@@ -21,7 +21,7 @@ export default function AboutAccordion() {
                 <AccordionItem >
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            Für wen ist die MeCademy?
+                            <P last left="2">Für wen ist die MeCademy?</P>
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -36,7 +36,7 @@ export default function AboutAccordion() {
                 <AccordionItem >
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            Voraussetzung für die Finanzierung über den AVGS.
+                            <P last left="2">Voraussetzung für die Finanzierung über den AVGS</P>
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -50,7 +50,7 @@ export default function AboutAccordion() {
                 <AccordionItem >
                     <AccordionItemHeading>
                         <AccordionItemButton>
-                            Schritte zum Erhalt des AVGS für Interessierte
+                            <P last left="2">Schritte zum Erhalt des AVGS für Interessierte</P>
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>

@@ -16,16 +16,16 @@ export default function AboutArticles() {
                 </b></P>
                 <Ul>
                     <li>
-                        Beratung zu allen Schritten des Bewerbungsprozesses
+                        Beratung zu allen Schritten des Bewerbungsprozesses.
                     </li>
                     <li>
-                        Persönliche Begleitung von erfahrenen TOP-Coaches
+                        Persönliche Begleitung von erfahrenen TOP-Coaches.
                     </li>
                     <li>
-                        Moderierter Austausch & Feedback in Online-Gruppen
+                        Moderierter Austausch & Feedback in Online-Gruppen.
                     </li>
                     <li>
-                        Interaktive, praxisfokussierte, individualisierte Übungen
+                        Interaktive, praxisfokussierte, individualisierte Übungen.
                     </li>
                 </Ul>
                 <P last>

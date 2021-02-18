@@ -10,25 +10,18 @@ const Ul = styled.ul`
   width: 60%;
   flex-flow: row nowrap;
   justify-content: flex-start;
-  
  
   li {
-    padding: 18px 10px;
+    padding: 25px 25px;
     letter-spacing: 0.84px;
-    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-weight: bolder;
     height: 100%;
-    transition: 0.3s ease-in;
-
-    :hover{
-      background-color: rgba(249,244,241,1.00);
-      background-color: ${(props) => props.open  &&  'white'} ; 
-    }
+    transition: 0.3s ease-in; 
   }
   
   a{
-    color: ${(props)=> props.isHover ? 'black' : 'white'};
-    color: ${(props) => props.open  &&  'black'} ; 
-    
+    color: ${props => props.theme.colors.meCademyTextGrey};
+    text-decoration : none;
   }
 
   @media (max-width: 1000px) {
@@ -40,15 +33,13 @@ const Ul = styled.ul`
     top: 0;
     right: 0;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 80px;
+    padding-bottom: 80px;
     transition: transform 0.3s ease-in-out;
 
     li {
-      color: black;
-      height: 25px;
-      margin: 5px 15px;
+      margin: 0 auto 0 auto;
       padding-bottom:25px;
-      border-bottom: 5px solid rgba(249,244,241,1.00);
     }
   
   }
@@ -64,13 +55,13 @@ const Ul = styled.ul`
       display:block;
       height: 40px;
       background-color:#4B9FA5;
-     border-radius: 4px;
-     text-align: center;
-     padding-top: 6px;
-     margin-top:25px;
-     font-size: 19px;
-     color: white;
-     transition: background 0.5s ease;
+      border-radius: 4px;
+      text-align: center;
+      padding-top: 6px;
+      margin-top:25px;
+      font-size: 19px;
+      color: white;
+      transition: background 0.5s ease;
     }
 
     :hover{
@@ -89,25 +80,23 @@ const Ul = styled.ul`
 `;
 
 const Logo = styled.img`
-    width: 130px;
+    height: 43px;
 `;
 
 const LogoDiv =styled.div`
-width: 130px;
-height: 40px;
-margin: 10px auto 10px 70px;
+margin: auto auto auto 70px;
 
 
 @media (max-width: 1000px) {
-  margin: 10px auto 10px 70px;
+  margin: auto auto auto 70px;
 }
 
 @media (max-width: 768px) {
-  margin: 10px auto;
+  margin: auto auto;
   padding-left: 35px;
 }
 `
-
+/*
 const RegBtn = styled.button`
     cursor: pointer;
     width: 170px;
@@ -133,7 +122,7 @@ const RegBtn = styled.button`
       background-color:#4ccad4;
     }
 `;
-
+*/
 
 
 const RightNav = () => {
@@ -151,17 +140,28 @@ const RightNav = () => {
   return (
     <>
     <LogoDiv><Link to='/' onClick={()=>handleClickOff()}><Logo src="./images/mecademy Logo Kopie navbar reexported.png" /></Link></LogoDiv>
-    <Ul open={open}  isHover={context.hover}>
-      <li className='reg_btn'>Registration<i class="fas fa-arrow-right"></i></li>
+    <Ul open={open}  isHover={context.hover}> 
       <li><Link to='/About' onClick={()=>handleClick()}>About</Link></li>
-      <li><Link to='/Registration' onClick={()=>handleClick()}>Registration</Link></li>
-      <li><Link to='/Coaches' onClick={()=>handleClick()}>Coaches</Link></li>
       <li><Link to='/Program' onClick={()=>handleClick()}>Programm</Link></li>
-     
+      <li><Link to='/Coaches' onClick={()=>handleClick()}>Coaches</Link></li>
+      <li><Link to='/Registration' onClick={()=>handleClick()}>Registration</Link></li>
     </Ul>
-    <RegBtn open={open} isHover={context.hover}>Registration</RegBtn>
+    
     </>
   )
 }
 
 export default RightNav;
+
+//<RegBtn open={open} isHover={context.hover}>Registration</RegBtn>
+//<li className='reg_btn'>Registration<i class="fas fa-arrow-right"></i></li>
+
+//color: ${(props)=> props.isHover ? 'black' : 'white'};
+//color: ${(props) => props.open  &&  'black'} ;
+
+/*
+:hover{
+  background-color: rgba(249,244,241,1.00);
+  background-color: ${(props) => props.open  &&  'white'} ; 
+}
+*/

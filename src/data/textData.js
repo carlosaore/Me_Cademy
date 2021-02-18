@@ -2,8 +2,8 @@ export const textData = {
     coachesData : [
         {
             name : "Anna Hebbeln",
-            title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
+            title : "Coach & Sustainability Manager",
+            text : "Anna setzt sich für nachhaltige Entwicklung ein. Als Coach und als Mensch. Nach über 10 Jahren in Marketing & Werbung habt sie sich 2018 mit GOODISM selbständig gemacht und begleitet seitdem Menschen in beruflichen und persönlichen Veränderungsprozessen dabei, ihr Potenzial zu entfalten und die Welt von morgen zu gestalten.",
             image : "/images/Anna Hebbeln.jpeg"
         },
         {
@@ -14,8 +14,8 @@ export const textData = {
         },
         {
             name : "Birgit Nüchter",
-            title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
+            title : "Missing title, remove?",
+            text : "Birgit Nüchter ist zertifizierter Systemischer Business Coach (Hochschulzertifikat der Steinbeis Hochschule, Mitglied im dvct). Sie hat über 25 Jahre Erfahrung als Führungskraft in einem internationalen Großkonzern gesammelt. Als Coach unterstützt sie bei Themen wie Konfliktmanagement, Karriereplanung, Positionierung, Auftreten und mehr.",
             image: "/images/Birgit Nüchter.jpeg"
         },
         {
@@ -32,15 +32,15 @@ export const textData = {
         },
         {
             name : "Claudia Schmidtke",
-            title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
-            image: "/images/Claudia Schmidtke.jpeg"
+            title : "Missing title, remove?",
+            text : "Claudias Thema ist die potenzialorientierte Entwicklung von Menschen. Diese unterstützt sie als Führungskräftecoach in einem Digitalunternehmen und als selbständige Life & Business Coach. Claudia begleitet Menschen mit dem Wunsch nach beruflicher Neuorientierung, Arbeit mit Sinn und der Umsetzung von Lebensträumen.",
+            image: "images/Claudia-Schmidtke.jpg"
         },
         {
-            name : "Cornelia Lütge",
-            title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
-            image : "/images/Cornelia Lütge.jpeg"
+            name : "Cornelia Katinka Lütge",
+            title : "Career Coach / Mentorin",
+            text : "Cornelia ist seit 2007 Career Coach, war sechs Jahre Trainerin. Nach VWL-Studium und Karriere im internationalen Marketing, vermisst sie weder das Führen noch das Fliegen. Ihr Fokus liegt auf sinn- und werteorientierter Karriere- und Lebensgestaltung sowie dem Meistern von Dual Careers. Self Leadership is the key!",
+            image : "images/Cornelia Katinka Lütge.jpg"
         },
         {
             name : "Dr. Anja Schäfer",
@@ -81,8 +81,8 @@ export const textData = {
         {
             name : "Jana Jablonsky",
             title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
-            image : "/images/Jana Jablonsky.jpeg"
+            text : "Jana vereint als Coach und Mentorin Erfahrungen als Kommunikationsberaterin, Organisationsentwicklerin, Unternehmerin und Geschäftsführende Gesellschafterin der ideenmanufaktur GmbH. Als Expertin für Netzwerke und Verbindungen hat sie viele berufliche Herausforderungen und unternehmerische Situationen in den letzten 20 Jahren selbst oder in Beratungen erlebt.",
+            image : "/images/Jana Jablonski.png"
         },
         {
             name : "Jules Grant",
@@ -91,54 +91,76 @@ export const textData = {
             image: "/images/Jules Grant.jpeg"
         },
         {
-            name : "Martin Friedrich",
-            title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
+            name : "Dr. Martin Friedrich Consulting",
+            title : "In seiner Arbeit achtet Martin auf Details",
+            text : "In seiner Arbeit achtet Martin auf Details, liebt den regelmäßigen Perspektivwechsel, fragt nach dem Sinn und bietet Denkanstöße. Mit Zuversicht und viel Erfahrung strebt er nach dem Besten  in den Menschen, denen er begegnet und nach dem Besten in ihm selbst.",
             image: "/images/Martin Friedrich.jpeg"
         },
         {
-            name : "Susanne Schulz",
-            title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
-            image: "/images/Susanne Schulz.jpeg"
+            name : "Antje Susanne Schulz",
+            title : "Menschen arbeiten für Menschen!",
+            text : "Antje hat 25 Jahre Führungserfahrung in verschiedenen Bereichen gesammelt und eine Weiterbildung zum systemischen Coach und Trainerin absolviert. Deshalb brennt sie dafür Menschen weiter zu entwickeln, damit Sie erfolgreicher und glücklicher in ihrem Berufs- und Privatleben sind.",
+            image: "images/Antje Susanne Schulz.jpeg"
+        },
+        {
+            name : "Isa Grütering",
+            title : "Systemische Business & Personal Coachin",
+            text : "Isas große Leidenschaft ist es, Frauen zu motivieren, zu begleiten und zu stärken, in der Gründungsphase oder im nächsten Karriereschritt. Dabei schöpft sie aus 20 Jahren Berufserfahrung, als Angestellte in kleinen und großen Unternehmen und als Unternehmerin, Autorin und Coachin.",
+            image : "images/Isa Grütering.jpeg"
+        },
+        {
+            name : "Karen Schallert",
+            title : "Geschäftsführung HandicapUnlimited - Executive Mentoring & Coaching",
+            text : "Karen hat Amerikanistik, Neuere Englische Literatur und Erziehungswissenschaften studiert. Nach Erfahrungen bei der Deutsche Post DHL Group, McKinsey & Company arbeitete sie als Personalleiterin im internationalen Anlagenbau. Inzwischen unterstützt sie als Mentorin Menschen mit Handicap in beruflichen Belangen. Seit Herbst 2020 ist Karen Vorstandsmitglied der Deutschen Gesellschaft für Mentoring.",
+            image : "images/Karen Schallert.JPG"
+        },
+        {
+            name : "Nina Bartholmes",
+            title : "Missing, remove? also low-res img",
+            text : "Nina ist Diplom Volkswirtin und hat zuletzt als Führungskraft in einer internationalen Unternehmensberatung gearbeitet. Dort hat sie ihre Leidenschaft für die Themen Business Coaching und Empowerment von Teams gefunden. Sie ist ausgebildet in der Mind-Body-Medizin und hat sich letztes Jahr als Coach & Trainer selbständig gemacht.",
+            image : "images/Nina Bartholmes.jpeg"
+        },
+        {
+            name : "Senka Thomas",
+            title : "Missing, remove?",
+            text : "Senka ist Systemische Business Coach und zertifizierte Online-Coach mit mehr als 20 Jahren Erfahrung. Mehr Passion, mehr Power, mehr Purpose, um eine Karriere zu schaffen, die sich nicht nur lohnt, sondern nachhaltig belohnt und auf die eigenen Werte einzahlt. YOUR CHANGE. MY PASSION.",
+            image : "images/Senka Thomas.jpg"
+        },
+        {
+            name : "Alice Beigang",
+            title : "Missing, remove?",
+            text : "In ihrer Tätigkeit als systemische Coachin fokussiert Alice die Themen berufliche Neuorientierung und Female Empowerment. Sie begleitet Menschen dabei, ihren eigenbestimmten Weg zu finden und zu gehen. Die studierte Kulturwissenschaftlerin arbeitete als wissenschaftliche Mitarbeiterin für Bildung und Vermittlung im Hamburger Bahnhof – Museum für Gegenwart – Berlin.",
+            image : "images/Alice Beigang.jpg"
+        },
+        {
+            name : "Marie-Kristin Illigen",
+            title : "Führungskräfte- und Female Leadership Coach",
+            text : "Marie-Kristin hat Betriebswirtschaftslehre an der Universität zu Köln studiert. Sie war als Führungskraft in einer internationalen Strategieberatung sowie einem nationalen Telekommunikationskonzern tätig. Ihr Engagement-Schwerpunkt liegt vor allem im Bereich Female Empowerment. Seit 2018 begleitet Führungskräfte und Potentialträger als Coach und Trainer.",
+            image : "images/Marie-Kristin Illigen.jpg"
+        },
+        {
+            name : "Katharina Anna Klumpp",
+            title : "Coach & Trainerin",
+            text : "Katharina hat viele Jahre als Führungskraft Teams aufgebaut und entwickelt. Als Leadership Coach & Trainerin unterstützt sie junge Führungskräfte, sich zu echten Führungspersönlichkeiten zu entwickeln, die selbstbewusst und zielsicher ihre Teams führen - auch in herausfordernden Zeiten.",
+            image : "images/Katharina Anna Klumpp.jpg"
+        },
+        {
+            name : "Marion Linka-Mukbel",
+            title : "Missing, remove?",
+            text : "Marion ist studierte Personalbetriebswirtin und ausgebildeter Coach. Sie verfügt über langjährige Erfahrungen im Personalwesen und war lange als HR Business Partner in einem internationalen Umfeld tätig. Seit einigen Jahren unterstützt sie als Mentorin und Coach Menschen in Veränderungsprozessen.",
+            image : "images/Marion Linka-Mukbel.jpg"
+        },
+        {
+            name : "Katharina Glasing",
+            title : "Business Coach",
+            text : "Katharina hat Medienmanagement studiert und absolvierte eine Ausbildung zur Sozialversicherungsfachangestellten. Sie fühlt sich in der Medienlandschaft zuhause und war zuletzt im Marketing eines internationalen IT-Unternehmens tätig. Bei MentorMe ist Katharina seit 2020 ehrenamtliche Mentorin. Sie ist als Business Coach, Mentaltrainerin und wingwave Coach tätig und hat Erfahrungen in den Bereichen Burnoutprävention, Krisenbegleitung, Aufmerksamkeitsmanagement und Zukunftsgestaltung.",
+            image : "images/Katharina Glasing.jpg"
         }
     ],
     coachesAccordion : [
         {
             heading : "Look at that text! Would anyone use that?",
             panel : "Can you imagine that, the text of your next webpage?! If Trump Ipsum weren’t my own words, perhaps I’d be dating it. You're telling the enemy exactly what you're going to do. No wonder you've been fighting Lorem Ipsum your entire adult life. I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words."
-        },
-        {
-            heading : "We have so many things that we have to do better",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "I was going to say something extremely rough to Lorem Ipsum",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "Look at that text! Would anyone use that?",
-            panel : "Can you imagine that, the text of your next webpage?! If Trump Ipsum weren’t my own words, perhaps I’d be dating it. You're telling the enemy exactly what you're going to do. No wonder you've been fighting Lorem Ipsum your entire adult life. I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words."
-        },
-        {
-            heading : "We have so many things that we have to do better",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "I was going to say something extremely rough to Lorem Ipsum",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "Look at that text! Would anyone use that?",
-            panel : "Can you imagine that, the text of your next webpage?! If Trump Ipsum weren’t my own words, perhaps I’d be dating it. You're telling the enemy exactly what you're going to do. No wonder you've been fighting Lorem Ipsum your entire adult life. I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words."
-        },
-        {
-            heading : "We have so many things that we have to do better",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "I was going to say something extremely rough to Lorem Ipsum",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
         }
     ],
     coachesArticles : [
@@ -154,18 +176,6 @@ export const textData = {
             heading : "Look at that text! Would anyone use that?",
             panel : "Can you imagine that, the text of your next webpage?! If Trump Ipsum weren’t my own words, perhaps I’d be dating it. You're telling the enemy exactly what you're going to do. No wonder you've been fighting Lorem Ipsum your entire adult life. I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words."
         },
-        {
-            heading : "We have so many things that we have to do better",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "I was going to say something extremely rough to Lorem Ipsum",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "Look at that text! Would anyone use that?",
-            panel : "Can you imagine that, the text of your next webpage?! If Trump Ipsum weren’t my own words, perhaps I’d be dating it. You're telling the enemy exactly what you're going to do. No wonder you've been fighting Lorem Ipsum your entire adult life. I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words."
-        }
     ],
 
     

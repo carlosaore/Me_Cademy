@@ -14,9 +14,9 @@ const AboutTeam = () => {
                     alt="Girl loves t-shirt"/>
                     <div className="text">
                         <h1>Jane Doe</h1>
-                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <h3>None none</h3>
                         <p>
-                            There is only 2, remove or hide this one.
+                            If there is only 2 team members, remove or hide this one.
                         </p>
                     </div>
                     </div>
@@ -30,7 +30,7 @@ const AboutTeam = () => {
                     <div className="text2">
                         <h1>Stefanie Wey</h1>
                         <h3>Head of MeCademy</h3>
-                        <P last>
+                        <P last justify lastCenter>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </P>
                     </div>
@@ -44,7 +44,7 @@ const AboutTeam = () => {
                     <div className="text3">
                         <h1>Karin Heinzl</h1>
                         <h3>Geschäftsführung</h3>
-                        <P last>
+                        <P last justify lastCenter>
                             Karin hat Kommunikation und Politik sowie Political Management studiert. Nach Erfahrung in der Erwachsenenbildung, Politik sowie Entwickungszusammenarbeit rund um Women Empowerment, hat Karin 2015 MentorMe gegründet. Seit Herbst 2018 ist Karin Vorstandsmitglied der Deutschen Gesellschaft für Mentoring.
                         </P>
                     </div>
