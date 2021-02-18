@@ -59,6 +59,8 @@ const P = styled.p`
     ${props => props.bold &&
         css`
             font-weight : bold;
+        `
+    }
 
     ${props => props.hyphensAuto &&
         css`
