@@ -153,7 +153,7 @@ export const textData = {
         {
             name : "Katharina Glasing",
             title : "Business Coach",
-            text : "Katharina hat Medienmanagement studiert und absolvierte eine Ausbildung zur Sozialversicherungsfachangestellten. Sie fühlt sich in der Medienlandschaft zuhause und war zuletzt im Marketing eines internationalen IT-Unternehmens tätig. Bei MentorMe ist Katharina seit 2020 ehrenamtliche Mentorin. Sie ist als Business Coach, Mentaltrainerin und wingwave Coach tätig und hat Erfahrungen in den Bereichen Burnoutprävention, Krisenbegleitung, Aufmerksamkeitsmanagement und Zukunftsgestaltung.",
+            text : "Katharina hat Medienmanagement studiert und absolvierte eine Ausbildung zur Sozialversicherungs­­­­­­­­fachangestellten.­ Sie fühlt sich in der Medienlandschaft zuhause und war zuletzt im Marketing eines internationalen IT-Unternehmens tätig. Bei MentorMe ist Katharina seit 2020 ehrenamtliche Mentorin. Sie ist als Business Coach, Mentaltrainerin und wingwave Coach tätig und hat Erfahrungen in den Bereichen Burnoutprävention, Krisenbegleitung, Aufmerksamkeitsmanagement und Zukunftsgestaltung.",
             image : "images/Katharina Glasing.jpg"
         }
     ],
