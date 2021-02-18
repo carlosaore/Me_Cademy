@@ -49,9 +49,21 @@ const P = styled.p`
         `
     }
 
+
+    ${props => props.alignCenter &&
+        css`
+            text-align : center;
+        `
+    }
+
+    ${props => props.bold &&
+        css`
+            font-weight : bold;
+
     ${props => props.hyphensAuto &&
         css`
             hyphens: auto;
+
         `
     }
 
