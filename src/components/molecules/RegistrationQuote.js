@@ -3,14 +3,14 @@ import H2 from '../atoms/H2';
 import QuoteFormWrapper from '../atoms/QuoteFormWrapper';
 import { textData } from '../../data/textData';
 
-const HomeQuote = () => {
+const RegistrationQuote = () => {
     return (
         <QuoteFormWrapper>
             <H2 last justify lastCenter>
-                {textData.HomeQuote}
+                {textData.registrationQuote}
             </H2>
         </QuoteFormWrapper>
     )
 }
 
-export default HomeQuote;
+export default RegistrationQuote;

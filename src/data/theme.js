@@ -21,7 +21,7 @@ const theme = {
     },
     mediumViewport : {
         minSize : "768px",
-        maxSize : "999px",
+        maxSize : "1000px",
         padding : "30px",
         margin : "30px",
     },

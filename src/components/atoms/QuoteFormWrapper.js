@@ -1,23 +1,27 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 const QuoteFormWrapper = styled.div`
-    @media screen and (max-width: 870px){
-        P {
-        font-size: 1.5em;
-        margin: 0 20px 0 20px;
-    }}
+    padding : 2em;
+    margin-bottom : 60px;
+    
+    ${props => props.grey &&
+        css`
+            background: linear-gradient(180deg, #5f737bc4, #49585f);
+        `
+    }
 
-    @media screen and (max-width: 550px){
-        P {
-        font-size: 1.2em;
-        margin: 0 20px 0 20px;
-    }}
+    ${props => props.teal &&
+        css`
+            background: linear-gradient(180deg, ${props.theme.colors.meCademyTeal}, #49585f);
+        `
+    }
 
-    @media screen and (max-width: 410px){
-        P {
-        font-size: 1em;
-        margin: 0 20px 0 20px;
-    }}
+    ${props => props.salmon &&
+        css`
+            background: linear-gradient(180deg, #5f737bc4, ${props.theme.colors.meCademySalmon});
+        `
+    }
+
 `
 
 export default QuoteFormWrapper;

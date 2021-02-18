@@ -4,17 +4,15 @@ import Burger from './Burger';
 import { MyContext } from '../context/MyContext';
 
 const Nav = styled.nav`
-  position: relative;
+  position: fixed;
   width: 100%;
-  height: 55px;
-  padding: 0 100px 0 10px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   z-index: 20;
   transition: background 0.5s ease;
-  background-color: ${(props)=> props.isHover && 'white'};
-  background-color: ${(props) => props.open  &&  'white'} ; 
-
+  background-color: ${(props)=> props.theme.colors.light};
+  box-shadow: 0px 0px 15px 1px #5f737d;
   .logo {
     padding: 15px 0;
   }
@@ -25,6 +23,7 @@ const Navbar = () => {
   const {open, setOpen} = useContext(MyContext);
   const context = useContext(MyContext);
   
+  if (false) setOpen(); //stop nagging that we don't use you
 
   const handleMouseOver= ()=>{
     context.setHover(!context.hover)
@@ -43,3 +42,7 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+
+// background-color: ${(props)=> props.isHover && 'white'};
+// background-color: ${(props) => props.open  &&  'white'};

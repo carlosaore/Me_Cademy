@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { textData } from '../../data/textData';
-import H2 from '../atoms/H2';
 import TypeformRight from '../organism/reg_form';
 import P from '../atoms/P';
 import H3 from '../atoms/H3';
@@ -67,9 +66,9 @@ const FlexSection = styled.section`
 const TypeformEmbedInfotext = () => {
     return (
         <BoxAroundTypeform>
-            <H2>
-                {textData.h2TextAboveRegistration}
-            </H2>
+            <H3>
+                {textData.h3TextAboveRegistration}
+            </H3>
             <FlexDiv>
                 <FlexSection>
                     <P>
@@ -87,7 +86,7 @@ const TypeformEmbedInfotext = () => {
                 </FlexSection>
                 <FlexSection>
                     <H3 salmon alignLeftIfBig>
-                        {textData.h3TextAboveRegistration}
+                        {textData.h3SalmonTextAboveRegistration}
                     </H3>
                     <RegDivOnPage>
                         <TypeformRight />

@@ -2,8 +2,8 @@ export const textData = {
     coachesData : [
         {
             name : "Anna Hebbeln",
-            title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
+            title : "Coach & Sustainability Manager",
+            text : "Anna setzt sich für nachhaltige Entwicklung ein. Als Coach und als Mensch. Nach über 10 Jahren in Marketing & Werbung habt sie sich 2018 mit GOODISM selbständig gemacht und begleitet seitdem Menschen in beruflichen und persönlichen Veränderungsprozessen dabei, ihr Potenzial zu entfalten und die Welt von morgen zu gestalten.",
             image : "/images/Anna Hebbeln.jpeg"
         },
         {
@@ -14,8 +14,8 @@ export const textData = {
         },
         {
             name : "Birgit Nüchter",
-            title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
+            title : "Missing title, remove?",
+            text : "Birgit Nüchter ist zertifizierter Systemischer Business Coach (Hochschulzertifikat der Steinbeis Hochschule, Mitglied im dvct). Sie hat über 25 Jahre Erfahrung als Führungskraft in einem internationalen Großkonzern gesammelt. Als Coach unterstützt sie bei Themen wie Konfliktmanagement, Karriereplanung, Positionierung, Auftreten und mehr.",
             image: "/images/Birgit Nüchter.jpeg"
         },
         {
@@ -32,15 +32,15 @@ export const textData = {
         },
         {
             name : "Claudia Schmidtke",
-            title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
-            image: "/images/Claudia Schmidtke.jpeg"
+            title : "Missing title, remove?",
+            text : "Claudias Thema ist die potenzialorientierte Entwicklung von Menschen. Diese unterstützt sie als Führungskräftecoach in einem Digitalunternehmen und als selbständige Life & Business Coach. Claudia begleitet Menschen mit dem Wunsch nach beruflicher Neuorientierung, Arbeit mit Sinn und der Umsetzung von Lebensträumen.",
+            image: "images/Claudia-Schmidtke.jpg"
         },
         {
-            name : "Cornelia Lütge",
-            title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
-            image : "/images/Cornelia Lütge.jpeg"
+            name : "Cornelia Katinka Lütge",
+            title : "Career Coach / Mentorin",
+            text : "Cornelia ist seit 2007 Career Coach, war sechs Jahre Trainerin. Nach VWL-Studium und Karriere im internationalen Marketing, vermisst sie weder das Führen noch das Fliegen. Ihr Fokus liegt auf sinn- und werteorientierter Karriere- und Lebensgestaltung sowie dem Meistern von Dual Careers. Self Leadership is the key!",
+            image : "images/Cornelia Katinka Lütge.jpg"
         },
         {
             name : "Dr. Anja Schäfer",
@@ -81,8 +81,8 @@ export const textData = {
         {
             name : "Jana Jablonsky",
             title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
-            image : "/images/Jana Jablonsky.jpeg"
+            text : "Jana vereint als Coach und Mentorin Erfahrungen als Kommunikationsberaterin, Organisationsentwicklerin, Unternehmerin und Geschäftsführende Gesellschafterin der ideenmanufaktur GmbH. Als Expertin für Netzwerke und Verbindungen hat sie viele berufliche Herausforderungen und unternehmerische Situationen in den letzten 20 Jahren selbst oder in Beratungen erlebt.",
+            image : "/images/Jana Jablonski.png"
         },
         {
             name : "Jules Grant",
@@ -91,60 +91,82 @@ export const textData = {
             image: "/images/Jules Grant.jpeg"
         },
         {
-            name : "Martin Friedrich",
-            title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
+            name : "Dr. Martin Friedrich Consulting",
+            title : "In seiner Arbeit achtet Martin auf Details",
+            text : "In seiner Arbeit achtet Martin auf Details, liebt den regelmäßigen Perspektivwechsel, fragt nach dem Sinn und bietet Denkanstöße. Mit Zuversicht und viel Erfahrung strebt er nach dem Besten  in den Menschen, denen er begegnet und nach dem Besten in ihm selbst.",
             image: "/images/Martin Friedrich.jpeg"
         },
         {
-            name : "Susanne Schulz",
-            title : "Title and title and also title",
-            text : "Bacon ipsum dolor amet short loin short ribs strip steak, bresaola turducken shankle chuck andouille picanha pork loin kevin. Meatball ground round beef ribs drumstick. Swine short loin beef ribs, bacon biltong burgdoggen",
-            image: "/images/Susanne Schulz.jpeg"
+            name : "Antje Susanne Schulz",
+            title : "Menschen arbeiten für Menschen!",
+            text : "Antje hat 25 Jahre Führungserfahrung in verschiedenen Bereichen gesammelt und eine Weiterbildung zum systemischen Coach und Trainerin absolviert. Deshalb brennt sie dafür Menschen weiter zu entwickeln, damit Sie erfolgreicher und glücklicher in ihrem Berufs- und Privatleben sind.",
+            image: "images/Antje Susanne Schulz.jpeg"
+        },
+        {
+            name : "Isa Grütering",
+            title : "Systemische Business & Personal Coachin",
+            text : "Isas große Leidenschaft ist es, Frauen zu motivieren, zu begleiten und zu stärken, in der Gründungsphase oder im nächsten Karriereschritt. Dabei schöpft sie aus 20 Jahren Berufserfahrung, als Angestellte in kleinen und großen Unternehmen und als Unternehmerin, Autorin und Coachin.",
+            image : "images/Isa Grütering.jpeg"
+        },
+        {
+            name : "Karen Schallert",
+            title : "Geschäftsführung HandicapUnlimited - Executive Mentoring & Coaching",
+            text : "Karen hat Amerikanistik, Neuere Englische Literatur und Erziehungswissenschaften studiert. Nach Erfahrungen bei der Deutsche Post DHL Group, McKinsey & Company arbeitete sie als Personalleiterin im internationalen Anlagenbau. Inzwischen unterstützt sie als Mentorin Menschen mit Handicap in beruflichen Belangen. Seit Herbst 2020 ist Karen Vorstandsmitglied der Deutschen Gesellschaft für Mentoring.",
+            image : "images/Karen Schallert.JPG"
+        },
+        {
+            name : "Nina Bartholmes",
+            title : "Missing, remove? also low-res img",
+            text : "Nina ist Diplom Volkswirtin und hat zuletzt als Führungskraft in einer internationalen Unternehmensberatung gearbeitet. Dort hat sie ihre Leidenschaft für die Themen Business Coaching und Empowerment von Teams gefunden. Sie ist ausgebildet in der Mind-Body-Medizin und hat sich letztes Jahr als Coach & Trainer selbständig gemacht.",
+            image : "images/Nina Bartholmes.jpeg"
+        },
+        {
+            name : "Senka Thomas",
+            title : "Missing, remove?",
+            text : "Senka ist Systemische Business Coach und zertifizierte Online-Coach mit mehr als 20 Jahren Erfahrung. Mehr Passion, mehr Power, mehr Purpose, um eine Karriere zu schaffen, die sich nicht nur lohnt, sondern nachhaltig belohnt und auf die eigenen Werte einzahlt. YOUR CHANGE. MY PASSION.",
+            image : "images/Senka Thomas.jpg"
+        },
+        {
+            name : "Alice Beigang",
+            title : "Missing, remove?",
+            text : "In ihrer Tätigkeit als systemische Coachin fokussiert Alice die Themen berufliche Neuorientierung und Female Empowerment. Sie begleitet Menschen dabei, ihren eigenbestimmten Weg zu finden und zu gehen. Die studierte Kulturwissenschaftlerin arbeitete als wissenschaftliche Mitarbeiterin für Bildung und Vermittlung im Hamburger Bahnhof – Museum für Gegenwart – Berlin.",
+            image : "images/Alice Beigang.jpg"
+        },
+        {
+            name : "Marie-Kristin Illigen",
+            title : "Führungskräfte- und Female Leadership Coach",
+            text : "Marie-Kristin hat Betriebswirtschaftslehre an der Universität zu Köln studiert. Sie war als Führungskraft in einer internationalen Strategieberatung sowie einem nationalen Telekommunikationskonzern tätig. Ihr Engagement-Schwerpunkt liegt vor allem im Bereich Female Empowerment. Seit 2018 begleitet Führungskräfte und Potentialträger als Coach und Trainer.",
+            image : "images/Marie-Kristin Illigen.jpg"
+        },
+        {
+            name : "Katharina Anna Klumpp",
+            title : "Coach & Trainerin",
+            text : "Katharina hat viele Jahre als Führungskraft Teams aufgebaut und entwickelt. Als Leadership Coach & Trainerin unterstützt sie junge Führungskräfte, sich zu echten Führungspersönlichkeiten zu entwickeln, die selbstbewusst und zielsicher ihre Teams führen - auch in herausfordernden Zeiten.",
+            image : "images/Katharina Anna Klumpp.jpg"
+        },
+        {
+            name : "Marion Linka-Mukbel",
+            title : "Missing, remove?",
+            text : "Marion ist studierte Personalbetriebswirtin und ausgebildeter Coach. Sie verfügt über langjährige Erfahrungen im Personalwesen und war lange als HR Business Partner in einem internationalen Umfeld tätig. Seit einigen Jahren unterstützt sie als Mentorin und Coach Menschen in Veränderungsprozessen.",
+            image : "images/Marion Linka-Mukbel.jpg"
+        },
+        {
+            name : "Katharina Glasing",
+            title : "Business Coach",
+            text : "Katharina hat Medienmanagement studiert und absolvierte eine Ausbildung zur Sozialversicherungsfachangestellten. Sie fühlt sich in der Medienlandschaft zuhause und war zuletzt im Marketing eines internationalen IT-Unternehmens tätig. Bei MentorMe ist Katharina seit 2020 ehrenamtliche Mentorin. Sie ist als Business Coach, Mentaltrainerin und wingwave Coach tätig und hat Erfahrungen in den Bereichen Burnoutprävention, Krisenbegleitung, Aufmerksamkeitsmanagement und Zukunftsgestaltung.",
+            image : "images/Katharina Glasing.jpg"
         }
     ],
     coachesAccordion : [
         {
             heading : "Look at that text! Would anyone use that?",
             panel : "Can you imagine that, the text of your next webpage?! If Trump Ipsum weren’t my own words, perhaps I’d be dating it. You're telling the enemy exactly what you're going to do. No wonder you've been fighting Lorem Ipsum your entire adult life. I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words."
-        },
-        {
-            heading : "We have so many things that we have to do better",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "I was going to say something extremely rough to Lorem Ipsum",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "Look at that text! Would anyone use that?",
-            panel : "Can you imagine that, the text of your next webpage?! If Trump Ipsum weren’t my own words, perhaps I’d be dating it. You're telling the enemy exactly what you're going to do. No wonder you've been fighting Lorem Ipsum your entire adult life. I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words."
-        },
-        {
-            heading : "We have so many things that we have to do better",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "I was going to say something extremely rough to Lorem Ipsum",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "Look at that text! Would anyone use that?",
-            panel : "Can you imagine that, the text of your next webpage?! If Trump Ipsum weren’t my own words, perhaps I’d be dating it. You're telling the enemy exactly what you're going to do. No wonder you've been fighting Lorem Ipsum your entire adult life. I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words."
-        },
-        {
-            heading : "We have so many things that we have to do better",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "I was going to say something extremely rough to Lorem Ipsum",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
         }
     ],
     coachesArticles : [
         {
-            heading : "Lorem ipsum dolor sit amet",
-            text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            heading : "none",
+            text : "In den nächsten acht Wochen erhältst du von uns eine Vielzahl an Wissen, Methoden und Trainingslektionen zum großen Thema Bewerbung. Durch den Methodenmix aus Selbststudium, moderierten Gruppenarbeiten und dem Einzelcoaching, erhältst du die Möglichkeit das Programm auf deine individuellen Bedürfnisse abgestimmt zu nutzen und dich selbst in den Fokus zu rücken. Besonders durch das Einzelcoaching und die moderierten Gruppen erhältst du den Raum, um dich auszutauschen, Fragen zu klären und deine ganz eigenen Themen zu platzieren."
         }
     ],
    
@@ -154,18 +176,6 @@ export const textData = {
             heading : "Look at that text! Would anyone use that?",
             panel : "Can you imagine that, the text of your next webpage?! If Trump Ipsum weren’t my own words, perhaps I’d be dating it. You're telling the enemy exactly what you're going to do. No wonder you've been fighting Lorem Ipsum your entire adult life. I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words."
         },
-        {
-            heading : "We have so many things that we have to do better",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "I was going to say something extremely rough to Lorem Ipsum",
-            panel : "Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? We are going to make placeholder text great again. Greater than ever before. An 'extremely credible source' has called my office and told me that Lorem Ipsum's birth certificate is a fraud."
-        },
-        {
-            heading : "Look at that text! Would anyone use that?",
-            panel : "Can you imagine that, the text of your next webpage?! If Trump Ipsum weren’t my own words, perhaps I’d be dating it. You're telling the enemy exactly what you're going to do. No wonder you've been fighting Lorem Ipsum your entire adult life. I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words."
-        }
     ],
 
     
@@ -195,13 +205,22 @@ export const textData = {
            }
     ],
 
-    homeHeroImage : "",
-    homeHeroImage2 : "",
-    aboutHeroImage: "",
+    homeHeroImg : "images/Team-MentorMe-Website.jpg",
+    HomeQuote : "Mit der MeCademy bieten wir arbeitslosen Akademikerinnen Zugang zu einem Bewerbungsprogramm, bestehend aus Einzelcoaching, moderierte Gruppen und Bewerbungs-Know-How, welches Ihnen hilft sich auf dem Arbeitsmarkt erfolgreich zu positionieren",
+    
+    aboutHeroImg: "images/mentorinnen-erfahrung-website-header.jpg",
+    
     programmHeroImg : "images/HeaderBild-MentoringTools-1.jpg",
+    
     coachesHeroImg : "images/frau-vor-fuchsia-sofa.jpg",
-    registrationHeroImg : "",
-
+    
+    registrationHeroImg : "/images/picBoxAboveTypeform.png",
+    registrationQuote : "Sichere dir jetzt deinen Platz bei der MeCademy!",
+    picBoxAboveTypeform : "/images/picBoxAboveTypeform.png",
+    h3TextAboveRegistration : "Mit der „MeCademy“ finden ALG-beziehende Akademikerinnen in nur 2 Monaten gezielt in den Beruf zurück. Die Maßnahme wird von der Agentur für Arbeit bezahlt!",
+    pTextAboveRegistration : "Du bist Akademikerin und beziehst ALG? Du suchst einen Beruf, der dich erfüllt, deine Ziele ebnet und deine Potenziale ausschöpft? Melde dich jetzt unverbindlich für die ,,MeCademy – Erfolgreich bewerben als Akademikerin“ an! Wir schicken dir alle Infos per Mail zu: Dein Gewinn durch die 8-wöchige MeCademy, Starttermine, Inhalte und wie die Agentur für Arbeit deine Teilnahmekosten übernimmt. Die Maßnahme hilft dir, deinen Traumberuf und einen Top-Arbeitgeber zu finden, die Bewerbungsphase zum Erfolg zu bringen und dich als Expertin zu positionieren. Erreiche mit unserer Beratung und in Gesprächen mit erfahrenen Coaches, welchen Beruf du willst und wie du ihn bekommst!",
+    h3SalmonTextAboveRegistration : "Melde dich hier an! Wir mailen dir die Infos.",
+    
     testimonialData: [
         {
             name: "Nadine Schultz",
@@ -263,53 +282,6 @@ export const textData = {
             description: "Ich habe viel Unterstützung in meiner weiteren Karriereplanung bekommen und jeden Rat von meiner erfahrenen Mentorin gerne aufgenommen. Zudem habe ich als Untersützerin bei sechs MentorMe-Events bzw. Trainings von dem 35% Discount auf den Menteebeitrag profitiert und  konnte so weniger zahlen.",
             urls: "/images/Cayaprill.png"
         },
-        {
-            name: "Dara Kossok-Spieß",
-            title: "Referentin Digitalisierung",
-            description: "Was ich bei MentorMe bekommen habe, in den drei (!) Jahren, in denen ich Mentee war: erfahrene Top-Management Mentor*innen von Unternehmen wie Apple und Weber Shandwick, Begleitung bei Fragen rund um den ersten Job, Kennenlernen neuer Bereiche, Vernetzung mit anderen Mentees und: den Kontakt zu meinem jetzigen Arbeitgeber!",
-            urls: "/images/DaraKossokskewer.png"
-        },
-        {
-            name: "Lucy Demers",
-            title: "Student",
-            description: "Von MentorMe nehme ich ein riesiges Netzwerk toller, unterstützender Menschen (Mentor*innen und Mentees) und Kontakte in unterschiedlichste Branchen und Bereiche, viele neue Perspektiven auf Arbeit & Job sowie wertvolle Ideen für meine persönliche berufliche Zukunft mit. Ich bin froh, dass ich mich entschlossen habe, Mentee bei MentorMe zu werden.",
-            urls: "/images/LucyDemers.png"
-        },
-        {
-            name: "Marie Huber",
-            title: "Projektleiterin Wissenschaft",
-            description: "Ich war im 2. Programmjahr Mentee bei MentorMe und mir hat das Konzept, die Idee und die Umsetzung so gut gefallen, dass ich nun selbst als Mentorin junge Frauen unterstütze, wie sie von der Wissenschaft in die Praxis kommen. Und, ich unterstütze Mentees, die Mütter sind, in ihren Fragen rund um Vereinbareit 'Kind & Karriere'. Denn ja, es ist möglich!",
-            urls: "/images/MarieHuber.png"
-        },
-        {
-            name: "Esther-Maria Rohde",
-            title: "Studentische Hilfskraft",
-            description: "Ich habe durch MentorMe Menschen kennengelernt, die mir zeigten, dass der eigene Weg der richtige ist und man alles schafft, wenn man daran arbeitet. Workshops haben mich sicherer gemacht, die Networkingevents waren hervorragend organisiert. Meine Mentorin Kate gab mir Denkanstöße und hat mir Ängste genommen.",
-            urls: "/images/Esther-MariaRohde.png"
-        },
-        {
-            name: "Dr. Anna-Maria Beck",
-            title: "Coach",
-            description: "Ich habe ich einen ganz tollen Mentor erhalten! Er ist Co-Gründer eines Unternehmens in einem Bereich, der meinem ähnelt und konnte mich deshalb perfekt auf meinem eigenen Weg in die Selbstständigkeit und in das Gründertum als Coach begleiten, motivieren, bestärken und beraten. Nun leite ich selbst die Gruppe der Doktorandinnen bei MentorMe!",
-            urls: "/images/DrAnna-MariaBeck.png"
-        },
-        {
-            name: "Juliane Drews",
-            title: "Economic Coordinator",
-            description: "Auch wenn ich nicht zu allen MentorMe-Event und Trainings kommen konnte, so hat mich doch das Mentoring und die Vielzahl & Vielfalt der Networkingevents und der Trainings überzeugt. Ich kann dieses Programm allen Frauen empfehlen, denen es an guten Sparringpartner*innen fehlt und die von den tollen Kontakten zu Arbeitgebern und Berufserfahrenen profitieren wollen!",
-            urls: "/images/JulianeDrews.png"
-        },
-        {
-            name: "Sarah van Bentum",
-            title: "Coordinator World Assembly",
-            description: "Die Vielfalt des Programms aus persönlichem Mentoring, Trainings und Netzwerk-Events mit spannenden und erfolgreichen Menschen, dem Austausch mit dem wunderbaren MentorMe-Team und den anderen Mentees, die sich in einer ähnlichen Lebenslage befanden, hat mich auf unterschiedliche Art und Weise bereichert. Auch als Mentee-Alumni profitiere ich!",
-            urls: "/images/SarahvanBentum.png"
-        },
+        
     ],
-
-    picBoxAboveTypeform : "/images/picBoxAboveTypeform.png",
-    registrationQuote : "Sichere dir jetzt deinen Platz bei der MeCademy!",
-    h2TextAboveRegistration : "Mit der „MeCademy“ finden ALG-beziehende Akademikerinnen in nur 2 Monaten gezielt in den Beruf zurück. Die Maßnahme wird von der Agentur für Arbeit bezahlt!",
-    pTextAboveRegistration : "Du bist Akademikerin und beziehst ALG? Du suchst einen Beruf, der dich erfüllt, deine Ziele ebnet und deine Potenziale ausschöpft? Melde dich jetzt unverbindlich für die ,,MeCademy – Erfolgreich bewerben als Akademikerin“ an! Wir schicken dir alle Infos per Mail zu: Dein Gewinn durch die 8-wöchige MeCademy, Starttermine, Inhalte und wie die Agentur für Arbeit deine Teilnahmekosten übernimmt. Die Maßnahme hilft dir, deinen Traumberuf und einen Top-Arbeitgeber zu finden, die Bewerbungsphase zum Erfolg zu bringen und dich als Expertin zu positionieren. Erreiche mit unserer Beratung und in Gesprächen mit erfahrenen Coaches, welchen Beruf du willst und wie du ihn bekommst!",
-    h3TextAboveRegistration : "Melde dich hier an! Wir mailen dir die Infos."
 }

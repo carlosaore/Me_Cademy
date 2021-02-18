@@ -46,9 +46,9 @@ class CoachesCarousel extends Component {
                         <div key={index}>
                             <CarouselImg src={coach.image} alt=""/>
                             <TextDiv>
-                                <H3 small salmon last >{coach.name}</H3>
-                                <P small last ><strong>{coach.title}</strong></P>
-                                <P small last >{coach.text}</P>
+                                <H3 small salmon last>{coach.name}</H3>
+                                <P small last justify lastCenter><strong>{coach.title}</strong></P>
+                                <P small last justify lastCenter>{coach.text}</P>
                             </TextDiv>   
                         </div>
                         ))}

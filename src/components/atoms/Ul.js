@@ -2,10 +2,11 @@ import styled, { css } from "styled-components";
 
 // pass "last" as prop to remove margin on the last one, if needed
 
-const P = styled.p`
+const Ul = styled.ul`
     color : ${props => props.theme.colors.meCademyTextGrey};
     line-height : 1.7em;
     font-size : 0.9em;
+    margin-left : 1em;
 
     @media (min-width : ${props => props.theme.largeViewport.size}) {
         margin-bottom : ${props => props.theme.largeViewport.margin}
@@ -30,26 +31,6 @@ const P = styled.p`
             font-size : 70%;
         `
     }
-
-    ${props => props.left &&
-        css`
-            margin-left : ${props => props.left}em;
-        `
-    }
-
-    ${props => props.justify &&
-        css`
-            text-align : justify;
-        `
-    }
-
-    ${props => props.lastCenter &&
-        css`
-            text-align-last : center;
-        `
-    }
-
-
 `
 
-export default P;
+export default Ul;

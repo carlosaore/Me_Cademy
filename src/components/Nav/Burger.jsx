@@ -8,8 +8,8 @@ const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 15px;
-  right: 20px;
+  top: 22px;
+  right: 22px;
   z-index: 20;
   display: none;
 
@@ -41,8 +41,7 @@ const StyledBurger = styled.div`
     }
 
     @media (max-width: 1000px) {
-    background-color: ${(props)=> props.isHover ? 'black' : 'white'};
-    background-color: ${(props) => props.open  &&  'black'} ; 
+      background-color : ${props => props.theme.colors.meCademyGrey}
   }
   }
 `;

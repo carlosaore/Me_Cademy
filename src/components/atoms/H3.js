@@ -42,6 +42,19 @@ const H3 = styled.h3`
             font-size : 100%;
         `
     }
+
+    ${props => props.justify &&
+        css`
+            text-align : justify;
+        `
+    }
+
+    ${props => props.lastCenter &&
+        css`
+            text-align-last : center;
+        `
+    }
+
 `
 
 export default H3;
