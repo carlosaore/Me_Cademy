@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { MyContext } from '../context/MyContext';
 
 const Ul = styled.ul`
@@ -16,13 +16,28 @@ const Ul = styled.ul`
     letter-spacing: 0.84px;
     font-weight: bolder;
     height: 100%;
-    transition: 0.3s ease-in; 
+    transition: 0.3s ease-in;
   }
   
   a{
     color: ${props => props.theme.colors.meCademyTextGrey};
     text-decoration : none;
+  }
 
+  a:hover{
+    color: ${props => props.theme.colors.meCademySalmon};
+    /* color: ${props => props.theme.colors.meCademyMediumGrey}; */
+    /* color: ${props => props.theme.colors.meCademyTeal}; */
+
+
+  }
+
+  .underline {
+    /* text-decoration: underline; */
+    border-bottom: 2px solid ${props => props.theme.colors.meCademyTextGrey};
+
+    /* color: ${props => props.theme.colors.meCademySalmon}; */
+    /* border-bottom: 2px solid ${props => props.theme.colors.meCademySalmon}; */
   }
 
   @media (max-width: 1000px) {
@@ -35,8 +50,9 @@ const Ul = styled.ul`
     right: 0;
     width: 100%;
     margin-top: 80px;
-    padding-bottom: 80px;
+    padding: 55px 0 80px 0;
     transition: transform 0.3s ease-in-out;
+    text-transform: uppercase;
 
     li {
       margin: 0 auto 0 auto;
@@ -140,12 +156,12 @@ const RightNav = () => {
 
   return (
     <>
-    <LogoDiv><Link to='/' onClick={()=>handleClickOff()}><Logo src="./images/mecademy Logo Kopie navbar reexported.png" /></Link></LogoDiv>
+    <LogoDiv><NavLink to='/' onClick={()=>handleClickOff()}><Logo src="./images/mecademy Logo Kopie navbar reexported.png" /></NavLink></LogoDiv>
     <Ul open={open}  isHover={context.hover}> 
-      <li><Link to='/About' onClick={()=>handleClick()}>About</Link></li>
-      <li><Link to='/Program' onClick={()=>handleClick()}>Programm</Link></li>
-      <li><Link to='/Coaches' onClick={()=>handleClick()}>Coaches</Link></li>
-      <li><Link to='/Registration' onClick={()=>handleClick()}>Registration</Link></li>
+      <li><NavLink to='/About' activeClassName="underline" onClick={()=>handleClick()}>About</NavLink></li>
+      <li><NavLink to='/Program' activeClassName="underline" onClick={()=>handleClick()}>Programm</NavLink></li>
+      <li><NavLink to='/Coaches' activeClassName="underline" onClick={()=>handleClick()}>Coaches</NavLink></li>
+      <li><NavLink to='/Registration' activeClassName="underline" onClick={()=>handleClick()}>Registration</NavLink></li>
     </Ul>
     
     </>
