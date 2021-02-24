@@ -38,7 +38,13 @@ const Ul = styled.ul`
 
     /* color: ${props => props.theme.colors.meCademySalmon}; */
     /* border-bottom: 2px solid ${props => props.theme.colors.meCademySalmon}; */
+  :hover{
+    border-bottom: 2px solid ${props => props.theme.colors.meCademySalmon};
+
   }
+  }
+
+
 
   @media (max-width: 1000px) {
 
