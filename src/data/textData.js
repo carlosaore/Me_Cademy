@@ -198,32 +198,32 @@ export const textData = {
         {
             header : "Passend für dich",
             text : "Du bist Akademikerin, aber deine Karriere stagniert? Du beziehst ALG? Du suchst nach einem Programm, das dich mit Beratung zu Berufsfindung und Bewerbung, Austausch mit Gleichgesinnten und persönlichem Coaching erfolgreich in Arbeit bringt?",
-            image : "https://via.placeholder.com/300x200?text=1"
+            image : "./images/step 1.png"
         },
         {
             header : "Registrierung",
             text : "Komme zur MeCademy! Mit uns bringst du die Zeit der Jobsuche schnellstmöglich hinter dich und findest dein Glück im Beruf. Entscheide dich jetzt für die MeCademy! Ganz oben auf dieser Seite füllst du das Anmeldeformular aus, um dein Interesse zu bekunden.",
-            image : "https://via.placeholder.com/300x200?text=2"
+            image : "./images/step 2.png"
         },
         {
             header : "Detaillierte Infos",
             text : "Wir schicken dir via E-Mail alle Informationen zu: Ablauf, Inhalte und Lehrplan der MeCademy, Informationen für die Agentur für Arbeit, Teilnahmevertrag, Expertise unserer Coaches sowie eine Terminvereinbarung für ein Info-Gespräch mit uns.",
-            image : "https://via.placeholder.com/300x200?text=3"
+            image : "./images/step 3.png"
         },
         {
             header : "Gutschein einholen",
             text : "Hol dir den Gutschein zur Aktivierung & Vermittlung (AVGS – Heranführung an den Ausbildungs- & Arbeitsmarkt §45 Abs.1 S.1 Nr.1 SBG III) vom Berater der Arbeitsagentur oder des Jobcenters. So trägst du keine Kosten der MeCademy! Bist du Selbstzahler? Wir machen dir ein individuelles Angebot.",
-            image : "https://via.placeholder.com/300x200?text=4"
+            image : "./images/step 4.png"
         },
         {
             header : "Online Akademie",
             text : "Starte deine 8-wöchige Reise! Im Online-Teil der MeCademy begleiten wir dich mit Beratung und Austausch zu: Wo stehst du und wo willst du hin? Dein idealer Job und Arbeitgeber. Lebenslauf und Anschreiben. Jobinterview und Gehaltsverhandlung. Dein Personal Brand. Dein Erfolg!",
-            image : "https://via.placeholder.com/300x200?text=5"
+            image : "./images/step 5.png"
         },
         {
             header : "Individuelles Coaching",
             text : "Zusätzlich zum Online Programm bekommst du 8 Sessions individuelles Coaching mit einem erfahrenen Coach, der/die dich ganz persönlich begleitet. All unsere Coaches sind ausgebildet, zertifiziert und haben langjährige Expertise in der Begleitung von Akademikerinnen zurück in Arbeit.",
-            image : "https://via.placeholder.com/300x200?text=6"
+            image : "./images/step 6.png"
         }
     ],
 
