@@ -153,7 +153,7 @@ const RightNav = () => {
 
   return (
     <>
-    <LogoDiv><NavLink to='/' onClick={()=>handleClickOff()}><Logo src="./images/mecademy Logo Kopie navbar reexported.png" /></NavLink></LogoDiv>
+    <LogoDiv><NavLink to='/' onClick={()=>handleClickOff()}><Logo src="./images/mecademy Logo Kopie reexported.png" /></NavLink></LogoDiv>
     <Ul open={open}  isHover={context.hover}> 
       <li><NavLink to='/About' activeClassName="underline" onClick={()=>handleClick()}>About</NavLink></li>
       <li><NavLink to='/Program' activeClassName="underline" onClick={()=>handleClick()}>Programm</NavLink></li>
