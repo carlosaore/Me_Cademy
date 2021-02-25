@@ -14,5 +14,8 @@ const CarouselDiv = styled.div`
     @media (max-width : ${props => props.theme.smallViewport.size}) {
         margin-bottom : ${props => props.theme.smallViewport.margin}
     }
+
+
+
 `
 export default CarouselDiv;
