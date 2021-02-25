@@ -94,7 +94,7 @@ const Ul = styled.ul`
 `;
 
 const Logo = styled.img`
-    height: 43px;
+    height: 55px;
 `;
 
 const LogoDiv =styled.div`

@@ -19,51 +19,42 @@ const P = styled.p`
         margin-bottom : ${props => props.theme.smallViewport.margin}
     }
 
-    ${props => props.last &&
-        css`
+    ${props => props.last && css`
             margin-bottom : 0px !important;
         `
     }
 
-    ${props => props.small &&
-        css`
+    ${props => props.small && css`
             font-size : 70%;
         `
     }
 
-    ${props => props.left &&
-        css`
+    ${props => props.left && css`
             margin-left : ${props => props.left}em;
         `
     }
 
-    ${props => props.justify &&
-        css`
+    ${props => props.justify && css`
             text-align : justify;
         `
     }
 
-    ${props => props.lastCenter &&
-        css`
+    ${props => props.lastCenter && css`
             text-align-last : center;
         `
     }
 
-
-    ${props => props.alignCenter &&
-        css`
+    ${props => props.alignCenter && css`
             text-align : center;
         `
     }
 
-    ${props => props.bold &&
-        css`
+    ${props => props.bold && css`
             font-weight : bold;
         `
     }
 
-    ${props => props.hyphensAuto &&
-        css`
+    ${props => props.hyphensAuto && css`
             hyphens: auto;
 
         `

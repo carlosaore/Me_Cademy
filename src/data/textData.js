@@ -230,18 +230,26 @@ export const textData = {
     homeHeroImg : "images/Team-MentorMe-Website.jpg",
     HomeQuote : "Mit der MeCademy bieten wir arbeitslosen Akademikerinnen Zugang zu einem Bewerbungsprogramm, bestehend aus Einzelcoaching, moderierte Gruppen und Bewerbungs-Know-How, welches Ihnen hilft sich auf dem Arbeitsmarkt erfolgreich zu positionieren",
     
+    // delete if images work
     aboutHeroImg: "images/mentorinnen-erfahrung-website-header.jpg",
-    
     programmHeroImg : "images/HeaderBild-MentoringTools-1.jpg",
-    
     coachesHeroImg : "images/frau-vor-fuchsia-sofa.jpg",
-    
     registrationHeroImg : "/images/picBoxAboveTypeform.png",
+
+    // Hero Images version Feb25
+    aboutHeroImg: "/images/picBoxAboveTypeform.png",
+    programmHeroImg : "images/frau-vor-fuchsia-sofa.jpg",
+    coachesHeroImg : "images/mentorinnen-erfahrung-website-header.jpg",
+    registrationHeroImg : "images/HeaderBild-MentoringTools-1.jpg",
+
+
+
+
     registrationQuote : "Sichere dir jetzt deinen Platz bei der MeCademy!",
     picBoxAboveTypeform : "/images/picBoxAboveTypeform.png",
     h3TextAboveRegistration : "Mit der „MeCademy“ finden ALG-beziehende Akademikerinnen in nur 2 Monaten gezielt in den Beruf zurück. Die Maßnahme wird von der Agentur für Arbeit bezahlt!",
     pTextAboveRegistration : "Du bist Akademikerin und beziehst ALG? Du suchst einen Beruf, der dich erfüllt, deine Ziele ebnet und deine Potenziale ausschöpft? Melde dich jetzt unverbindlich für die ,,MeCademy – Erfolgreich bewerben als Akademikerin“ an! Wir schicken dir alle Infos per Mail zu: Dein Gewinn durch die 8-wöchige MeCademy, Starttermine, Inhalte und wie die Agentur für Arbeit deine Teilnahmekosten übernimmt. Die Maßnahme hilft dir, deinen Traumberuf und einen Top-Arbeitgeber zu finden, die Bewerbungsphase zum Erfolg zu bringen und dich als Expertin zu positionieren. Erreiche mit unserer Beratung und in Gesprächen mit erfahrenen Coaches, welchen Beruf du willst und wie du ihn bekommst!",
-    h3SalmonTextAboveRegistration : "Melde dich hier an! Wir mailen dir die Infos.",
+    h3SalmonTextAboveRegistration : "Melde dich hier an! Wir mailen dir die Infos",
     
     testimonialData: [
         {
