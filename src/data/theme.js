@@ -33,7 +33,8 @@ const theme = {
     mainContentWidth : "80%", // all viewports have the same width in the outermost div that holds everything
     mainContentMaxWidth : "1080px",
     inbetweenPadding : "20px", // used as padding bottom between components
-    inbetweenTextPadding : "20px" // used as padding bottom between text sections (headers, paragraphs, etc.)
+    inbetweenTextPadding : "20px", // used as padding bottom between text sections (headers, paragraphs, etc.)
+    bigMarginBottom : "60px"
 };
 
 const Theme = ({ children }) =>{

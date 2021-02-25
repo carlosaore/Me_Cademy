@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { v4 as uuidv4 } from 'uuid';
 import { textData } from '../../data/textData';
 
 
@@ -62,7 +63,7 @@ function SliderContent(props) {
         <StyledSliderContentForm>
         <section>
             {textData.testimonialData.map((slide, index) => (
-                <div key={index}
+                <div key={uuidv4()}
                     className={index === props.activeIndex ? "slides active" : "inactive"}>
                     <img className="slide-image" src={slide.urls} alt="" />
                     <h4 className="slide-name">{slide.name}</h4> 

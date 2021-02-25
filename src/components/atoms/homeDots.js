@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { v4 as uuidv4 } from 'uuid';
 import { textData } from '../../data/textData';
 
 
@@ -34,7 +35,7 @@ function Dots(props) {
         <StyledDotsForm>
         <div className="all-dots">
             {textData.testimonialData.map((slide, index) => (
-                <span key={index}
+                <span key={uuidv4()}
                     className={`${
                     props.activeIndex === index ? "dot active-dot" : "dot"
                     }`}
