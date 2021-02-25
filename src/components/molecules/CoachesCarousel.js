@@ -9,6 +9,23 @@ import CarouselImg from '../atoms/Img';
 import P from '../atoms/P';
 import H3 from '../atoms/H3';
 import { textData } from '../../data/textData';
+import styled from 'styled-components';
+
+const More = styled.button`
+    width : 25%;
+    height : 1.5em;
+    border-radius : 3px;
+    border : none;
+    color : ${props => props.theme.colors.meCademyTextGrey};
+    line-height : 1.5em;
+    background-color : ${props => props.theme.colors.meCademyLightGrey};
+    margin : 2.5% auto 0 auto;
+    font-weight : bold;
+
+    :hover {
+        background-color : ${props => props.theme.colors.meCademyLightTeal}
+    }
+`
 
 class CoachesCarousel extends Component {
     render() {
@@ -55,7 +72,7 @@ class CoachesCarousel extends Component {
                             <TextDiv>
                                 <H3 small salmon last>{coach.name}</H3>
                                 <P small last justify lastCenter><strong>{coach.title}</strong></P>
-                                <button id={index} onClick={event => console.log(textData.coachesData[event.target.id].name)}>...</button>
+                                <More id={index} onClick={event => console.log(textData.coachesData[event.target.id].name)}>···</More>
                             </TextDiv>   
                         </div>
                         ))}
