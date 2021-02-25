@@ -1,7 +1,6 @@
 import TextBox from '../atoms/TextBox';
 import H2 from '../atoms/H2';
 import P from '../atoms/P';
-import Ul from '../atoms/Ul';
 import ComponentWrapper from '../atoms/ComponentWrapper';
 
 export default function AboutArticles() {
