@@ -66,7 +66,7 @@ const GlobalStyle = createGlobalStyle`
 
     // carousel arrows
     .slick-prev { 
-        top: 40%;
+        top: 37.5%;
 
         :before {
             opacity: 1;
@@ -76,7 +76,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     .slick-next {    
-        top: 40%;
+        top: 37.5%;
 
         :before {
             opacity: 1;
