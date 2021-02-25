@@ -8,35 +8,12 @@ import TextDiv from '../atoms/TextDiv';
 import CarouselImg from '../atoms/Img';
 import P from '../atoms/P';
 import H3 from '../atoms/H3';
+import Button from '../atoms/Button';
 import { textData } from '../../data/textData';
-import styled, { css } from 'styled-components';
 import ReactModal from 'react-modal';
 ReactModal.setAppElement('#root');
 
-const Button = styled.button`
-    height : 1.5em;
-    border-radius : 3px;
-    border : none;
-    color : ${props => props.theme.colors.meCademyTextGrey};
-    line-height : 1.5em;
-    background-color : ${props => props.theme.colors.meCademyLightGrey};
-    font-weight : bold;
 
-    ${props => !props.right && css`
-        width : 25%;
-        margin-top : 2.5%;
-    `}
-
-    ${props => props.right && css`
-        float : right;
-        padding-left : 5px;
-        padding-right : 5px;
-    `}
-
-    :hover {
-        background-color : ${props => props.theme.colors.meCademyLightTeal}
-    }
-`
 
 class CoachesCarousel extends Component {
 

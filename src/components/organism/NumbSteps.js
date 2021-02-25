@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { v4 as uuidv4 } from 'uuid';
 import { textData } from '../../data/textData';
 import ComponentWrapper from '../atoms/ComponentWrapper';
 import H2 from '../atoms/H2';
@@ -33,7 +34,7 @@ const NestedDiv = styled.div`
 
         img {
             width : 100%;
-            padding-bottom : 30px;
+            padding-bottom : ${props => props.theme.largeViewport.margin};
         }
 `;
 
@@ -51,7 +52,7 @@ const NumbSteps = () => {
             </P>
             <MainDiv>
                 {textData.aboutNumeric.map((element, index) => (
-                    <NestedDiv key={index}>
+                    <NestedDiv key={uuidv4()}>
                         <img src={element.image} alt=""/>
                         <P bold hyphensAuto>{element.header}</P>
                         <P last hyphensAuto>{element.text}</P>

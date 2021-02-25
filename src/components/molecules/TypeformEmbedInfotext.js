@@ -66,7 +66,7 @@ const FlexSection = styled.section`
 const TypeformEmbedInfotext = () => {
     return (
         <BoxAroundTypeform>
-            <H3>
+            <H3 bigMarginBottom>
                 {textData.h3TextAboveRegistration}
             </H3>
             <FlexDiv>
