@@ -26,21 +26,12 @@ const Ul = styled.ul`
 
   a:hover{
     color: ${props => props.theme.colors.meCademySalmon};
-    /* color: ${props => props.theme.colors.meCademyMediumGrey}; */
-    /* color: ${props => props.theme.colors.meCademyTeal}; */
-
-
-  }
+   }
 
   .underline {
-    /* text-decoration: underline; */
     border-bottom: 2px solid ${props => props.theme.colors.meCademyTextGrey};
-
-    /* color: ${props => props.theme.colors.meCademySalmon}; */
-    /* border-bottom: 2px solid ${props => props.theme.colors.meCademySalmon}; */
-  :hover{
+  :hover {
     border-bottom: 2px solid ${props => props.theme.colors.meCademySalmon};
-
   }
   }
 

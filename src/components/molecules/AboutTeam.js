@@ -13,7 +13,7 @@ const AboutTeam = () => {
                 <div className="row2">
                     <img 
                         className="img2"
-                        src="/images/Karin78 square.jpeg"
+                        src="/images/StefanieWey.jpeg"
                         alt="Stefanie Wey"
                     />  
                     <div className="text2">

@@ -8,7 +8,7 @@ import { textData } from '../../data/textData';
 
 //Refactor class to styled component
 const StyledSliderForm = styled.div `
-    height: 430px;
+    height: 380px;
     width: 300px;
     position: relative;
     background-color: ${props => props.theme.colors.meCademyLightGrey};

@@ -55,17 +55,34 @@ margin-bottom: 50px;
     border-top: solid 15px transparent;
     border-bottom: solid 15px transparent;
     }
-    
-    H1 {
+
+    @media screen and (max-width: 2500px) and (min-width: 652px) {
+        .text2 {
+        H1 {
+        text-align: justify;
         margin: 3px;
        }
     
-    H3 {
+        H3 {
+        text-align: justify;
         margin: 7px;
         }
-
-
-   @media screen and (max-width: 1025px){
+    }
+      
+    .text3 {
+        H1 {
+        text-align: right;
+        margin: 3px;
+       }
+    
+        H3 {
+        text-align: right;
+        margin: 7px;
+        }
+    }
+    }
+    
+    @media screen and (max-width: 1025px){
 
        H1 {
         margin: 0;
@@ -88,6 +105,11 @@ margin-bottom: 50px;
 
    @media screen and (max-width: 651px){
     font-size: 0.87em;
+
+    .img2, .img3 {
+        /* width: auto; */
+        object-fit: cover;
+    }
 
     H3 {
         margin: 0;
