@@ -81,7 +81,7 @@ const Ul = styled.ul`
 `;
 
 const Logo = styled.img`
-    height: 43px;
+    height: 55px;
 `;
 
 const LogoDiv =styled.div`
@@ -140,7 +140,7 @@ const RightNav = () => {
 
   return (
     <>
-    <LogoDiv><Link to='/' onClick={()=>handleClickOff()}><Logo src="./images/mecademy Logo Kopie navbar reexported.png" /></Link></LogoDiv>
+    <LogoDiv><Link to='/' onClick={()=>handleClickOff()}><Logo src="./images/mecademy Logo Kopie reexported.png" /></Link></LogoDiv>
     <Ul open={open}  isHover={context.hover}> 
       <li><Link to='/About' onClick={()=>handleClick()}>About</Link></li>
       <li><Link to='/Program' onClick={()=>handleClick()}>Programm</Link></li>
