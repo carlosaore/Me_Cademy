@@ -54,7 +54,7 @@ const NumbSteps = () => {
                 {textData.aboutNumeric.map((element, index) => (
                     <NestedDiv key={uuidv4()}>
                         <img src={element.image} alt=""/>
-                        <P bold hyphensAuto>{element.header}</P>
+                        <P bold last hyphensAuto>{element.header}</P>
                         <P last hyphensAuto>{element.text}</P>
                     </NestedDiv>
                 ))}
