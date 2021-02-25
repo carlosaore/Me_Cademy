@@ -60,6 +60,28 @@ const GlobalStyle = createGlobalStyle`
     .fa-facebook:hover{
     color: #3b5998;
     }
+
+    .slick-prev { 
+        top: 40%;
+
+        :before {
+            opacity: 1;
+            color: ${props => props.theme.colors.meCademyGrey};
+            content : "❮";
+        }
+    }
+
+    .slick-next {    
+        top: 40%;
+
+        :before {
+            opacity: 1;
+            color: ${props => props.theme.colors.meCademyGrey};
+            content : "❯";
+        }
+    }
+
+
 `;
 
 export default GlobalStyle;

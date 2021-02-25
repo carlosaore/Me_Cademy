@@ -11,7 +11,7 @@ import './accordion.css';
 
 export default function CoachesAccordion() {
     return (
-        <StyledDiv>
+        <StyledDiv marginTop={false}>
             <Accordion
                 allowMultipleExpanded
                 allowZeroExpanded
