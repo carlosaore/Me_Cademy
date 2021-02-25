@@ -230,13 +230,21 @@ export const textData = {
     homeHeroImg : "images/Team-MentorMe-Website.jpg",
     HomeQuote : "Mit der MeCademy bieten wir arbeitslosen Akademikerinnen Zugang zu einem Bewerbungsprogramm, bestehend aus Einzelcoaching, moderierte Gruppen und Bewerbungs-Know-How, welches Ihnen hilft sich auf dem Arbeitsmarkt erfolgreich zu positionieren",
     
+    // delete if images work
     aboutHeroImg: "images/mentorinnen-erfahrung-website-header.jpg",
-    
     programmHeroImg : "images/HeaderBild-MentoringTools-1.jpg",
-    
     coachesHeroImg : "images/frau-vor-fuchsia-sofa.jpg",
-    
     registrationHeroImg : "/images/picBoxAboveTypeform.png",
+
+    // Hero Images version Feb25
+    aboutHeroImg: "/images/picBoxAboveTypeform.png",
+    programmHeroImg : "images/frau-vor-fuchsia-sofa.jpg",
+    coachesHeroImg : "images/mentorinnen-erfahrung-website-header.jpg",
+    registrationHeroImg : "images/HeaderBild-MentoringTools-1.jpg",
+
+
+
+
     registrationQuote : "Sichere dir jetzt deinen Platz bei der MeCademy!",
     picBoxAboveTypeform : "/images/picBoxAboveTypeform.png",
     h3TextAboveRegistration : "Mit der „MeCademy“ finden ALG-beziehende Akademikerinnen in nur 2 Monaten gezielt in den Beruf zurück. Die Maßnahme wird von der Agentur für Arbeit bezahlt!",
