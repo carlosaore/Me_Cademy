@@ -11,6 +11,7 @@ import H3 from '../atoms/H3';
 import { textData } from '../../data/textData';
 import styled, { css } from 'styled-components';
 import ReactModal from 'react-modal';
+ReactModal.setAppElement('#root');
 
 const Button = styled.button`
     height : 1.5em;
