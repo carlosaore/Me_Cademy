@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const Button = styled.button`
+    margin-left : -30px;
     height : 1.5em;
     border-radius : 3px;
     border : none;
