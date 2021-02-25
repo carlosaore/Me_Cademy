@@ -25,12 +25,15 @@ margin-bottom: 50px;
     position: relative;
     height: 250px;
     background-color: ${props => props.theme.colors.meCademyLightTeal};
-    text-align: center;
     flex-direction: column;
     justify-content: center;
     padding: 0 30px 0 30px;
     color : ${props => props.theme.colors.meCademyTextGrey}
-    }      
+    }
+
+.text3 {
+    text-align : right;
+}      
 
 .text2:after {
     position: absolute;
