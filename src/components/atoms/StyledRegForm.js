@@ -9,14 +9,10 @@ const StyledRegForm = styled.div `
     text-align: center;
     justify-content: space-evenly;
     border-radius: 3px;
-    margin-top: 65px;
+    margin-top: 30px;
 
-    h1 {
-    font-size: 2.6rem;
-    }
-
-    h1, h3 {
-    margin: 20px;
+    H1,H2 {
+        margin:40px;
     }
 `
 
