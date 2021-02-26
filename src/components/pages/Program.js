@@ -5,6 +5,7 @@ import MainContentWrapper from '../atoms/MainContentWrapper';
 import ProgrammArticles from '../molecules/ProgrammArticles';
 import ProgrammAccordion from '../molecules/ProgrammAccordion';
 import NumbSteps from '../organism/NumbSteps';
+import ProgramEmail from '../molecules/ProgramEmail';
 
 const Program = () => {
     return (
@@ -18,6 +19,7 @@ const Program = () => {
                 <ProgrammArticles />
                 <ProgrammAccordion />
                 <NumbSteps />
+                <ProgramEmail/>
             </MainContentWrapper>
         </div>
     )

@@ -6,6 +6,7 @@ import {BrowserRouter} from 'react-router-dom';
 import GlobalStyle from './globalStyles';
 import Theme from './data/theme'
 import {MyContextProvider} from './components/context/MyContext';
+import ScrollToTop from './components/molecules/ScrollToTop';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,7 +15,9 @@ ReactDOM.render(
         <Theme >
           <title>MeCademy</title>
           <GlobalStyle />
-          <App />
+          <ScrollToTop>
+            <App />
+          </ScrollToTop>
         </Theme>
       </BrowserRouter>
     </MyContextProvider>
