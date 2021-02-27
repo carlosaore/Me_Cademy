@@ -4,19 +4,22 @@ import { NavLink } from 'react-router-dom';
 import { MyContext } from '../context/MyContext';
 
 const Ul = styled.ul`
-	margin: auto;
+	margin: auto 10% auto auto;
 	list-style: none;
 	display: flex;
-	width: 60%;
 	flex-flow: row nowrap;
 	justify-content: flex-start;
 
 	li {
-		padding: 25px 25px;
+		padding: 25px 30px;
 		letter-spacing: 0.84px;
 		font-weight: bolder;
 		height: 100%;
 		transition: 0.3s ease-in;
+
+		:last-child {
+			padding-right: 0;
+		}
 	}
 
 	a {
@@ -45,6 +48,7 @@ const Ul = styled.ul`
 		right: 0;
 		width: 100%;
 		margin-top: 80px;
+		margin-right : 0;
 		padding: 55px 0 80px 0;
 		transition: transform 0.3s ease-in-out;
 		text-transform: uppercase;

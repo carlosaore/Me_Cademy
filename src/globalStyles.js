@@ -83,9 +83,7 @@ const GlobalStyle = createGlobalStyle`
             right: 30%;
         }
 
-        @media (min-width : ${(props) =>
-					props.theme.mediumViewport.minSize}) and (max-width : ${(props) =>
-	props.theme.mediumViewport.maxSize}) {
+        @media (min-width : ${(props) => props.theme.mediumViewport.minSize}) and (max-width : ${(props) => props.theme.mediumViewport.maxSize}) {
             top: 30%;
             left: 20%;
             right: 20%;
@@ -95,6 +93,8 @@ const GlobalStyle = createGlobalStyle`
             top: 30%;
             left: 9%;
             right: 9%;
+            padding-top: 50px;
+            padding-bottom: 50px;
         }
     }
 

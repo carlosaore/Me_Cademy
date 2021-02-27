@@ -10,6 +10,7 @@ const HeroImg = styled.img`
     background-image: url(${props => props.url});
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed; // Do you like it?
     z-index: -1;
 `;
 
