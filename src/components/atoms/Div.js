@@ -11,6 +11,6 @@ const Div = styled.div`
     align-items: center;
     background-color : #5f7375;
     justify-content: center;
-`
+`;
 
 export default Div;

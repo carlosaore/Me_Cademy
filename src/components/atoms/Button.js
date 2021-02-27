@@ -24,6 +24,6 @@ const Button = styled.button`
     :hover {
         background-color : ${props => props.theme.colors.meCademyLightGrey}
     }
-`
+`;
 
 export default Button;

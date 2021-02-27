@@ -11,6 +11,6 @@ const HeroImg = styled.img`
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-`
+`;
 
 export default HeroImg;

@@ -4,20 +4,20 @@ import styled, { css } from "styled-components";
 
 const Ol = styled.ol`
     color : ${props => props.theme.colors.meCademyTextGrey};
-    line-height : 1.7em;
-    font-size : 0.9em;
+    line-height: 1.7em;
+    font-size: 0.9em;
     margin-left : 1em;
 
-    @media (min-width : ${props => props.theme.largeViewport.size}) {
-        margin-bottom : ${props => props.theme.largeViewport.margin};
+    @media (min-width: ${props => props.theme.largeViewport.size}) {
+        margin-bottom: ${props => props.theme.largeViewport.margin};
     }
 
-    @media (min-width : ${props => props.theme.mediumViewport.minSize}) and (max-width : ${props => props.theme.mediumViewport.maxSize}) {
-        margin-bottom : ${props => props.theme.mediumViewport.margin};
+    @media (min-width: ${props => props.theme.mediumViewport.minSize}) and (max-width : ${props => props.theme.mediumViewport.maxSize}) {
+        margin-bottom: ${props => props.theme.mediumViewport.margin};
     }
 
-    @media (max-width : ${props => props.theme.smallViewport.size}) {
-        margin-bottom : ${props => props.theme.smallViewport.margin};
+    @media (max-width: ${props => props.theme.smallViewport.size}) {
+        margin-bottom: ${props => props.theme.smallViewport.margin};
     }
 
     ${props => props.last && css`
@@ -31,15 +31,15 @@ const Ol = styled.ol`
     }
 
     a {
-        text-decoration : none;
-        font-weight : bold;
-        color : ${props => props.theme.colors.meCademySalmon};
+        text-decoration: none;
+        font-weight: bold;
+        color: ${props => props.theme.colors.meCademySalmon};
 
         :hover {
-            text-decoration: underline
+            text-decoration: underline;
         }
     }
 
-`
+`;
 
 export default Ol;

@@ -6,6 +6,6 @@ const DivGradient = styled.div`
     background: linear-gradient(180deg, #5f737bc4, #49585f);
     padding : 2em;
     margin-bottom : 50px;
-`
+`;
 
 export default DivGradient;

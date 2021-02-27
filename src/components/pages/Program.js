@@ -8,21 +8,18 @@ import NumbSteps from '../organism/NumbSteps';
 import ProgramEmail from '../molecules/ProgramEmail';
 
 const Program = () => {
-    return (
-        <div>
-            <MetaDecorator
-                description='Programm'
-                title='Programm • MeCademy'
-            />
-            <ProgrammHeroImg />
-            <MainContentWrapper>
-                <ProgrammArticles />
-                <ProgrammAccordion />
-                <NumbSteps />
-                <ProgramEmail/>
-            </MainContentWrapper>
-        </div>
-    )
-}
+	return (
+		<div>
+			<MetaDecorator description="Programm" title="Programm • MeCademy" />
+			<ProgrammHeroImg />
+			<MainContentWrapper>
+				<ProgrammArticles />
+				<ProgrammAccordion />
+				<NumbSteps />
+				<ProgramEmail />
+			</MainContentWrapper>
+		</div>
+	);
+};
 
 export default Program;

@@ -6,8 +6,6 @@ const StyledDiv = styled.div`
     margin-right : auto;
     margin-top : ${props => props.theme.largeViewport.bigmargin};
     margin-bottom : ${props => props.theme.largeViewport.margin}
-`
+`;
 
-export {
-    StyledDiv
-};
+export { StyledDiv };
