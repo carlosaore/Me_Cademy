@@ -17,8 +17,10 @@ const Ul = styled.ul`
 		height: 100%;
 		transition: 0.3s ease-in;
 
-		:last-child {
-			padding-right: 0;
+		@media (min-width: 1001px) {
+			:last-child {
+				padding-right: 0;
+			}
 		}
 	}
 
