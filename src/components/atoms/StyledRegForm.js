@@ -14,6 +14,6 @@ const StyledRegForm = styled.div `
     H1,H2 {
         margin:40px;
     }
-`
+`;
 
 export default StyledRegForm;

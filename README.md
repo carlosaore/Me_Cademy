@@ -1,70 +1,160 @@
-# Getting Started with Create React App
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Javascript](https://aleen42.github.io/badges/src/javascript.svg)
+![React](https://aleen42.github.io/badges/src/react.svg)
+![React-Router](https://aleen42.github.io/badges/src/router.svg)
+![NodeJs](https://github.com/aleen42/badges/raw/master/src/node.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <img src="./public/images/mecademy Logo Kopie reexported.png" alt="Logo" width="auto" height="150">
+  <h1 align="center">Project 2 : "Norris Inc. E-commerce webapp"</h1>
 
-## Available Scripts
+  <p align="center">
+    <i>
+    A single page app...
+    </i>
+    <br />
+    <br />
+    <a href="">View Demo</a>
+    ·
+    <a href="">Contact</a>   
+</p>
+</br>
 
-In the project directory, you can run:
+# Table of Contents
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# :thought_balloon: About the project
+## :seedling: Some history
+### Who are we?
+We are ... and [Carlos](https://www.linkedin.com/in/carlosaore/), four students of [Wild Code School](https://www.wildcodeschool.com/). At the moment these lines are being written, we are attending a ["Web developer"](https://www.wildcodeschool.com/en-GB/trainings/web-developer-full-time) Bootcamp that is 5 months long and is teaching us all the technical know-how and knowledge to develop interactive websites using HTML, CSS, JavaScript, so we can take a React and Node JS development project to completion.
 
-### `npm test`
+### Why did we create this?
+...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### LinkedIn profiles
+- ...
+- [Carlos Orellana](https://www.linkedin.com/in/carlosaore/)
 
-### `npm run build`
+## [:top:](#table-of-contents)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :lock: Constraints
+- ...
+- ...
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :rugby_football: Agile
+...
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## [:top:](#table-of-contents)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :money_with_wings: Objectives
+- ...
+- ...
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## [:top:](#table-of-contents)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## :wrench: Tools
+We used Jira as our main tool to assist in the project management and Confluence to store and access all the documentation being produced and Slack together with Google Meet as our platform for communication.
 
-## Learn More
+Figma...
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## [:top:](#table-of-contents)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# :microscope: About the code
+The main frameworks and technologies used to build our Project are the following:
 
-### Code Splitting
+- React (with *Hooks* and *Context*)
+- React Router
+- Styled Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## [:top:](#table-of-contents)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## :page_with_curl: `theme.js` and `textData.js`
+To make our project scalable and maintainable, we opted to keep everything related to the style and text inside two files.
 
-### Making a Progressive Web App
+All texts and related information is stored inside a file called `textData.js`. This file contains the text strings that are injected into the code so that they are shown to the final user when the page is loaded.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+`theme.js`, contains everything related to the style (colors, sizes, fonts, etc.).
 
-### Advanced Configuration
+We decided to take this approach to be able to maintain and update the project in a simpler, easier, and faster way. For most changes that we may need to do in the future, we only need access and edit these two files instead of looking through the huge react architecture to find the correct positioning of the one line of code that needs to be changed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+It took a bit of time to structure these files, but we believe it was worth it and it was a great learning opportunity.
 
-### Deployment
+### Use case example
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. The following object can be found inside [`textData.js`](.\src\data\textData.js) starting on line 63, and contains the value `Details` for the key `details`: 
 
-### `npm run build` fails to minify
+    ```javascript
+    single: {
+        continue: "Continue Shopping",
+        add: "Add to cart",
+        details: "Details",
+        },
+    ```
+    In the same manner, you can find another object in [`theme.js`](.\src\data\theme.js) starting on line 3 with a key  `primary` and value `"#33A0FF"`:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    ```javascript
+    colors: {
+        primary: "#33A0FF",
+        secondary: "#33A0FF40",
+        light: "#FFFFFF",
+        dark: "#000000",
+        dark2: "#0000007A",
+        grey: "#F0F0F0",
+        red: "#FF0000",
+    },
+    ```
+2. We import both files in the [`SingleShopCard.js`](.\src\components\pages\shop\remote-shop\SingleShopCard.js) component on line 3 and 4:
+    ```javascript
+    import { textData } from "../../../../data/textData";
+    import { theme } from "../../../../data/theme";
+    ```
+3. Still on `SingleShopCard.js`, starting on line 46, we call on a `Button` component that is set up to receive props for the text to be displayed and its color, amongst other things.
+    ```javascript
+    <Button
+            id={id}
+            action={(e) => onClick(e)}
+            size="S"
+            color="primary"
+            text={textData.shop.single.details}
+        />
+    ```
+4. You can clearly see how the props `color="primary"` and `text={textData.shop.single.details}` come from `textData.js` and `theme.js`
+5. Now, if we ever want to change the color or the text displayed in this button, we only need to do a small change in a couple of lines of code. The change will be reflected in all instances of that button.
+
+## [:top:](#table-of-contents)
+
+## NPM Packages
+...
+
+## [:top:](#table-of-contents)
+
+# :link: Other information
+
+## :nail_care: Atomic design, Styled Components
+...
+Because of this approach, everything is designed and coded for scalability, maintainability, and changeability.
+
+## [:top:](#table-of-contents)
+
+## :dizzy: Git and GitHub Guidelines
+**In our project, we decided to follow these guidelines for Git and GitHub.**
+
+- Small and frequent commits, to be able to find any problem facilitate the handling of any problem that may arise.
+- Commits with a significant name about the feature it’s implementing.
+- Branches with a significant name about the feature that is being worked on.
+- Pull requests done often (with working branches of course), to make sure that everyone in the team is working on the same version.
+- Pull requests have to be reviewed and approved by at least one person before being merged into the main branch.
+
+## [:top:](#table-of-contents)
+
+# :cop: License
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
+
+## [:top:](#table-of-contents)

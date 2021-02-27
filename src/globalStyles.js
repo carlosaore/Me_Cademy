@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
- 
+
 const GlobalStyle = createGlobalStyle`
     // style reset
     * {
@@ -46,31 +46,13 @@ const GlobalStyle = createGlobalStyle`
         cursor: pointer !important;
     }
 
-    // what is this?
-    .fa-twitter:hover{
-    color:#1DA1F2;
-    }
-    .fa-linkedin:hover{
-    color:#0072b1;
-    }
-    .fa-instagram:hover{
-    border-radius: 40px;
-    background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
-    }
-    .fa-facebook:hover{
-    color: #3b5998;
-    }
-
-
     // carousel arrows
     .slick-prev { 
         top: 37.5%;
 
         :before {
             opacity: 1;
-            color: ${props => props.theme.colors.meCademyGrey};
+            color: ${(props) => props.theme.colors.meCademyGrey};
             content : "❮";
         }
     }
@@ -80,7 +62,7 @@ const GlobalStyle = createGlobalStyle`
 
         :before {
             opacity: 1;
-            color: ${props => props.theme.colors.meCademyGrey};
+            color: ${(props) => props.theme.colors.meCademyGrey};
             content : "❯";
         }
     }
@@ -95,22 +77,24 @@ const GlobalStyle = createGlobalStyle`
         outline: none;
         padding: 20px;
 
-        @media (min-width : ${props => props.theme.largeViewport.size}) {
+        @media (min-width : ${(props) => props.theme.largeViewport.size}) {
             top: 30%;
             left: 30%;
             right: 30%;
         }
 
-        @media (min-width : ${props => props.theme.mediumViewport.minSize}) and (max-width : ${props => props.theme.mediumViewport.maxSize}) {
+        @media (min-width : ${(props) => props.theme.mediumViewport.minSize}) and (max-width : ${(props) => props.theme.mediumViewport.maxSize}) {
             top: 30%;
             left: 20%;
             right: 20%;
         }
 
-        @media (max-width : ${props => props.theme.smallViewport.size}) {
+        @media (max-width : ${(props) => props.theme.smallViewport.size}) {
             top: 30%;
             left: 9%;
             right: 9%;
+            padding-top: 50px;
+            padding-bottom: 50px;
         }
     }
 

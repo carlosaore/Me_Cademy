@@ -60,6 +60,6 @@ const P = styled.p`
         `
     }
 
-`
+`;
 
 export default P;

@@ -7,22 +7,20 @@ import HomeHeroImage from '../molecules/HomeHeroImg';
 import MainContentWrapper from '../atoms/MainContentWrapper';
 
 const Home = () => {
-    return (
-        <>
-            <MetaDecorator
-                description='Home'
-                title='MeCademy'
-            />
-            <HomeHeroImage />
-            <MainContentWrapper>
-                <HomeQuote />
-            </MainContentWrapper>
-            <MainContentWrapper flex>
-                <HomeSlider/>
-                <HomeReg/>
-            </MainContentWrapper>
-        </>
-    )
-}
+	return (
+		<>
+			<MetaDecorator description="Home" title="MeCademy" />
+			<HomeHeroImage />
+			<MainContentWrapper>
+				<HomeQuote />
+			</MainContentWrapper>
+			<MainContentWrapper flex>
+				<HomeSlider />
+				<HomeReg />
+			</MainContentWrapper>
+		</>
+	);
+};
 
 export default Home;
+

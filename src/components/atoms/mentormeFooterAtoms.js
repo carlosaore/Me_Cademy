@@ -1,69 +1,85 @@
-import styled from "styled-components";
+import styled, { css } from 'styled-components';
 
 const Footer = styled.footer`
-    background-color : ${props => props.theme.colors.meCademyGrey};
-`
+	background-color: ${(props) => props.theme.colors.meCademyGrey};
+`;
 
 const Container = styled.div`
-    width: 80%;
-    max-width: 1080px;
-    margin: auto;
-    text-align: left;
-`
+	width: 80%;
+	max-width: 1080px;
+	margin: auto;
+	text-align: left;
+`;
 
-const FooterWidget = styled.div`
-    padding : 6% 0 6% 0;
-    display : flex;
-    justify-content : space-between;
-    
-    
-    @media (max-width : 479px) {
-    flex-wrap : wrap;
-    padding: 12% 0;
-    }
-`
+const FooterWidgetsWrapper = styled.div`
+	padding: 6% 0 6% 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	@media (max-width: 600px) {
+		padding: 30px 0;
+	}
+`;
 
 const FooterWidgets = styled.div`
-    width : 380px;
+	${props => !props.right && css`
+		width: 70%;
 
-    :last-of-type {
-        text-align : right
-    }
+		@media (max-width: 600px) {
+			display: flex;
+			justify-content: center;
+		}
+	`}
 
-    @media (max-width : 479px) {
-        margin-bottom : 11.5%;
-        text-align : center;
+	${props => props.right && css`
+		width: 30%;
+		text-align: right;
+	`}
 
-        :last-of-type {
-            margin-bottom : 0;
-            text-align : center
-        }
-    }
-`
+	@media (max-width: 600px) {
+		width: 100%;
+		text-align: center;
+	}
+`;
 
 const Li = styled.li`
-    text-decoration : none;
-    list-style : none;
-    display : inline;
-    float : left;
-    padding-left : 20px;
+	text-decoration: none;
+	list-style: none;
+	
 
-    a {
-        color : ${props => props.theme.colors.light};
-        text-decoration : none;
-    }
-`
+	@media (min-width: 601px) {
+		display: inline;
+		float: left;
+		margin-right: 20px;
+		margin-top: 7px;
+	}
+
+	@media (max-width: 600px) {
+		margin-bottom: 10px;
+	}
+
+	a {
+		color: ${(props) => props.theme.colors.light};
+		text-decoration: none;
+
+		:hover {
+			text-decoration: underline;
+		}
+	}
+`;
 
 const SocialMediaIcon = styled.img`
-    width : 25px;
-    margin-right : 10px;
-`
+	width: 25px;
+	margin-right: 10px;
+	
+	${props => props.last && css`
+			margin-right: 0;
+		`}
 
-export {
-    Footer,
-    Container,
-    FooterWidgets,
-    FooterWidget,
-    Li,
-    SocialMediaIcon
-}
+	:hover {
+		filter: sepia(99%) saturate(332%) hue-rotate(113deg) brightness(91%) contrast(89%);
+	}
+`;
+
+export { Footer, Container, FooterWidgets, FooterWidgetsWrapper, Li, SocialMediaIcon };

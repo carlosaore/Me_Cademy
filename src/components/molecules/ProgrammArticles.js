@@ -14,9 +14,5 @@ export default function ProgrammArticles() {
                 </P>
             </TextBox>
         </ComponentWrapper>
-    )
+    );
 }
-
-
-// later it would be good to put it as organism, mapped
-// this right here is bad-style

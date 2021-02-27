@@ -3,48 +3,48 @@ import styled from 'styled-components';
 import { v4 as uuidv4 } from 'uuid';
 import { textData } from '../../data/textData';
 
+const StyledDotsForm = styled.div`
+	.all-dots {
+		width: 100%;
+		position: absolute;
+		display: flex;
+		top: 85%;
+		justify-content: center;
+		margin-top: 40px;
+	}
 
-const StyledDotsForm = styled.div `
+	.dot {
+		cursor: pointer;
+		height: 0.5rem;
+		width: 0.5rem;
+		margin: 1px;
+		background-color: rgba(0, 0, 0, 0.3);
+		border-radius: 50%;
+	}
 
-.all-dots {
-    width: 100%;
-    position: absolute;
-    display: flex;
-    top: 85%;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.dot {
-    cursor: pointer;
-    height: 0.5rem;
-    width: 0.5rem;
-    margin: 1px;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 50%;
-}
-
-.active-dot, .dot:hover {
-    background-color: rgba(0, 0, 0, 0.6);
-}
-`
-
+	.active-dot,
+	.dot:hover {
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+`;
 
 function Dots(props) {
-    return (
-        <StyledDotsForm>
-        <div className="all-dots">
-            {textData.testimonialData.map((slide, index) => (
-                <span key={uuidv4()}
-                    className={`${
-                    props.activeIndex === index ? "dot active-dot" : "dot"
-                    }`}
-                    onClick={(event) => props.onClick((event.target.value = index))}
-                ></span>
-            ))}
-        </div>
-        </StyledDotsForm>
-    )
+	return (
+		<StyledDotsForm>
+			<div className="all-dots">
+				{textData.testimonialData.map((slide, index) => (
+					<span
+						key={uuidv4()}
+						className={`${
+							props.activeIndex === index ? 'dot active-dot' : 'dot'
+						}`}
+						onClick={(event) => props.onClick((event.target.value = index))}
+					></span>
+				))}
+			</div>
+		</StyledDotsForm>
+	);
 }
 
 export default Dots;
+

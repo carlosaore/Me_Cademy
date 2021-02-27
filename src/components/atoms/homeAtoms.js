@@ -8,8 +8,6 @@ const HomeHeroImage = styled.img`
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-`
+`;
 
-export {
-    HomeHeroImage
-};
+export { HomeHeroImage };
