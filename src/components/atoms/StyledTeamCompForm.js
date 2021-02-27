@@ -33,6 +33,8 @@ const StyledTeamCompForm = styled.div`
 
 	.text3 {
 		text-align: right;
+
+		
 	}
 
 	.text2:after {
@@ -127,6 +129,10 @@ const StyledTeamCompForm = styled.div`
 		.row3 {
 			display: flex;
 			flex-direction: column;
+		}
+
+		.text3{
+			text-align: left;
 		}
 	}
 	@media screen and (max-width: 395px) {
