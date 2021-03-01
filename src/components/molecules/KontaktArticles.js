@@ -86,9 +86,9 @@ const KontaktArticles = () => {
                         <b>Kontakt:</b>
                     </P>
                     <P>
-                    <a href="mail@mentorme-ngo.org">mail@mentorme-ngo.org</a>
+                    <a href="mailto:mail@mentorme-ngo.org">mail@mentorme-ngo.org</a>
                     <br/>
-                    <a href="www.mentorme-ngo.org">www.mentorme-ngo.org</a> 
+                    <a href="https://mentorme-ngo.org/">www.mentorme-ngo.org</a> 
                     <br/>
                     </P>
                     <P>
