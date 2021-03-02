@@ -8,11 +8,11 @@
 <br />
 <p align="center">
   <img src="./public/images/mecademy Logo Kopie reexported.png" alt="Logo" width="auto" height="150">
-  <h1 align="center">MeCademy Webapp"</h1>
+  <h1 align="center">MeCademy Webapp</h1>
 
   <p align="center">
     <i>
-    A single page app for MentorMe gGmbH, Berlin.
+    A single page app for MentorMe gGmbH, Berlin. MeCademy offers female academics an application program composed of coaching, moderated groups and special know-how to help them to position successfully on the job market.
     </i>
     <br />
     <br />
