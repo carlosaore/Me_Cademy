@@ -44,8 +44,8 @@ We are [Dzmitry](https://www.linkedin.com/in/dzmitryps/), [Viet](https://www.lin
 ## [:top:](#table-of-contents)
 
 ## :lock: Constraints
-- ...
-- ...
+- team of four people
+- 8 weeks until demo day
 
 ## :rugby_football: Agile
 ...
