@@ -12,7 +12,7 @@ const Container = styled.div`
 `;
 
 const FooterWidgetsWrapper = styled.div`
-	padding: 6% 0 6% 0;
+	padding: 25px 0 25px 0;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;

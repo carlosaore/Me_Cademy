@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { MyContext } from '../context/MyContext';
 
 const Ul = styled.ul`
-	margin: auto 10% auto auto;
+	margin: auto 0 auto auto;
 	list-style: none;
 	display: flex;
 	flex-flow: row nowrap;
@@ -101,10 +101,10 @@ const Logo = styled.img`
 `;
 
 const LogoDiv = styled.div`
-	margin: auto auto auto 70px;
+	margin: auto auto auto 0;
 
 	@media (max-width: 1000px) {
-		margin: auto auto auto 70px;
+		margin: auto auto auto 0;
 	}
 
 	@media (max-width: 768px) {
