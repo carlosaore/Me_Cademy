@@ -8,11 +8,11 @@
 <br />
 <p align="center">
   <img src="./public/images/mecademy Logo Kopie reexported.png" alt="Logo" width="auto" height="150">
-  <h1 align="center">Project 2 : "Norris Inc. E-commerce webapp"</h1>
+  <h1 align="center">MeCademy Webapp"</h1>
 
   <p align="center">
     <i>
-    A single page app...
+    A single page app for MentorMe gGmbH, Berlin.
     </i>
     <br />
     <br />
