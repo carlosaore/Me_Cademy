@@ -3,6 +3,9 @@ import { textData } from '../../data/textData';
 
 export default function RegistrationHeroImg() {
     return (
-        <HeroImg url={textData.registrationHeroImg}/>
+        <HeroImg
+            url={textData.registrationHeroImg}
+            registration    
+        />
     )
 }

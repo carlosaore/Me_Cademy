@@ -5,6 +5,7 @@ import CoachesAccordion from '../molecules/CoachesAccordion';
 import CoachesArticle from '../molecules/CoachesArticle';
 import CoachesHeroImg from '../molecules/CoachesHeroImg';
 import MainContentWrapper from '../atoms/MainContentWrapper';
+import CoachesQuote from '../molecules/CoachesQuote';
 
 const Coaches = () => {
 	return (
@@ -12,7 +13,8 @@ const Coaches = () => {
 			<MetaDecorator description="Coaches" title="Coaches • MeCademy" />
 			<CoachesHeroImg />
 			<MainContentWrapper>
-				<CoachesArticle />
+				<CoachesQuote />
+				<CoachesArticle/>
 				<CoachesCarousel />
 				<CoachesAccordion />
 			</MainContentWrapper>

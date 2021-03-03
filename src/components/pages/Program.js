@@ -6,6 +6,7 @@ import ProgrammArticles from '../molecules/ProgrammArticles';
 import ProgrammAccordion from '../molecules/ProgrammAccordion';
 import NumbSteps from '../organism/NumbSteps';
 import ProgramEmail from '../molecules/ProgramEmail';
+import ProgrammQuote from '../molecules/ProgrammQuote';
 
 const Program = () => {
 	return (
@@ -13,6 +14,7 @@ const Program = () => {
 			<MetaDecorator description="Programm" title="Programm • MeCademy" />
 			<ProgrammHeroImg />
 			<MainContentWrapper>
+				<ProgrammQuote />
 				<ProgrammArticles />
 				<ProgrammAccordion />
 				<NumbSteps />
