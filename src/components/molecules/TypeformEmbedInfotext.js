@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { textData } from '../../data/textData';
 import TypeformRight from '../organism/reg_form';
 import P from '../atoms/P';
-import H3 from '../atoms/H3';
 
 const BoxAroundTypeform = styled.div`
 	@media (min-width: ${(props) => props.theme.largeViewport.size}) {
@@ -70,7 +69,7 @@ const FlexSection = styled.section`
 const TypeformEmbedInfotext = () => {
 	return (
 		<BoxAroundTypeform>
-			<H3 bigMarginBottom>{textData.h3TextAboveRegistration}</H3>
+			<P bold>{textData.h3TextAboveRegistration}</P>
 			<FlexDiv>
 				<FlexSection>
                 <P>
@@ -87,9 +86,9 @@ const TypeformEmbedInfotext = () => {
                     </P>
 				</FlexSection>
 				<FlexSection>
-					<H3 salmon alignLeftIfBig>
+					<P alignCenter bold salmon last>
 						{textData.h3SalmonTextAboveRegistration}
-					</H3>
+					</P>
 					<RegDivOnPage>
 						<TypeformRight />
 					</RegDivOnPage>

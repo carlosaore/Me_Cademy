@@ -19,7 +19,7 @@ const HeroImg = styled.div`
         }
     `}
 
-    ${props => props.about && css`
+    ${props => props.aboutPage && css`
         background-position: 50% -200px;
 
         @media (max-width: 1440px) {

@@ -7,5 +7,5 @@ export default function CoachesHeroImg() {
             url={textData.coachesHeroImg}
             coaches
         />
-    )
+    );
 }

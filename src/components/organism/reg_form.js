@@ -8,7 +8,7 @@ const Registration_form = () => {
 	return (
 		<RegDiv>
 			<ReactTypeformEmbed
-				opacity="70"
+				opacity={70}
 				url="https://karinheinzl.typeform.com/to/N75W9teT"
 			/>
 		</RegDiv>

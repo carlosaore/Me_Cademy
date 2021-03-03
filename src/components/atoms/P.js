@@ -3,9 +3,10 @@ import styled, { css } from "styled-components";
 // pass "last" as prop to remove margin on the last one, if needed
 
 const P = styled.p`
-    color : ${props => props.theme.colors.meCademyTextGrey};
-    line-height : 1.7em;
-    font-size : 0.9em;
+    color: ${props => props.theme.colors.meCademyTextGrey};
+    line-height: 1.7em;
+    font-size: 0.9em;
+    text-align: justify;
 
     @media (min-width : ${props => props.theme.largeViewport.size}) {
         margin-bottom : ${props => props.theme.largeViewport.margin}
@@ -57,6 +58,21 @@ const P = styled.p`
     ${props => props.hyphensAuto && css`
             hyphens: auto;
 
+        `
+    }
+
+    ${props => props.light && css`
+            color : ${props.theme.colors.light};
+        `
+    }
+
+    ${props => props.salmon && css`
+            color : ${props.theme.colors.meCademySalmon};
+        `
+    }
+
+    ${props => props.teal && css`
+            color : ${props.theme.colors.meCademyTeal};
         `
     }
 

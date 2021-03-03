@@ -17,7 +17,7 @@ const H2 = styled.h2`
     }
 
     ${props => props.teal && css`
-            color : ${props.theme.colors.teal};
+            color : ${props.theme.colors.meCademyTeal};
         `
     }
 
@@ -46,7 +46,14 @@ const H2 = styled.h2`
         `
     }
 
-    ${props => !props.bigMarginBottom && css`
+    ${props => props.quote && css`
+            margin-bottom: 2.75%;
+            font-size: 1.7em;
+            color: ${props.theme.colors.meCademySalmon};
+        `
+    }
+
+    ${props => (!props.bigMarginBottom && !props.quote) && css`
             @media (min-width : ${props => props.theme.largeViewport.size}) {
             margin-bottom : ${props => props.theme.largeViewport.margin};
 

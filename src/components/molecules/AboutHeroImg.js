@@ -5,7 +5,7 @@ export default function AboutHeroImg() {
     return (
         <HeroImg
             url={textData.aboutHeroImg}
-            about
+            aboutPage
         />
     )
 };
