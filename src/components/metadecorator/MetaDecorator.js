@@ -1,21 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 const MetaDecorator = ({ title, description }) => {
 	return (
-		<HelmetProvider>
-			<Helmet>
+		<Helmet>
 				<title>{title}</title>
 				<meta name="description" content={description} />
-			</Helmet>
-		</HelmetProvider>
+		</Helmet>
 	);
 };
-
-ReactDOM.hydrate(
-	MetaDecorator,
-	document.getElementById('root')
-);
 
 export default MetaDecorator;

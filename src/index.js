@@ -7,20 +7,23 @@ import GlobalStyle from './globalStyles';
 import Theme from './data/theme'
 import {MyContextProvider} from './components/context/MyContext';
 import ScrollToTop from './components/molecules/ScrollToTop';
+import { HelmetProvider } from 'react-helmet-async';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyContextProvider>
-      <BrowserRouter>
-        <Theme >
-          <title>MeCademy</title>
-          <GlobalStyle />
-          <ScrollToTop>
-            <App />
-          </ScrollToTop>
-        </Theme>
-      </BrowserRouter>
-    </MyContextProvider>
+    <HelmetProvider>
+      <MyContextProvider>
+        <BrowserRouter>
+          <Theme >
+            <title>MeCademy</title>
+            <ScrollToTop>
+              <GlobalStyle />
+              <App />
+            </ScrollToTop>
+          </Theme>
+        </BrowserRouter>
+      </MyContextProvider>
+      </HelmetProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
