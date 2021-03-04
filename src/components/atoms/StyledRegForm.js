@@ -11,9 +11,21 @@ const StyledRegForm = styled.div `
     border-radius: 3px;
     margin-top: 30px;
 
-    H1,H2 {
+    h1, h2 {
         margin:40px;
     }
 `;
 
-export default StyledRegForm;
+const GotoRegButton = styled.div`
+    height: 2.4em;
+    background: ${props => props.theme.colors.meCademySalmon};
+    border-radius: 5px;
+    border: none;
+    width: 65%;
+    margin: 0 auto 0 auto;
+    color: white;
+    font-size: 1.5em;
+    line-height: 2.4em;
+`
+
+export { StyledRegForm, GotoRegButton };

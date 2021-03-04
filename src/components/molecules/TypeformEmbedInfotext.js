@@ -22,10 +22,9 @@ const BoxAroundTypeform = styled.div`
 
 const RegDivOnPage = styled.div`
 	border: 3px solid ${(props) => props.theme.colors.meCademySalmon};
-	height: 250px;
+	height: 260px;
 	margin: auto;
 	margin-top: 0px;
-	padding-top: 200px;
 	display: block;
 	position: relative;
 	background-color: ${(props) => props.theme.colors.meCademyLightGrey};
