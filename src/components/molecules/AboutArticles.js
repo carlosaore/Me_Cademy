@@ -1,5 +1,6 @@
 import TextBox from '../atoms/TextBox';
 import P from '../atoms/P';
+import Numbered from '../atoms/Numbered';
 import ComponentWrapper from '../atoms/ComponentWrapper';
 
 export default function AboutArticles() {
@@ -11,10 +12,12 @@ export default function AboutArticles() {
                 <P justify alignCenter last>
                     <b>Im 8-wöchigen Programm erhalten alle Teilnehmerinnen:</b>
                 </P>
-                <P justify alignCenter last>Beratung zu allen Schritten des Bewerbungsprozesses.</P>
-                <P justify alignCenter last>Persönliche Begleitung von erfahrenen TOP-Coaches.</P>
-                <P justify alignCenter last>Moderierter Austausch & Feedback in Online-Gruppen.</P>
-                <P justify alignCenter>Interaktive, praxisfokussierte, individualisierte Übungen.</P>
+                <Numbered>
+                    <li className="one">Beratung zu allen Schritten des Bewerbungsprozesses.</li>
+                    <li className="two">Persönliche Begleitung von erfahrenen TOP-Coaches.</li>
+                    <li className="three">Moderierter Austausch & Feedback in Online-Gruppen.</li>
+                    <li className="four">Interaktive, praxisfokussierte, individualisierte Übungen.</li>
+                </Numbered>                           
                 <P last>
                     Das Ziel unseres Programmes ist, dich in den kommenden Wochen so stark wie möglich zu unterstützen und zu befähigen, deinen individuellen beruflichen Weg neu zu identifizieren, zu definieren und mit den professionellsten Tools auszustatten. Wir sind davon überzeugt, dass es immer Möglichkeiten gibt Veränderungen einzuleiten und besonders durch Kooperation, Netzwerk und Verständnis von Gleichgesinnten es leichter ist diese positiv zu erleben.
                 </P>
