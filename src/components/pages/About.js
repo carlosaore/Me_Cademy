@@ -6,6 +6,7 @@ import AboutArticles from '../molecules/AboutArticles';
 import { textData } from '../../data/textData';
 import AboutHeroImg from '../molecules/AboutHeroImg';
 import MainContentWrapper from '../atoms/MainContentWrapper';
+import AboutQuote from '../molecules/AboutQuote';
 
 const About = () => {
 	return (
@@ -13,6 +14,7 @@ const About = () => {
 			<MetaDecorator description="About" title="About • MeCademy" />
 			<AboutHeroImg url={textData.aboutHeroImg} />
 			<MainContentWrapper>
+				<AboutQuote />
 				<AboutArticles />
 				<AboutAccordion />
 				<AboutTeam />

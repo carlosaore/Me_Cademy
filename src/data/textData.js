@@ -178,22 +178,6 @@ export const textData = {
         },
     ],
 
-    
-    aboutArticles : [
-        {
-            heading : "This is placeholder text",
-            text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-        {
-            heading : "Lorem ipsum dolor sit amet",
-            text : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-            heading : "A bit more placeholder, easy to change",
-            text : "I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. Mark my words.",
-        }
-    ],
-
     aboutNumeric: [
         {
             header : "Passend für dich",
@@ -228,14 +212,25 @@ export const textData = {
     ],
 
     homeHeroImg : "images/Team-MentorMe-Website.jpg",
-    HomeQuote : "Mit der MeCademy bieten wir arbeitslosen Akademikerinnen Zugang zu einem Bewerbungsprogramm, bestehend aus Einzelcoaching, moderierte Gruppen und Bewerbungs-Know-How, welches Ihnen hilft sich auf dem Arbeitsmarkt erfolgreich zu positionieren",
+    homeQuote : "„Erfolgreich bewerben“",
+    homeSubTitle : "„Starte mit der MeCademy durch und erreiche deine Ziele!“",
 
     aboutHeroImg: "/images/picBoxAboveTypeform.png",
-    programmHeroImg : "images/frau-vor-fuchsia-sofa.jpg",
-    coachesHeroImg : "images/mentorinnen-erfahrung-website-header.jpg",
-    registrationHeroImg : "images/HeaderBild-MentoringTools-1.jpg",
+    aboutQuote : "„Über die MeCademy“",
+    aboutSubTitle : "No subtitle?",
 
-    registrationQuote : "Sichere dir jetzt deinen Platz bei der MeCademy!",
+    programmHeroImg : "images/frau-vor-fuchsia-sofa.jpg",
+    programmQuote : "„Unser Programm“",
+    programmSubTitle : "„Dein 8-Wochen Guide zum Erfolg“",
+
+    coachesHeroImg : "images/mentorinnen-erfahrung-website-header.jpg",
+    coachesQuote : "„Top Expert*innen“",
+    coachesSubTitle : "„Das sind unsere Top Begleiter*innen für dich“",
+
+    registrationHeroImg : "images/HeaderBild-MentoringTools-1.jpg",
+    registrationQuote : "„Registriere dich jetzt“",
+    registrationSubTitle : "„Sichere dir jetzt deinen Platz bei der MeCademy!“",
+
     picBoxAboveTypeform : "/images/picBoxAboveTypeform.png",
     h3TextAboveRegistration : "Mit der „MeCademy“ finden ALG-beziehende Akademikerinnen in nur 2 Monaten gezielt in den Beruf zurück. Die Maßnahme wird von der Agentur für Arbeit bezahlt!",
     pTextAboveRegistration : "Du bist Akademikerin und beziehst ALG? Du suchst einen Beruf, der dich erfüllt, deine Ziele ebnet und deine Potenziale ausschöpft? Melde dich jetzt unverbindlich für die ,,MeCademy – Erfolgreich bewerben als Akademikerin“ an! Wir schicken dir alle Infos per Mail zu: Dein Gewinn durch die 8-wöchige MeCademy, Starttermine, Inhalte und wie die Agentur für Arbeit deine Teilnahmekosten übernimmt. Die Maßnahme hilft dir, deinen Traumberuf und einen Top-Arbeitgeber zu finden, die Bewerbungsphase zum Erfolg zu bringen und dich als Expertin zu positionieren. Erreiche mit unserer Beratung und in Gesprächen mit erfahrenen Coaches, welchen Beruf du willst und wie du ihn bekommst!",

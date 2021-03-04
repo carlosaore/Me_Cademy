@@ -16,7 +16,7 @@ const ProgramEmail = () => {
             <P alignCenter>
                 <b>Du hast noch Fragen?</b>
                 <br/>
-                Schreib uns: <a href="mecademy@mentorme-ngo.org">mecademy@mentorme-ngo.org</a>
+                Schreib uns: <a href="mailto:mecademy@mentorme-ngo.org">mecademy@mentorme-ngo.org</a>
             </P>
         </ProgramEmailForm>
     )

@@ -26,7 +26,7 @@ const theme = {
         margin : "30px",
     },
     smallViewport : {
-        size : "767px", // to be used as max-width in media queries
+        size : "768px", // to be used as max-width in media queries
         padding : "30px",
         margin : "30px",
     },

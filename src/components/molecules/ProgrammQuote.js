@@ -4,15 +4,15 @@ import H3 from '../atoms/H3';
 import QuoteFormWrapper from '../atoms/QuoteFormWrapper';
 import { textData } from '../../data/textData';
 
-const RegistrationQuote = () => {
+const ProgrammQuote = () => {
     return (
-        <QuoteFormWrapper>
+        <QuoteFormWrapper first>
             <H2 hyphensAuto quote>
-                {textData.registrationQuote}
+                {textData.programmQuote}
             </H2>
-            <H3 bigMarginBottom>{textData.registrationSubTitle}</H3>
+            <H3 bigMarginBottom>{textData.programmSubTitle}</H3>
         </QuoteFormWrapper>
     );
 }
 
-export default RegistrationQuote;
+export default ProgrammQuote;

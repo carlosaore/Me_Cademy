@@ -7,16 +7,23 @@ const Nav = styled.nav`
 	position: fixed;
 	width: 100%;
 	height: 80px;
-	display: flex;
-	justify-content: space-between;
+	
 	z-index: 20;
 	transition: background 0.5s ease;
 	background-color: ${(props) => props.theme.colors.light};
 	box-shadow: 0px 0px 15px 1px #5f737d;
-	.logo {
-		padding: 15px 0;
-	}
+	
 `;
+
+const NavWrapper = styled.div`
+	width: 80%;
+	max-width: 1080px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+
+`
 
 const Navbar = () => {
 	const { open, setOpen } = useContext(MyContext);
@@ -36,8 +43,9 @@ const Navbar = () => {
 			onMouseOver={() => handleMouseOver()}
 			onMouseOut={() => handleMouseOver()}
 		>
-			<div className="logo"></div>
-			<Burger />
+			<NavWrapper>
+				<Burger />
+			</NavWrapper>
 		</Nav>
 	);
 };

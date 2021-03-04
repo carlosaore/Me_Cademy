@@ -16,7 +16,7 @@ const H1 = styled.h1`
     }
 
     ${props => props.teal && css`
-            color : ${props.theme.colors.teal};
+            color : ${props.theme.colors.meCademyTeal};
         `
     }
 

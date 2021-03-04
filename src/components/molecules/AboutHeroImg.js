@@ -3,6 +3,9 @@ import { textData } from '../../data/textData';
 
 export default function AboutHeroImg() {
     return (
-        <HeroImg url={textData.aboutHeroImg}/>
+        <HeroImg
+            url={textData.aboutHeroImg}
+            aboutPage
+        />
     )
 };

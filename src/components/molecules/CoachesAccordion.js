@@ -1,4 +1,4 @@
-import StyledDiv from '../atoms/StyledDiv';
+import ComponentWrapper from '../atoms/ComponentWrapper';
 import {
     Accordion,
     AccordionItem,
@@ -11,7 +11,7 @@ import './accordion.css';
 
 export default function CoachesAccordion() {
     return (
-        <StyledDiv marginTop={false}>
+        <ComponentWrapper first>
             <Accordion
                 allowMultipleExpanded
                 allowZeroExpanded
@@ -47,7 +47,7 @@ export default function CoachesAccordion() {
                     </AccordionItemPanel>
                 </AccordionItem>
             </Accordion>
-        </StyledDiv>
+        </ComponentWrapper>
     )
 }
 

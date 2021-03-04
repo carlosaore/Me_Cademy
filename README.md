@@ -8,11 +8,11 @@
 <br />
 <p align="center">
   <img src="./public/images/mecademy Logo Kopie reexported.png" alt="Logo" width="auto" height="150">
-  <h1 align="center">Project 2 : "Norris Inc. E-commerce webapp"</h1>
+  <h1 align="center">MeCademy Webapp</h1>
 
   <p align="center">
     <i>
-    A single page app...
+    A single page app for MentorMe gGmbH, Berlin. MeCademy offers female academics an application program composed of coaching, moderated groups and special know-how to help them to position successfully on the job market.
     </i>
     <br />
     <br />
@@ -30,20 +30,22 @@
 # :thought_balloon: About the project
 ## :seedling: Some history
 ### Who are we?
-We are ... and [Carlos](https://www.linkedin.com/in/carlosaore/), four students of [Wild Code School](https://www.wildcodeschool.com/). At the moment these lines are being written, we are attending a ["Web developer"](https://www.wildcodeschool.com/en-GB/trainings/web-developer-full-time) Bootcamp that is 5 months long and is teaching us all the technical know-how and knowledge to develop interactive websites using HTML, CSS, JavaScript, so we can take a React and Node JS development project to completion.
+We are [Dzmitry](https://www.linkedin.com/in/dzmitryps/), [Viet](https://www.linkedin.com/in/viet-quoc-pham-2850581ba/), [Nadine](https://www.linkedin.com/in/nadinestrobel/) and [Carlos](https://www.linkedin.com/in/carlosaore/), four students of [Wild Code School](https://www.wildcodeschool.com/). At the moment these lines are being written, we are attending a ["Web developer"](https://www.wildcodeschool.com/en-GB/trainings/web-developer-full-time) Bootcamp that is 5 months long and is teaching us all the technical know-how and knowledge to develop interactive websites using HTML, CSS, JavaScript, so we can take a React and Node JS development project to completion.
 
 ### Why did we create this?
 ...
 
 ### LinkedIn profiles
-- ...
+- [Dzmitry Piskun](https://www.linkedin.com/in/dzmitryps/)
+- [Viet Quoc Pham](https://www.linkedin.com/in/viet-quoc-pham-2850581ba/)
+- [Nadine Strobel](https://www.linkedin.com/in/nadinestrobel/)
 - [Carlos Orellana](https://www.linkedin.com/in/carlosaore/)
 
 ## [:top:](#table-of-contents)
 
 ## :lock: Constraints
-- ...
-- ...
+- team of four people
+- 8 weeks until demo day
 
 ## :rugby_football: Agile
 ...
