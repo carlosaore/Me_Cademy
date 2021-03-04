@@ -1,17 +1,22 @@
 import React from 'react';
-import Popup from './Popup_form';
-import StyledRegForm from '../atoms/StyledRegForm';
+import { useHistory } from "react-router-dom";
+import { StyledRegForm, GotoRegButton } from '../atoms/StyledRegForm';
 import H1 from '../atoms/H1';
 import H2 from '../atoms/H2';
 
-
 const HomeReg = () => {
+    const history = useHistory();
+
     return (
         <StyledRegForm>
             <div>
                 <H1>MeCademy</H1>
                 <H2>Erfolgreich bewerben!</H2>
-                <Popup/>
+                <GotoRegButton
+                    onClick={() => history.push("/Registration")}
+                >
+                    Anmeldung
+                </GotoRegButton>
             </div>
         </StyledRegForm>
     )
