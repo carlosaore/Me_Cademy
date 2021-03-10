@@ -67,6 +67,12 @@ This is the final project of our 5 months bootcamp at [Wild Code School](https:/
 as well as our first project with a real client. 
 Thanks for the amazing collaboration Karin & Eliz!
 
+
+<details><summary>The following scheme shows the flow of the application:</summary>
+<img src="https://github.com/carlosaore/mailio/blob/main/Mailio.png?raw=true" alt="Logo" width="100%">
+</details>
+
+
 ### LinkedIn profiles
 - [Dzmitry Piskun](https://www.linkedin.com/in/dzmitryps/)
 - [Viet Quoc Pham](https://www.linkedin.com/in/viet-quoc-pham-2850581ba/)
