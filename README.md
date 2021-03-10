@@ -18,7 +18,7 @@
     <br />
     <a href="https://mecademy.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/carlosaore/Me_Cademy#who-are-we">Contact</a>   
+    <a href="https://github.com/DzmitryPS/Me_Cademy#who-are-we">Contact</a>   
 </p>
 </br>
 
@@ -27,13 +27,45 @@
 
 </br>
 
-# :thought_balloon: About the project
-## :seedling: Some history
-### Who are we?
-We are [Dzmitry](https://www.linkedin.com/in/dzmitryps/), [Viet](https://www.linkedin.com/in/viet-quoc-pham-2850581ba/), [Nadine](https://www.linkedin.com/in/nadinestrobel/) and [Carlos](https://www.linkedin.com/in/carlosaore/), four students of [Wild Code School](https://www.wildcodeschool.com/). At the moment these lines are being written, we are attending a ["Web developer"](https://www.wildcodeschool.com/en-GB/trainings/web-developer-full-time) Bootcamp that is 5 months long and is teaching us all the technical know-how and knowledge to develop interactive websites using HTML, CSS, JavaScript, so we can take a React and Node JS development project to completion.
+# :thought_balloon::computer::chart_with_upwards_trend::pencil2: About the project
+
+### About MeCademy
+MeCademy is an online academy that brings back female academics 
+to a career within 2 months. Since MeCademy is certified by the German 
+job center, female academics could get a voucher to join the 8 weeks 
+program for free. 
+
+The program helps 
+to find a dream job as well as an employer you’d really  love to work for,
+to master the application period
+and to position as expert
+
+
+The 8 steps of the 8 weeks program:
+
+Week 1: Get clear about your professional passion\
+Week 2: Draw a plan and define your dream job\
+Week 3: Create your CV that presents you at best\
+Week 4: Write a cover letter to distinct from others\
+Week 5: Learn the 3 most important facts and train your job interview\
+Week 6: Get hints for your negotiation and train your salary negotiation\
+Week 7&8: Position as expert with personal branding
+
+
+### About the Page
+
+The MeCademy WebApp allows people to get information about MeCademy, learn about the program and the coaches,
+as well as read testimonials, register for the program via typeform and of course 
+get into contact by mail or social media.
+
+### About us :desktop_computer::earth_asia::australia::ru::el_salvador::de::raised_hands:	
+We are [Dzmitry](https://www.linkedin.com/in/dzmitryps/), [Viet](https://www.linkedin.com/in/viet-quoc-pham-2850581ba/), [Nadine](https://www.linkedin.com/in/nadinestrobel/) and [Carlos](https://www.linkedin.com/in/carlosaore/), four students of the [Wild Code School](https://www.wildcodeschool.com/) **remote** class from around the world who teamed up for this project.\
+At the moment these lines are being written, we are attending a ["Web developer"](https://www.wildcodeschool.com/en-GB/trainings/web-developer-full-time) Bootcamp that is 5 months long and is teaching us all the technical know-how and knowledge to develop interactive websites using HTML, CSS, JavaScript, so we can take a React and Node JS development project to completion.
 
 ### Why did we create this?
-...
+This is the final project of our 5 months bootcamp at [Wild Code School](https://www.wildcodeschool.com/) 
+as well as our first project with a real client. 
+Thanks for the amazing collaboration Karin & Eliz!
 
 ### LinkedIn profiles
 - [Dzmitry Piskun](https://www.linkedin.com/in/dzmitryps/)
@@ -44,26 +76,40 @@ We are [Dzmitry](https://www.linkedin.com/in/dzmitryps/), [Viet](https://www.lin
 ## [:top:](#table-of-contents)
 
 ## :lock: Constraints
-- team of four people
-- 8 weeks until demo day
+- Team of 4 students 
+- 8 weeks until Demo Day 2021-03-12
+- Follow the Agile Manifesto
+- Build an React Application
 
 ## :rugby_football: Agile
-...
-
+We are very happy to have worked according to the Agile Manifesto and followed the 12 principles:\
+:martial_arts_uniform: Customer Satisfaction\
+:martial_arts_uniform: Welcome Change\
+:martial_arts_uniform: Deliver Frequently\
+:martial_arts_uniform: Working Together\
+:martial_arts_uniform: Motivated Team\
+:martial_arts_uniform: Face-to-Face\
+:martial_arts_uniform: Working Software\
+:martial_arts_uniform: Constant Pace\
+:martial_arts_uniform: Good Design\
+:martial_arts_uniform: Simplicity\
+:martial_arts_uniform: Self Organization\
+:martial_arts_uniform: Reflect and Adjust
 
 ## [:top:](#table-of-contents)
 
 ## :money_with_wings: Objectives
-- ...
-- ...
+- Master the first project with a client
+- Follow the Agile Manifesto
+- Learn more about React
+- Discover the advantages of Atomic Design
 
 ## [:top:](#table-of-contents)
 
 
 ## :wrench: Tools
-We used Jira as our main tool to assist in the project management and Confluence to store and access all the documentation being produced and Slack together with Google Meet as our platform for communication.
-
-Figma...
+We used **Jira** as our main tool to assist in the project management and **Confluence** to store and access all the documentation being produced and **Slack** together with Google Meet as our platform for communication.
+Our Wirframes we built on **Figma**.
 
 ## [:top:](#table-of-contents)
 
@@ -86,9 +132,9 @@ All texts and related information is stored inside a file called `textData.js`. 
 
 We decided to take this approach to be able to maintain and update the project in a simpler, easier, and faster way. For most changes that we may need to do in the future, we only need access and edit these two files instead of looking through the huge react architecture to find the correct positioning of the one line of code that needs to be changed.
 
-It took a bit of time to structure these files, but we believe it was worth it and it was a great learning opportunity.
+<!-- It took a bit of time to structure these files, but we believe it was worth it and it was a great learning opportunity.-->
 
-### Use case example
+### Use case example 
 
 1. The following object can be found inside [`textData.js`](.\src\data\textData.js) starting on line 63, and contains the value `Details` for the key `details`: 
 
@@ -130,10 +176,16 @@ It took a bit of time to structure these files, but we believe it was worth it a
 4. You can clearly see how the props `color="primary"` and `text={textData.shop.single.details}` come from `textData.js` and `theme.js`
 5. Now, if we ever want to change the color or the text displayed in this button, we only need to do a small change in a couple of lines of code. The change will be reflected in all instances of that button.
 
-## [:top:](#table-of-contents)
+## [:top:](#table-of-contents) 
 
 ## NPM Packages
-...
+- React Router
+- Styled Components
+- Typeform
+- Prerender-spa-plugin
+- Helmet
+- Carousel component "React Slick"
+
 
 ## [:top:](#table-of-contents)
 
@@ -160,3 +212,5 @@ Because of this approach, everything is designed and coded for scalability, main
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
 
 ## [:top:](#table-of-contents)
+
+
