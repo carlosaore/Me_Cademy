@@ -70,10 +70,14 @@ This is the final project of our 5 months bootcamp at [Wild Code School](https:/
 ## [:top:](#table-of-contents)
 
 ## :lock: Constraints
-- Team of 4 students 
+- Developer team of 4 students
 - 8 weeks until Demo Day 2021-03-12
 - Follow the Agile Manifesto
 - Build an React Application
+- Implement Typeform
+- Have a Corporate Design
+- Build the page on the companys page
+
 
 ## :rugby_football: Agile
 We are very happy to have worked according to the Agile Manifesto and followed the 12 principles:\
