@@ -24,7 +24,6 @@
 
 # Table of Contents
 
-
 </br>
 
 # :thought_balloon::computer::chart_with_upwards_trend::pencil2: About the project
@@ -36,7 +35,6 @@ The program helps to find a dream job as well as an employer you’d really  lov
 to master the application period
 and to position as expert
 
-
 The 8 steps of the 8 weeks program:
 
 - Week 1: Get clear about your professional passion\
@@ -46,7 +44,6 @@ The 8 steps of the 8 weeks program:
 - Week 5: Learn the 3 most important facts and train your job interview\
 - Week 6: Get hints for your negotiation and train your salary negotiation\
 - Week 7 & 8: Position as expert with personal branding
-
 
 ### About the Page
 
@@ -67,8 +64,6 @@ This is the final project of our 5 months bootcamp at [Wild Code School](https:/
 - [Nadine Strobel](https://www.linkedin.com/in/nadinestrobel/)
 - [Carlos Orellana](https://www.linkedin.com/in/carlosaore/)
 
-## [:top:](#table-of-contents)
-
 ## :lock: Constraints
 - Developer team of 4 students
 - 8 weeks until Demo Day 2021-03-12
@@ -77,7 +72,6 @@ This is the final project of our 5 months bootcamp at [Wild Code School](https:/
 - Implement Typeform
 - Have a Corporate Design
 - Build the page on the companys page
-
 
 ## :rugby_football: Agile
 We are very happy to have worked according to the Agile Manifesto and followed the 12 principles:\
@@ -94,22 +88,15 @@ We are very happy to have worked according to the Agile Manifesto and followed t
 :martial_arts_uniform: Self Organization\
 :martial_arts_uniform: Reflect and Adjust
 
-## [:top:](#table-of-contents)
-
 ## :money_with_wings: Objectives
 - Master the first project with a client
 - Follow the Agile Manifesto
 - Learn more about React
 - Discover the advantages of Atomic Design
 
-## [:top:](#table-of-contents)
-
-
 ## :wrench: Tools
 We used **Jira** as our main tool to assist in the project management and **Confluence** to store and access all the documentation being produced and **Slack** together with Google Meet as our platform for communication.
 Our Wirframes we built on **Figma**.
-
-## [:top:](#table-of-contents)
 
 # :microscope: About the code
 The main frameworks and technologies used to build our Project are the following:
@@ -118,12 +105,5 @@ The main frameworks and technologies used to build our Project are the following
 - React Router
 - Styled Components
 
-
-## [:top:](#table-of-contents)
-
 # :cop: License
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
-
-## [:top:](#table-of-contents)
-
-
