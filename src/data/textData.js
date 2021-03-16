@@ -55,22 +55,16 @@ export const textData = {
             image: "/images/Dr. Anna Perlina.jpeg"
         },
         {
-            name : "Dr. Christine von der Heide",
+            name : "Christine von der Heide",
             title : "Business und Life Coach",
-            text : "Ein*e erfahrene*r Coach*in, die dir hilft, deinen persönlichen Traumjob zu finden und berufliches Glück zu erfahren.",
-            image: "/images/Dr. Christine von der Heide.jpeg"
+            text : "Von der Juristin in Berlin und Brüssel zur Professorin in Washington DC zum Business Coach in Peking - Christine hat ganz eigene Erfahrungen mit Veränderungen gemacht. Sie mußte Risiken eingehen, kennt Erfolge wie auch „you aren´t ready yet“ Gefühle. Christine steht Frauen begeistert zur Seite, denn sie ist überzeugt: „Aus thinking small kann für jede von uns playing big werden.",
+            image: "/images/Christine von der Heide.png"
         },
         {
-            name : "Dr. Sabrina Hense",
+            name : "Sabrina Hense",
             title : "Business und Life Coach",
-            text : "Ein*e erfahrene*r Coach*in, die dir hilft, deinen persönlichen Traumjob zu finden und berufliches Glück zu erfahren.",
-            image : "/images/Dr. Sabrina Hense.jpeg"
-        },
-        {
-            name : "Dr. Sanaz von Elsner",
-            title : "Business und Life Coach",
-            text : "Ein*e erfahrene*r Coach*in, die dir hilft, deinen persönlichen Traumjob zu finden und berufliches Glück zu erfahren.",
-            image: "/images/Dr. Sanaz von Elsner.jpeg"
+            text : "Sabrina ist promovierte Gesundheitswissenschaftlerin, systemischer Personal- & Business-Coach und Yogalehrerin. Sie ist als Coach in eigener Praxis in Berlin tätig. Es ist ihr eine Herzensangelegenheit, Menschen auf dem Weg in ein authentisches und erfülltes Leben ein Stück begleiten zu dürfen.",
+            image : "/images/Sabrina Hense.jpeg"
         },
         {
             name : "Gabriela Scheinberger",
@@ -155,6 +149,24 @@ export const textData = {
             title : "Business und Life Coach",
             text : "Katharina hat Medienmanagement studiert und absolvierte eine Ausbildung zur Sozialversicherungs­­­­­­­­fachangestellten.­ Sie fühlt sich in der Medienlandschaft zuhause und war zuletzt im Marketing eines internationalen IT-Unternehmens tätig. Bei MentorMe ist Katharina seit 2020 ehrenamtliche Mentorin. Sie ist als Business Coach, Mentaltrainerin und wingwave Coach tätig und hat Erfahrungen in den Bereichen Burnoutprävention, Krisenbegleitung, Aufmerksamkeitsmanagement und Zukunftsgestaltung.",
             image : "images/Katharina Glasing.jpg"
+        },
+        {
+            name : "Tina Eschle",
+            title: "Trainerin und Coach",
+            text : "Schon während ihres Masterstudiums in International Management startete Tina in die erste Coaching Ausbildung und saugte anschließend alles auf, was mit Persönlichkeitsentwicklung zu tun hatte. Sie ist systemische Coach, NLP‘lerin, Trainerausbilderin für ROCK YOUR LIFE! und seit 2017 selbstständig. In ihren Coachings unterstützt sie Frauen in beruflichen Veränderungs- und Bewerbungsprozessen.",
+            image : "images/tina eschle.jpg"
+        },
+        {
+            name : "Sana von Elsner",
+            title : "Business und Life Coach",
+            text : "Sana fragt sich mit dir: Wo stehst Du gerade im Leben? Wie gelangst Du von dort zu Deinem Ziel? Und beantwortet Deine Fragen mit: Du musst den Berg hinauf. Doch keine Sorge, Sana begleitet dich und gibt Dir die richtige Ausrüstung. Wanderstiefel, Sicherungsseil und der Schutzhelm sind nur Zugaben. Viel wichtiger ist das Mindset der Bergsteiger.",
+            image : "images/Sana von Elsner.jpeg"
+        },
+        {
+            name : "Sandra Gürth",
+            title : "Coach und Trainerin",
+            text : "Sandra bringt über 20 Jahre Berufserfahrung mit. Sie war lange als Führungskraft z.B. bei OTTO und Tchibo tätig. Ihre beruflichen Schwerpunkte sind Coaching, Training, Personalentwicklung, Marketing, Projekt- und Prozessmanagement. Privat lebt sie glücklich mit Ihrem Mann und ihren 2 Kinder. Seit 2021 hat sie sich selbständig gemacht.",
+            image : "images/Sandra Gürth.jpg"
         }
     ],
 
@@ -204,7 +216,7 @@ export const textData = {
 
     aboutHeroImg: "/images/picBoxAboveTypeform.png",
     aboutQuote : "„Über die MeCademy“",
-    aboutSubTitle :  "„Starte mit der MeCademy durch und erreiche deine Ziele!“",
+    aboutSubTitle :  "MeCademy – erfolgreich bewerben",
 
     programmHeroImg : "images/frau-vor-fuchsia-sofa.jpg",
     programmQuote : "„Unser Programm“",
